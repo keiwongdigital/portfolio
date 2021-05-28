@@ -129,9 +129,9 @@ $(function() {
     newLocation = this.href;
 
     //Some crash jquery.magnific-popup.js
-    /*$('body').fadeOut(500, function() {
+    $('body').fadeOut(500, function() {
       window.location = newLocation;
-    });*/
+    });
   });
 
 });
