@@ -64,7 +64,7 @@ class Viewport {
     }
   }
 }
-
+/*
 function checkScroll() {
   $('#back-to-top').css('opacity', window.scrollY > 720 ? 1 : 0)
 }
@@ -135,7 +135,7 @@ $(function() {
   });
 
 });
-
+*/
 window.addEventListener('load', function() {
   if (('IntersectionObserver' in window)) {
     new Viewport();
