@@ -140,6 +140,7 @@ $(function() {
 
 });
 */
+
 window.addEventListener('load', function() {
   if (('IntersectionObserver' in window)) {
     new Viewport();
