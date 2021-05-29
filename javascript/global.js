@@ -64,7 +64,11 @@ class Viewport {
     }
   }
 }
+
+
+//ScrollMagic has some crash jquery.magnific-popup.js
 /*
+
 function checkScroll() {
   $('#back-to-top').css('opacity', window.scrollY > 720 ? 1 : 0)
 }
