@@ -211,6 +211,10 @@ p {
     padding: 0 7vw;
     width: 100%;
   }
+  .copy-width-col-copy-lr {
+    padding: 0vh 7vw;
+    width: 100%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1399px) {
@@ -226,6 +230,10 @@ p {
     padding: 4vh 8vw;
     width: 78vw;
   }
+  .copy-width-col-copy-lr {
+    padding: 0vh 0vw;
+    width: 45vw;
+  }
 }
 
 @media (min-width: 1399px) and (max-width: 1680px){
@@ -239,7 +247,11 @@ p {
   }
   .copy-width-large-col-copy-lr {
     padding: 4vh 10vw;
-    width: 80vw;
+    width: 78vw;
+  }
+  .copy-width-col-copy-lr {
+    padding: 0vh 0vw;
+    width: 45vw;
   }
 }
 
