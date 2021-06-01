@@ -6,6 +6,16 @@ if ( /^((?!chrome|android).)*safari/i.test(navigator.userAgent)) {
   };
 }
 
+var video = document.getElementById('video');
+  if(video){
+    video.addEventListener('click',function(){
+    video.play();
+    },
+    false);
+  }
+  /* parallax-4 Player ref > https://stackoverflow.com/questions/5278262/click-the-poster-image-the-html5-video-plays */
+
+
 class Viewport {
   constructor(opts) {
 
