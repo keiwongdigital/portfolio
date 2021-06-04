@@ -353,3 +353,10 @@ video::-webkit-media-controls-time-remaining-display {
     }
   }
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
