@@ -81,16 +81,17 @@ p {
 body, .body {
   font-family: "raleway","Merriweather", sans-serif;
   font-size: 14px;
-  font-size: calc(12px + (15 - 12) * ((100vw - 320px) / (2560 - 320)));
+  font-size: calc(13px + (15 - 12) * ((100vw - 320px) / (2560 - 320)));
   letter-spacing: 1.5px;
   line-height: 30px;
+  font-weight: 500;
 }
 
 h1, .h1 {
   font-size: 20px;
-  font-size: calc(18px + (23 - 18) * ((100vw - 320px) / (2560 - 320)));
+  font-size: calc(20px + (23 - 18) * ((100vw - 320px) / (2560 - 320)));
   letter-spacing: 1.25px;
-  line-height: calc(29px + (41 - 29) * ((100vw - 320px) / (2560 - 320)));
+  line-height: calc(32px + (42 - 30) * ((100vw - 320px) / (2560 - 320)));
 }
 
 /*
@@ -103,19 +104,19 @@ h2, .h2 {
 */
 
 h2, .h2 {
-  font-size: 11px;
-  font-size: calc(13px + (15 - 13) * ((100vw - 320px) / (2560 - 320)));
+  font-size: 12px;
+  font-size: calc(13px + (14 - 12) * ((100vw - 320px) / (2560 - 320)));
   letter-spacing: 1.25px;
-  line-height: 36px;
+  line-height: 16px;
   color: #a8a8a8;
 }
 
 
 h3, .h3 {
   font-size: 16px;
-  font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (2560 - 320)));
+  font-size: calc(14px + (18 - 16) * ((100vw - 320px) / (2560 - 320)));
   letter-spacing: 1.25px;
-  line-height: 18px;
+  line-height: 24px;
 }
 
 h4, .h4 {
@@ -125,11 +126,20 @@ h4, .h4 {
 }
 
 h5, .h5 {
+  font-size: 24px;
+  font-size: calc(26px + (27 - 22) * ((100vw - 320px) / (2560 - 320)));
+  letter-spacing: 1.25px;
+  line-height: calc(36px + (44 - 38) * ((100vw - 320px) / (2560 - 320)));
+}
+
+/*
+h5, .h5 {
   font-size: 14px;
   font-size: calc(12px + (15 - 12) * ((100vw - 320px) / (2560 - 320)));
   letter-spacing: 1.5px;
   line-height: 14px;
 }
+*/
 
 h6, .h6 {
   font-family: "Merriweather", sans-serif;
@@ -233,6 +243,6 @@ ul {
   padding-top: 12px; }
 
 li {
-  margin-bottom: 0.5rem;
-  /*line-height: 2em;*/ }
+  margin-bottom: 1.5rem;
+  line-height: 2.2em; }
 
