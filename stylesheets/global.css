@@ -150,10 +150,18 @@ h6, .h6 {
   line-height: 20px;
 }
 
+.statement {
+  font-size: 40px;
+  font-size: calc(40px + (43 - 38) * ((100vw - 320px) / (2560 - 320)));
+  letter-spacing: 1.25px;
+  line-height: calc(52px + (60 - 48) * ((100vw - 320px) / (2560 - 320)));
+}
+
 
 .txtpoint {
   font-weight: 600;
 }
+
 
 
 /* --- Underlines --- */
