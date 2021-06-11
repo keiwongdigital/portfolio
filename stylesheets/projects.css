@@ -170,6 +170,14 @@ p {
   margin-bottom: 1vh;
 }
 
+.spacing-point {
+  margin-bottom: 2vh;
+}
+
+.spacing-sub-title {
+  margin-bottom: 2vh;
+}
+
 .copy-width {
   width: 45vw;
 }
