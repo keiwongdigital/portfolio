@@ -158,6 +158,15 @@ h6, .h6 {
   font-weight: 300;
 }
 
+.statement-pd {
+  font-family: "Playfair Display";
+  font-size: 32px;
+  font-size: calc(32px + (34 - 30) * ((100vw - 320px) / (2560 - 320)));
+  letter-spacing: 0.25px;
+  line-height: calc(44px + (38 - 34) * ((100vw - 320px) / (2560 - 320)));
+  font-weight: 800;
+}
+
 
 .txtpoint {
   font-weight: 600;
