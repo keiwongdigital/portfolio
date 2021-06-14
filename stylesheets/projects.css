@@ -336,7 +336,7 @@ video::-webkit-media-controls-time-remaining-display {
   min-height: 100%;
   cursor: move;
 }
-  
+/* --
 .carousel-cell img {
   margin-right: 7vw;
   margin-left: 7vw;
@@ -344,7 +344,7 @@ video::-webkit-media-controls-time-remaining-display {
   min-width: 38vw;
   max-width: 55vw;
 }
-
+-- */
 .carousel .observed {
     animation: move 0;
     animation: move-left 1s forwards;

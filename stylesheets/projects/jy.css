@@ -106,7 +106,7 @@
 }
 
 .parallax-7 img {
-    top: 190px;
+    top: 35vh;
     left: -140px;
     width: 30vw;
 }
@@ -133,8 +133,8 @@
   }
     
   .carousel-cell img {
-    margin-right: 6vw;
-    margin-left: 6vw;
+    margin-right: 5vw;
+    margin-left: 9vw;
     min-height: 100%;
     width: 50vw;
   }
@@ -152,6 +152,11 @@
     margin-left: 8vw;
     min-height: 90%;
     width: 45vw;
+  }
+
+    .carousel .observed {
+    animation: move 0;
+    animation: move-left 1s forwards;
   }
 
   .team {
@@ -330,11 +335,11 @@
     }
     
     .carousel-cell img {
-        margin-right: 6vw;
-        margin-left: 4vw;
+        margin-right: 7vw;
+        margin-left: 10vw;
         min-height: 100%;
-        max-width: 70vw;
-        width: 100vw;
+        max-width: 100vw;
+        width: 93vw;
     }
 
     .copy-width-col-copy-l-copy {
@@ -511,10 +516,10 @@ body, .body {
     }
     
     .carousel-cell img {
-        margin-right: 6vw;
-        margin-left: 5vw;
-        min-height: 100%;
-        width: 100vw;
+        margin-right: 4.5vw;
+        margin-left: 6.5vw;
+        min-width: 40vw;
+        max-width: 70vw;
     }
 
     .parallax-video-inner {
@@ -543,13 +548,13 @@ body, .body {
 
     .parallax-6 img {
     top: 0;
-    left: 0;
+    left: -80;
     width: 42vw;
     }
 
     .parallax-7 img {
-    top: 170px;
-    left: -40px;
+    top: 24vh;
+    left: -80px;
     width: 26vw;
     }
 
