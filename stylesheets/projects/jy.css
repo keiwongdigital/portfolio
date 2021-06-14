@@ -591,6 +591,19 @@ body, .body {
     width: 26vw;
     }
 
+
+    .copy-width-col-copy-l-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 21vw;
+    }
+
+    .copy-width-col-copy-r-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 21vw;
+    }
+
     .copy-width-large-col-copy-l-copy {
     padding: 2vh 0vw;
     padding-left: 0;
@@ -606,6 +619,37 @@ body, .body {
 }
 
 
+@media (min-width: 768px) and (max-width: 1023px){
+    .copy-width-col-copy-l-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 100%;
+    }
+
+    .copy-width-col-copy-r-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 100%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1399px) {
+    .copy-width-col-copy-l-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 20vw;
+    }
+
+    .copy-width-col-copy-r-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 20vw;
+    }
+}
+
+
+
+
 /* ----------- Exsiting Editing Screen----------- */
 @media (min-width: 1399px) and (max-width: 1680px){
 
@@ -614,7 +658,7 @@ body, .body {
    justify-content: space-between;
    align-items: flex-start;
    flex-direction: row;
-   flex-wrap: wrap;
+   flex-wrap: nowrap;
    align-items: baseline;
 }
 
@@ -680,6 +724,19 @@ body, .body {
   padding-left: 0;
   width: 38vw;
 }
+
+.copy-width-col-copy-l-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 20vw;
+}
+
+.copy-width-col-copy-r-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 20vw;
+}
+
 
 
 .team .col .spacing-copy {
