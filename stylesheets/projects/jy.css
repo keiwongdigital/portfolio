@@ -365,6 +365,18 @@
     padding-left: 0;
     width: 100%;
     }
+
+    .copy-width-col-copy-l-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 100%;
+    }
+
+    .copy-width-col-copy-r-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 100%;
+    }
 }
 
 
@@ -914,7 +926,20 @@ uncomment this part if you haven't added this code anywhere else
 
 
 
+/* Between for ipad pro */
+@media (min-width: 768px) and (max-width: 1023px) {
 
+    .copy-width-col-copy-l-copy {
+    padding: 0vh 0vw;
+    padding-left: 0;
+    width: 100%;
+    }
 
+    .copy-width-col-copy-r-copy {
+    padding: 0vh 0vw;
+    padding-left: 0;
+    width: 100%;
+    }
+}
 
 

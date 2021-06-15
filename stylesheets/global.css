@@ -166,6 +166,15 @@ h6, .h6 {
   font-weight: 200;
 }
 
+.unit {
+  font-size: 32px;
+  font-size: calc(32px + (30 - 25) * ((100vw - 320px) / (2560 - 320)));
+  letter-spacing: 1.25px;
+  line-height: calc(32px + (38 - 32) * ((100vw - 320px) / (2560 - 320)));
+  color: #222222;
+  font-weight: 200;
+}
+
 
 .txtpoint {
   font-weight: 600;

@@ -255,7 +255,7 @@ p {
    flex-wrap: wrap;
    flex-direction: column;
    align-items: baseline;
-}
+  }
 }
 
 @media (min-width: 1024px) and (max-width: 1399px) {
