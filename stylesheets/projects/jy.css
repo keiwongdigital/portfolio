@@ -657,6 +657,21 @@ body, .body {
     padding-left: 0;
     width: 20vw;
     }
+    .parallax-6 img {
+    top: 0;
+    left: 0;
+    width: 38vw;
+    }
+
+    .parallax-7 img {
+    top: 16vh;
+    left: -20px;
+    width: 32vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30vw;
+    }
 }
 
 
@@ -939,6 +954,20 @@ uncomment this part if you haven't added this code anywhere else
     padding: 0vh 0vw;
     padding-left: 0;
     width: 100%;
+    }
+    .parallax-6 img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    }
+
+    .parallax-7 img {
+    top: 0vh;
+    left: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
     }
 }
 
