@@ -52,6 +52,11 @@
 #contact-button {
   margin-right: 7vw;
   color: #181818;
+  opacity: 0.8;
+}
+
+#contact-button:hover {
+   opacity: 1;
 }
 
 #return-button span {
@@ -226,6 +231,7 @@ p {
    flex-direction: row;
    flex-wrap: wrap;
    align-items: baseline;
+   padding-bottom: 8vh;
   }
 }
 
@@ -254,6 +260,7 @@ p {
    flex-direction: row;
    flex-wrap: wrap;
    flex-direction: column;
+   padding-bottom: 8vh;
    /*align-items: baseline; < fit umg */
   }
 }

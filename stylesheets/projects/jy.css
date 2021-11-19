@@ -482,7 +482,7 @@ body, .body {
         align-items: flex-start;
         flex-direction: row;
         flex-wrap: wrap;
-        align-items: baseline;
+        /*align-items: baseline;*/
     }
 
     .team .col {
@@ -686,7 +686,7 @@ body, .body {
    align-items: flex-start;
    flex-direction: row;
    flex-wrap: nowrap;
-   align-items: baseline;
+   /*align-items: baseline;*/
 }
 
 .col-outer {
@@ -972,3 +972,9 @@ uncomment this part if you haven't added this code anywhere else
 }
 
 
+strong {
+    color: #111;
+    font-weight: 500;
+    padding: 0.2em 0.2em;
+    background-color: #e6bea6;
+}

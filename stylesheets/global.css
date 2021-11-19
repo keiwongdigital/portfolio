@@ -79,20 +79,28 @@ p {
 /* --- Font Stuff --- */
 
 body, .body {
-  font-family: "raleway","Merriweather", sans-serif;
+  font-family: 'Raleway','Arimo', sans-serif;
   font-size: 14px;
   font-size: calc(13px + (15 - 12) * ((100vw - 320px) / (2560 - 320)));
   letter-spacing: 1.5px;
   line-height: 30px;
   font-weight: 500;
 }
-
+/* Edit for rollcase */
+h1, .h1 {
+  font-size: 20px;
+  font-size: calc(20px + (23 - 18) * ((100vw - 320px) / (2560 - 320)));
+  letter-spacing: 1.25px;
+  line-height: calc(29px + (32 - 22) * ((100vw - 320px) / (2560 - 320)));
+}
+/* Exsiting useage
 h1, .h1 {
   font-size: 20px;
   font-size: calc(20px + (23 - 18) * ((100vw - 320px) / (2560 - 320)));
   letter-spacing: 1.25px;
   line-height: calc(32px + (42 - 30) * ((100vw - 320px) / (2560 - 320)));
 }
+*/
 
 /*
 h2, .h2 {
@@ -142,7 +150,7 @@ h5, .h5 {
 */
 
 h6, .h6 {
-  font-family: "Merriweather", sans-serif;
+  font-family: 'Raleway','Arimo', sans-serif;
   font-size: 18px;
   font-weight: 700;
   font-size: calc(16px + (19 - 16) * ((100vw - 320px) / (2560 - 320)));
@@ -281,4 +289,64 @@ ul {
 li {
   margin-bottom: 1.5rem;
   line-height: 2.2em; }
+
+
+
+.text-span {
+    font-family: 'Times New Roman', TimesNewRoman, Times, Georgia, serif;
+    font-size: 54px;
+    font-size: calc(52px + (55px - 50) * ((100vw - 320px) / (2560 - 320)));
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: -4px;
+}
+
+
+@font-face {
+  font-family: 'Sometimes Times';
+  src: url('../fonts/Sometimes Times.eot');
+  src: url('../fonts/Sometimes Times.woff2') format('woff2'),
+       url('../fonts/Sometimes Times.woff') format('woff'),
+       url('../fonts/Sometimes Times.ttf') format('truetype'),
+       url('../fonts/Sometimes Times.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.text-span-2 {
+    font-family: 'Sometimes Times',sans-serif;
+    font-size: 54px;
+    font-size: calc(52px + (55px - 50) * ((100vw - 320px) / (2560 - 320)));
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: -0px;
+}
+
+
+.text-span-3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 44px;
+    font-size: calc(42px + (48px - 42) * ((100vw - 320px) / (2560 - 320)));
+    font-weight: 300;
+    letter-spacing: -3px;
+    line-height: 54px;
+}
+
+.text-span-4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+    font-size: calc(42px + (46px - 40) * ((100vw - 320px) / (2560 - 320)));
+    font-weight: 300;
+    letter-spacing: -3px;
+    line-height: 54px;
+}
+
+a.loud {
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    z-index: 2;
+}
 

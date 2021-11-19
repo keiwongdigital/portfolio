@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    /*max-height: 80vh;*/
+    /*max-height: 80vh; */
 }
 .hero img {
     width: auto;
@@ -26,15 +26,12 @@
 .site-video {
     display: flex;
     justify-content: center;
-    width: 100%;background-color:
+    width: 100%;
+    background-color:
     padding: 10vh 0;
 }
 
-.macbook {
-    display: flex;
-    max-width: 70vw;
-    margin: auto 0;
-}
+
 
 .image-position {
     width: 100%;
@@ -71,9 +68,9 @@
 }
 
 .parallax-2 img {
-    top: 150px;
-    left: -80px;
-    width: 25vw;
+    top: 190px;
+    left: -20px;
+    width: 30vw;
 }
 
 .parallax-3 p {
@@ -82,6 +79,38 @@
     width: 25vw;
     /*background-color: black;*/
 }
+
+.parallax-video-inner {
+    align-items: center;
+}
+
+.parallax-4 {
+    top: -20vh;
+    left: 62%;
+    width: 28vw;
+    z-index: 99;
+
+}
+
+.parallax-5 img {
+    top: 5vh;
+    left: 30%;
+    width: 30vw;
+    z-index: 100;
+}
+
+.parallax-6 img {
+    top: 0;
+    left: 0;
+    width: 50vw;
+}
+
+.parallax-7 img {
+    top: 35vh;
+    left: -140px;
+    width: 30vw;
+}
+
 
 .bump {
     margin-top: -50vh;
@@ -104,8 +133,8 @@
   }
     
   .carousel-cell img {
-    margin-right: 6vw;
-    margin-left: 6vw;
+    margin-right: 5vw;
+    margin-left: 9vw;
     min-height: 100%;
     width: 50vw;
   }
@@ -123,6 +152,11 @@
     margin-left: 8vw;
     min-height: 90%;
     width: 45vw;
+  }
+
+    .carousel .observed {
+    animation: move 0;
+    animation: move-left 1s forwards;
   }
 
   .team {
@@ -190,11 +224,17 @@
       100%{background-position: 0% 50%}
   }
 
+  .umghk-color {
+    color: #1179fe;
+  }
 
-@media (max-width: 762px) {
+
+@media (min-width: 0px) and (max-width: 768px) {
 
     .parallax-section {
         flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
 
     .parallax-1 img {
@@ -207,22 +247,71 @@
         top: 0;
         left: 0;
         width: 100%;
-    } 
+    }
 
     .parallax-3 p {
-        top: 2vw;
+        top: 3vh;
         left: 0;
         width: 100%;
     } 
+
+    .parallax-video-inner {
+        display: flex;
+        align-items: center;
+    }
+
+    .parallax-4 {
+        top: -10vh;
+        left: 0;
+        width: 55vw;
+        margin: auto;
+        z-index: 99;
+    }
+
+    .parallax-5 img {
+      display: none;
+    }
+
+    .parallax-6 img {
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
     
-    .xbox-site-video {
-        padding: 7vh 0;
+    .parallax-7 img {
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .team {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .team .col {
         padding: 3vh 7vw;
         padding-left: 0;
         width: 100%;
+    }
+
+    .team .col-copy {
+        padding: 3vh 3vw;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .team .col-l-copy {
+        padding: 1vh 1vw;
+        padding-left: 0;
+    }
+
+    .team .col-r-copy {
+        padding: 1vh 1vw;
+        padding-left: 0;
     }
 
     .team .col .spacing-copy {
@@ -248,19 +337,65 @@
     }
     
     .carousel-cell img {
-        margin-right: 6vw;
-        margin-left: 4vw;
+        margin-right: 7vw;
+        margin-left: 10vw;
         min-height: 100%;
-        max-width: 70vw;
-        width: 100vw;
+        max-width: 100vw;
+        width: 93vw;
+    }
+
+    .copy-width-col-copy-l-copy {
+    padding: 0vh 0vw;
+    padding-left: 0;
+    width: 100%;
+    }
+
+    .copy-width-col-copy-r-copy {
+    padding: 0vh 0vw;
+    padding-left: 0;
+    width: 100%;
+    }
+
+    .copy-width-large-col-copy-l-copy {
+    padding: 0vh 0vw;
+    padding-left: 0;
+    width: 100%;
+    }
+
+    .copy-width-large-col-copy-r-copy {
+    padding: 0vh 0vw;
+    padding-left: 0;
+    width: 100%;
+    }
+
+    .copy-width-col-copy-l-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 100%;
+    }
+
+    .copy-width-col-copy-r-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 100%;
     }
 }
 
 
 body {
-  background-color: #191b1c;
-  color: #eaeaea;
+    background-color: #191b1c;
+    color: #eaeaea;
 }
+
+/*
+body, .body {
+  font-family: "raleway","Merriweather", sans-serif;
+  font-size: 14px;
+  font-size: calc(12px + (16 - 12) * ((100vw - 320px) / (2560 - 320)));
+  letter-spacing: 1.5px;
+  line-height: 32px;
+}
+*/
 
 /* -- Project Navigation -- */
 
@@ -276,11 +411,11 @@ body {
 /* -- Landing Colors -- */
 
 .underlined:before {
-  background-color: rgba(255,255,255, 0.3);
+  background-color: rgba(255,255,255, 0.2);
 }
 
 .underlined:after {
-  background-color: white;
+  background-color: rgba(255,255,255, 0.5);
 }
 
 .selected:before {
@@ -351,7 +486,7 @@ body {
         align-items: flex-start;
         flex-direction: row;
         flex-wrap: wrap;
-        align-items: center;
+        align-items: baseline;
     }
 
     .team .col {
@@ -367,7 +502,19 @@ body {
     .team .col-copy {
       padding: 3vh 1vw;
       padding-left: 0;
-      width: 30vw;
+      width: 32vw;
+    }
+
+    .team .col-l-copy {
+      padding: 4vh 1vw;
+      padding-left: 0;
+      width: 20vw;
+    }
+
+    .team .col-r-copy {
+      padding: 3vh 1vw;
+      padding-left: 0;
+      width: 42vw;
     }
 
     .team .col-image {
@@ -385,24 +532,165 @@ body {
     }
     
     .carousel-cell img {
-        margin-right: 6vw;
-        margin-left: 5vw;
-        min-height: 100%;
-        width: 100vw;
+        margin-right: 4.5vw;
+        margin-left: 6.5vw;
+        min-width: 40vw;
+        max-width: 70vw;
+    }
+
+    .parallax-video-inner {
+        display: flex;
+        align-items: center;
+        max-height: 480px;
+    }
+
+    .parallax-section {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .parallax-1 img {
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    
+    .parallax-2 img {
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .parallax-6 img {
+    top: 0;
+    left: -80;
+    width: 42vw;
+    }
+
+    .parallax-7 img {
+    top: 24vh;
+    left: -80px;
+    width: 26vw;
+    }
+
+    .parallax-3 p {
+        top: 0;
+        left: 0;
+        width: 45vw;
+
+    }
+
+    .parallax-4 {
+        top: -15vh;
+        left: 65%;
+        width: 26vw;
+        z-index: 99;
+    }
+
+    .parallax-5 img {
+      top: -12vh;
+      left: 5%;
+      width: 32vw;
+      z-index: 100;
+    }
+
+    .copy-width-col-copy-l-copy {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 17vw;
+    }
+
+    .copy-width-col-copy-r-copy {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 40vw;
+    }
+
+
+    .copy-width-col-copy-l-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 21vw;
+    }
+
+    .copy-width-col-copy-r-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 21vw;
+    }
+
+    .copy-width-large-col-copy-l-copy {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 18vw;
+    }
+
+    .copy-width-large-col-copy-r-copy {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 44vw;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .copy-width-col-copy-l-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 100%;
+    }
+
+    .copy-width-col-copy-r-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 100%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1399px) {
+    .copy-width-col-copy-l-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 20vw;
+    }
+
+    .copy-width-col-copy-r-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 20vw;
+    }
+    .parallax-6 img {
+    top: 0;
+    left: 0;
+    width: 38vw;
+    }
+
+    .parallax-7 img {
+    top: 16vh;
+    left: -20px;
+    width: 32vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30vw;
     }
 }
 
 
-/* ----------- large than 1600px ----------- */
-@media (min-width: 1400px){
+
+
+/* ----------- Exsiting Editing Screen----------- */
+@media (min-width: 1399px) and (max-width: 1680px){
 
 .team {
    display: flex;
    justify-content: space-between;
    align-items: flex-start;
    flex-direction: row;
-   flex-wrap: wrap;
-   align-items: center;
+   flex-wrap: nowrap;
+   align-items: baseline;
 }
 
 .col-outer {
@@ -421,8 +709,136 @@ body {
 
 .team .col-copy {
    padding: 3vh 1vw;
+   padding-left: 1vw;
+   padding-bottom: 1vh;
+   width: 30vw;
+}
+
+.team .col-l-copy {
+  padding: 3vh 1vw;
+  padding-left: 0;
+  width: 17vw;
+}
+
+.team .col-r-copy {
+  padding: 3vh 1vw;
+  padding-left: 0;
+  width: 42vw;
+}
+
+.team .col-image {
+   padding: 3vh 1vw;
+   padding-left: 0;
+   width: 38vw;
+}
+
+.copy-width-col-copy-l-copy {
+  padding: 3vh 0vw;
+  padding-left: 0;
+  width: 15vw;
+}
+
+.copy-width-col-copy-r-copy {
+  padding: 3vh 0vw;
+  padding-left: 0;
+  width: 40vw;
+}
+
+.copy-width-large-col-copy-l-copy {
+  padding: 3vh 1vw;
+  padding-left: 0;
+  width: 16vw;
+}
+
+.copy-width-large-col-copy-r-copy {
+  padding: 3vh 1vw;
+  padding-left: 0;
+  width: 38vw;
+}
+
+.copy-width-col-copy-l-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 20vw;
+}
+
+.copy-width-col-copy-r-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 20vw;
+}
+
+
+
+.team .col .spacing-copy {
+    margin-bottom: 1vh;
+}
+
+.parallax-video-inner {
+    display: flex;
+    align-items: center;
+    max-height: 650px;
+}
+
+.parallax-4 {
+    top: -10vh;
+    left: 62%;
+    width: 24vw;
+    z-index: 99;
+}
+
+.parallax-5 img {
+  top: 1vh;
+  left: 16%;
+  width: 28vw;
+  z-index: 100;
+}
+
+}
+
+
+/* ----------- large than 1600px ----------- */
+@media (min-width: 1679px) {
+
+.team {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: stretch;
+}
+
+.col-outer {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.team .col {
+   padding: 3vh 1vw;
+   padding-left: 0;
+   width: 49%;
+}
+
+.team .col-copy {
+   padding: 3vh 3vw;
    padding-left: 0;
    width: 30vw;
+}
+
+.team .col-l-copy {
+    padding: 3vh 1vw;
+    padding-left: 0;
+    width: 17vw;
+}
+
+.team .col-r-copy {
+    padding: 3vh 1vw;
+    padding-left: 0;
+    width: 50vw;
 }
 
 .team .col-image {
@@ -432,19 +848,136 @@ body {
 }
 
 .team .col .spacing-copy {
-  margin-bottom: 1vh;
+    margin-bottom: 1vh;
+}
+
+.parallax-video-inner {
+    display: flex;
+    align-items: center;
+    max-height: 650px;
+}
+
+.parallax-4 {
+    top: -10vh;
+    left: 65%;
+    width: 24vw;
+    z-index: 99;
+}
+
+.parallax-5 img {
+  top: -2vh;
+  left: 60%;
+  width: 22vw;
+  z-index: 100;
+}
+
+.copy-width-col-copy-l-copy {
+  padding: 3vh 0vw;
+  padding-left: 0;
+  width: 15vw;
+}
+
+.copy-width-col-copy-r-copy {
+  padding: 3vh 0vw;
+  padding-left: 0;
+  width: 28vw;
 }
 
 }
 
 
-.full-width-umghk-color {
+
+.full-width-umg-color {
   width: 100%;
-  background-color: #26308c;
+  background-color: #191b1c;
+}
+
+.jy-color {
+  color: #c08300;
+}
+
+
+/* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+  padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+  top: 0;
+  bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+  padding: 0;
+}
+
+
+/* 
+
+for zoom animation 
+uncomment this part if you haven't added this code anywhere else
+
+*/
+
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: all 0.3s ease-out; 
+  -moz-transition: all 0.3s ease-out; 
+  -o-transition: all 0.3s ease-out; 
+  transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+    opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+    opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing.mfp-bg {
+  opacity: 0;
 }
 
 
 
 
+/* Between for ipad pro */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .copy-width-col-copy-l-copy {
+    padding: 0vh 0vw;
+    padding-left: 0;
+    width: 100%;
+    }
+
+    .copy-width-col-copy-r-copy {
+    padding: 0vh 0vw;
+    padding-left: 0;
+    width: 100%;
+    }
+    .parallax-6 img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    }
+
+    .parallax-7 img {
+    top: 0vh;
+    left: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    }
+}
 
 
+strong {
+    color: #fff;
+    font-weight: 600;
+    /*border-bottom: 3px #2466bb solid;*/
+}

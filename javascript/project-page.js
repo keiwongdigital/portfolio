@@ -23,6 +23,15 @@ var flkty = new Flickity( elem, {
     imagesLoaded: true,
 });
 
+var elem = document.querySelector('.main-carousel-2');
+var flkty = new Flickity( elem, {
+    freeScroll: true,
+    freeScrollFriction: 0.05,
+    pageDots: false,
+    prevNextButtons: false, 
+    imagesLoaded: true,
+});
+
 
 // Initialize jquery.magnific-popup.js
 $(document).ready(function() {

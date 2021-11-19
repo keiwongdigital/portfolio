@@ -1,8 +1,20 @@
 /* --- Landing Section --- */
 
 #name {
+  width: 100%;
+}
+
+#msg {
+  width: 60%;
+  padding-top: 1vh;
+  padding-bottom: 3vh;
+}
+
+#info {
   cursor: pointer;
-  width: 200px;
+  width: 55%;
+  opacity: 0.8;
+  font-size: 16px;
 }
 
 .landing {
@@ -34,11 +46,32 @@
 
 /* --- Hidden Buttons --- */
 
-#social-button {
+#social-button-1 {
   display: flex;
   position: absolute;
   left: 0;
-  padding-top: 20px;
+  padding-top: 16px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+#social-button-2 {
+  display: flex;
+  position: absolute;
+  left: 0;
+  padding-left: 80px;
+  padding-top: 16px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#social-button-3 {
+  display: flex;
+  position: absolute;
+  left: 0;
+  padding-left: 200px;
+  padding-top: 16px;
   opacity: 0;
   visibility: hidden;
 }
@@ -85,4 +118,19 @@
   #scroll-down {
     display: none;
   }
+
+  #msg {
+  width: 100%;
+  padding-top: 3vh;
+  }
+
+  #info {
+  cursor: pointer;
+  width: 70%;
+  }
+
+  #name {
+  width: 100%;
+  }
+
 }
