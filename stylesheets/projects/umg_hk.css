@@ -892,9 +892,7 @@ body, .body {
   background-color: #191b1c;
 }
 
-.jy-color {
-  color: #c08300;
-}
+
 
 
 /* padding-bottom and top for image */
@@ -980,4 +978,9 @@ strong {
     color: #fff;
     font-weight: 600;
     /*border-bottom: 3px #2466bb solid;*/
+}
+
+
+.parallax-copy-shw {
+  text-shadow:#111 -2px 0 12px;
 }

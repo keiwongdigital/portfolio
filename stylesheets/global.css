@@ -91,7 +91,7 @@ h1, .h1 {
   font-size: 20px;
   font-size: calc(20px + (23 - 18) * ((100vw - 320px) / (2560 - 320)));
   letter-spacing: 1.25px;
-  line-height: calc(29px + (32 - 22) * ((100vw - 320px) / (2560 - 320)));
+  line-height: calc(28px + (32 - 22) * ((100vw - 320px) / (2560 - 320)));
 }
 /* Exsiting useage
 h1, .h1 {
@@ -152,10 +152,10 @@ h5, .h5 {
 h6, .h6 {
   font-family: 'Raleway','Arimo', sans-serif;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 500;
   font-size: calc(16px + (19 - 16) * ((100vw - 320px) / (2560 - 320)));
   letter-spacing: 1.25px;
-  line-height: 20px;
+  line-height: 16px;
 }
 
 .statement {
