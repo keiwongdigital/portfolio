@@ -115,7 +115,7 @@ h2, .h2 {
   font-size: 12px;
   font-size: calc(13px + (14 - 12) * ((100vw - 320px) / (2560 - 320)));
   letter-spacing: 1.25px;
-  line-height: 24px;
+  line-height: 30px;
   color: #a8a8a8;
 }
 
@@ -178,10 +178,18 @@ h6, .h6 {
   font-size: 80px;
   font-size: calc(80px + (74 - 70) * ((100vw - 320px) / (2560 - 320)));
   letter-spacing: 0.25px;
-  line-height: calc(80px + (72 - 70) * ((100vw - 320px) / (2560 - 320)));
+  line-height: calc(88px + (50 - 50) * ((100vw - 320px) / (2560 - 320)));
   font-weight: 200;
 }
 
+
+.graytxt {
+  font-size: 12px;
+  font-size: calc(13px + (14 - 12) * ((100vw - 320px) / (2560 - 320)));
+  letter-spacing: 1.25px;
+  line-height: 22px;
+  color: #a8a8a8;
+}
 
 
 .unit {
@@ -191,6 +199,7 @@ h6, .h6 {
   line-height: calc(32px + (38 - 32) * ((100vw - 320px) / (2560 - 320)));
   color: #222222;
   font-weight: 200;
+  margin-right: 38px;
 }
 
 
@@ -288,7 +297,8 @@ ul {
 
 li {
   margin-bottom: 1.5rem;
-  line-height: 2.2em; }
+  /*line-height: 2.2em; */
+}
 
 
 

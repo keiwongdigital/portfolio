@@ -282,7 +282,7 @@
     }
     
     .parallax-7 img {
-        top: 0;
+        top: -7vh;
         left: 0;
         width: 100%;
     }
@@ -381,6 +381,10 @@
     padding: 2vh 0vw;
     padding-left: 0;
     width: 100%;
+    }
+
+    .unit {
+    margin-right: 0px;
     }
 }
 
@@ -591,12 +595,12 @@ body, .body {
         left: 60%;
     }
 
-.parallax-5 img {
+    .parallax-5 img {
     top: -6vh;
     left: -23%;
     width: 40vw;
     z-index: 99;
-}
+    }
 
     .copy-width-col-copy-l-copy {
     padding: 2vh 0vw;
@@ -635,6 +639,7 @@ body, .body {
     width: 44vw;
     }
 
+
 }
 
 
@@ -658,7 +663,9 @@ body, .body {
     padding-left: 0;
     width: 20vw;
     }
-
+    .unit {
+    margin-right: 0px;
+    }
     .copy-width-col-copy-r-half {
     padding: 2vh 0vw;
     padding-left: 0;
@@ -678,6 +685,7 @@ body, .body {
     margin-right: auto;
     width: 30vw;
     }
+    
 }
 
 
@@ -860,28 +868,35 @@ body, .body {
 
 .parallax-4 {
     top: -10vh;
-    left: 65%;
-    width: 24vw;
+    width: 25vw;
+    z-index: 98;
+}
+
+.parallax-5 img {
+    top: -6vh;
+    left: 3vw;
+    width: 35vw;
     z-index: 99;
 }
 
-    .parallax-5 img {
-      top: -12vh;
-      left: -40px;
-      width: 90%;
-      z-index: 98;
-    }
+.copy-width-col-copy-lr {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
 
 .copy-width-col-copy-l-copy {
-  padding: 3vh 0vw;
-  padding-left: 0;
-  width: 15vw;
+    padding: 3vh 0vw;
+    padding-left: 0;
+    width: 15vw;
 }
 
 .copy-width-col-copy-r-copy {
-  padding: 3vh 0vw;
-  padding-left: 0;
-  width: 28vw;
+    padding: 3vh 0vw;
+    padding-left: 0;
+    width: 40vw;
 }
 
 }
@@ -967,7 +982,7 @@ uncomment this part if you haven't added this code anywhere else
     }
 
     .parallax-7 img {
-    top: 0vh;
+    top: -6vh;
     left: 0px;
     display: block;
     margin-left: auto;

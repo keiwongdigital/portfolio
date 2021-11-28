@@ -62,7 +62,7 @@
 }
 
 .parallax-1 img {
-    top: 0;
+    top: -15vh;
     left: 0;
     width: 50vw;
 }
@@ -74,7 +74,7 @@
 }
 
 .parallax-3 p {
-    top: 150px;
+    /*top: 150px;*/
     left: -80px;
     width: 25vw;
     /*background-color: black;*/
@@ -279,7 +279,7 @@
     }
     
     .parallax-7 img {
-        top: 0;
+        top: -6vh;
         left: 0;
         width: 100%;
     }
@@ -548,12 +548,19 @@ body, .body {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .parallax-1 {
+        top: -8vh;
     }
 
     .parallax-1 img {
-        top: 0;
-        left: 0;
-        width: 100%;
+        top: -6vh;
+        left: -2vw;
+        width: 37vw;
+
     }
     
     .parallax-2 img {
@@ -574,12 +581,12 @@ body, .body {
     width: 26vw;
     }
 
-    .parallax-3 p {
-        top: 0;
-        left: 0;
-        width: 45vw;
-
-    }
+.parallax-3 p {
+    /*top: 10px;*/
+    left: -80px;
+    width: 30vw;
+    /* background-color: black;*/
+}
 
     .parallax-4 {
         top: -15vh;
@@ -801,12 +808,29 @@ body, .body {
 @media (min-width: 1679px) {
 
 .team {
-   display: flex;
-   justify-content: space-between;
-   align-items: flex-start;
-   flex-direction: row;
-   flex-wrap: wrap;
-   align-items: stretch;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.copy-width-large-col-copy-lr {
+    padding: 4vh 8vw;
+    width: 78vw;
+}
+
+.copy-width-large-col-copy-l-copy {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 18vw;
+}
+
+.copy-width-large-col-copy-r-copy {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 44vw;
 }
 
 .col-outer {
@@ -869,6 +893,14 @@ body, .body {
   left: 60%;
   width: 22vw;
   z-index: 100;
+}
+
+.copy-width-col-copy-lr {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 .copy-width-col-copy-l-copy {
@@ -964,7 +996,7 @@ uncomment this part if you haven't added this code anywhere else
     }
 
     .parallax-7 img {
-    top: 0vh;
+    top: -8vh;
     left: 0px;
     display: block;
     margin-left: auto;
