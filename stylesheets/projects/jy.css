@@ -139,6 +139,21 @@
     width: 50vw;
   }
 
+  .carousel-cell-illus {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    min-height: 100%;
+    cursor: move;
+  }
+    
+  .carousel-cell-illus img {
+    margin-right: 0vw;
+    margin-left: 0vw;
+    min-height: 100%;
+    width: 100vw;
+  }
+
   .carousel-cell-45vw {
     display: flex;
     align-items: center;
@@ -342,6 +357,23 @@
         width: 93vw;
     }
 
+    .carousel-cell-illus {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        min-height: 100%;
+        cursor: move;
+    }
+    
+    .carousel-cell-illus img {
+        margin-right: 0vw;
+        margin-left: 0vw;
+        min-height: 100%;
+        max-width: 100vw;
+        width: 100vw;
+    }
+
+
     .copy-width-col-copy-l-copy {
     padding: 0vh 0vw;
     padding-left: 0;
@@ -537,6 +569,23 @@ body, .body {
         min-width: 40vw;
         max-width: 70vw;
     }
+
+
+    .carousel-cell-illus {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        min-height: 100%;
+        cursor: move;
+    }
+    
+    .carousel-cell-illus img {
+        margin-right: 0vw;
+        margin-left: 0vw;
+        min-width: 100vw;
+        max-width: 100vw;
+    }
+
 
     .parallax-video-inner {
         display: flex;
@@ -800,6 +849,22 @@ body, .body {
   z-index: 100;
 }
 
+    .carousel-cell-illus {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        min-height: 100%;
+        cursor: move;
+    }
+    
+    .carousel-cell-illus img {
+        margin-right: 0vw;
+        margin-left: 0vw;
+        min-width: 100vw;
+        max-width: 100vw;
+    }
+
+
 }
 
 
@@ -901,8 +966,22 @@ body, .body {
   width: 28vw;
 }
 
-}
 
+    .carousel-cell-illus {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        min-height: 100%;
+        cursor: move;
+    }
+    
+    .carousel-cell-illus img {
+        margin-right: 0vw;
+        margin-left: 0vw;
+        min-width: 100vw;
+        max-width: 100vw;
+    }
+    }
 
 
 .full-width-jy-color {

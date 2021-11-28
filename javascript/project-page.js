@@ -27,7 +27,16 @@ var elem = document.querySelector('.main-carousel-2');
 var flkty = new Flickity( elem, {
     freeScroll: true,
     freeScrollFriction: 0.05,
-    pageDots: false,
+    pageDots: true,
+    prevNextButtons: false, 
+    imagesLoaded: true,
+});
+
+var elem = document.querySelector('.main-carousel-3');
+var flkty = new Flickity( elem, {
+    freeScroll: true,
+    freeScrollFriction: 0.05,
+    pageDots: true,
     prevNextButtons: false, 
     imagesLoaded: true,
 });
