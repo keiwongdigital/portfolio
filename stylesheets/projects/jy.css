@@ -368,7 +368,6 @@
     .carousel-cell-illus img {
         margin-right: 0vw;
         margin-left: 0vw;
-        min-height: 100%;
         max-width: 100vw;
         width: 100vw;
     }
@@ -582,8 +581,9 @@ body, .body {
     .carousel-cell-illus img {
         margin-right: 0vw;
         margin-left: 0vw;
-        min-width: 100vw;
-        max-width: 100vw;
+        min-width: 80vw;
+        max-width: 80vw;
+        left: -10vw;
     }
 
 
@@ -860,8 +860,9 @@ body, .body {
     .carousel-cell-illus img {
         margin-right: 0vw;
         margin-left: 0vw;
-        min-width: 100vw;
-        max-width: 100vw;
+        min-width: 62vw;
+        max-width: 62vw;
+        left: -19vw;
     }
 
 
@@ -978,9 +979,11 @@ body, .body {
     .carousel-cell-illus img {
         margin-right: 0vw;
         margin-left: 0vw;
-        min-width: 100vw;
-        max-width: 100vw;
+        min-width: 52vw;
+        max-width: 52vw;
+        left: -23.5vw;
     }
+
     }
 
 
