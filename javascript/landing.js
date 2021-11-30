@@ -90,9 +90,11 @@ if(window.innerWidth >= 768) {
 // Scroll down to project on scroll down button click
 $("#scroll-down").click(function() {
   $("html, body").animate({
-    scrollTop: $( $('[data-scroll-target]')).offset().top - 2
-  }, 1250, "swing");
+    scrollTop: $( $('[data-scroll-target]')).offset().top + 135
+  }, 1500, "swing");
 });
+
+
 
 
 // Scroll Down Text Scramble

@@ -79,3 +79,10 @@ $(document).ready(function() {
   });
 
 });
+
+// jumpto -> div class=data-scroll-target
+$("#jumpto").click(function() {
+  $("html, body").animate({
+    scrollTop: $( $('[data-scroll-target]')).offset().top + 20
+  }, 1800, "swing");
+});

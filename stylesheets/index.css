@@ -10,7 +10,7 @@
   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 30vh;
+  margin-bottom: 20vh;
 }
 
 .project img {
@@ -72,6 +72,7 @@
 
 .project-35 {
   width: 35%;
+  margin-top: 60vh;
 }
 
 .project-40 {
@@ -170,6 +171,9 @@
   .project:nth-child(n) {
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: 10vh;
+    margin-bottom: 15vh;
+  }
+  .project-35 {
+    margin-top: 0;
   }
 }
