@@ -1081,3 +1081,9 @@ strong {
 
 }
 
+ul {
+    list-style-position: outside;
+    margin-bottom: .75rem;
+    padding-left: 20px;
+    padding-top: 0;
+}
