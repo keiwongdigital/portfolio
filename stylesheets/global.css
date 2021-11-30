@@ -202,6 +202,14 @@ h6, .h6 {
   margin-right: 38px;
 }
 
+.largecopy {
+  font-size: 28px;
+  font-size: calc(28px + (30 - 26) * ((100vw - 320px) / (2560 - 320)));
+  letter-spacing: 1.55px;
+  line-height: calc(42px + (36 - 32) * ((100vw - 320px) / (2560 - 320)));
+  font-weight: 300;
+}
+
 
 .txtpoint {
   font-weight: 600;
@@ -348,7 +356,7 @@ li {
     font-size: 38px;
     font-size: calc(42px + (46px - 40) * ((100vw - 320px) / (2560 - 320)));
     font-weight: 300;
-    letter-spacing: -3px;
+    letter-spacing: -2px;
     line-height: 54px;
 }
 

@@ -882,16 +882,24 @@ body, .body {
   z-index: 100;
 }
 
-.copy-width-col-copy-l-copy {
-  padding: 3vh 0vw;
-  padding-left: 0;
-  width: 15vw;
+.team {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
-.copy-width-col-copy-r-copy {
-  padding: 3vh 0vw;
-  padding-left: 0;
-  width: 28vw;
+.copy-width-large-col-copy-l-copy {
+    padding: 3vh 3vw;
+    padding-left: 0;
+    width: 20vw;
+}
+
+.copy-width-large-col-copy-r-copy {
+    padding: 3vh 1vw;
+    padding-left: 0;
+    width: 36vw;
 }
 
 }

@@ -18,7 +18,7 @@ var elem = document.querySelector('.main-carousel');
 var flkty = new Flickity( elem, {
     freeScroll: true,
     freeScrollFriction: 0.05,
-    pageDots: false,
+    pageDots: true,
     prevNextButtons: false, 
     imagesLoaded: true,
 });
