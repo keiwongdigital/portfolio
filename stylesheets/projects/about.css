@@ -607,7 +607,7 @@ body, .body {
 
 
     .copy-width-large-col-copy-lr {
-    padding: 2vh 8vw;
+    padding: 0 8vw;
     width: 78vw;
     }
 
@@ -658,6 +658,7 @@ body, .body {
 
 
 @media (min-width: 768px) and (max-width: 1023px){
+
     .copy-width-col-copy-l-half {
     padding: 2vh 0vw;
     padding-left: 0;
@@ -670,14 +671,15 @@ body, .body {
     width: 100%;
     }
 
-    .statement {
+    /*.statement {
     font-size: 22px;
     font-size: calc(22px + (34 - 30) * ((100vw - 320px) / (2560 - 320)));
     letter-spacing: 1.25px;
     line-height: calc(32px + (38 - 34) * ((100vw - 320px) / (2560 - 320)));
     font-weight: 300;
-    }
+    }*/
 }
+
 
 @media (min-width: 1024px) and (max-width: 1399px) {
     .copy-width-col-copy-l-half {
@@ -1045,7 +1047,7 @@ strong {
     .copy-width-large-col-copy-l-img {
     padding: 0;
     padding-left: 0;
-    width: 45%;
+    width: 58%;
     margin: auto;
     display: flex;
     }
@@ -1054,6 +1056,27 @@ strong {
     padding: 0vh 0vw;
     padding-left: 0;
     width: 100%;
+}
+
+    .team {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   flex-direction: row;
+   /*flex-wrap: nowrap;*/
+}
+
+    .copy-width-large-col-copy-lr {
+    padding: 3vh 8vw;
+    width: 78vw;
+    }
+
+    .largecopy {
+    font-size: 20px;
+    font-size: calc(18px + (16 - 14) * ((100vw - 320px) / (2560 - 320)));
+    letter-spacing: 1.55px;
+    line-height: calc(38px + (32 - 28) * ((100vw - 320px) / (2560 - 320)));
+    font-weight: 300;
 }
 
 }
