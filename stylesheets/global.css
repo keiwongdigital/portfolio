@@ -378,3 +378,47 @@ a.loud {
 #jumpto:hover {
   opacity: 1 !important; /* Needed to override JS */
 }
+
+
+.intro-line {
+    width: 30px;
+    height: 2px;
+    margin-right: 16px;
+    background-color: #aaa;
+
+}
+
+.div--label {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 20px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+.intro-line-text {
+    position: static;
+    display: block;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    font-family: 'Bwnistaint rg', Verdana, sans-serif;
+}
