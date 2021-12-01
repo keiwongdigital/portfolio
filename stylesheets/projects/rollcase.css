@@ -663,9 +663,7 @@ body, .body {
     padding-left: 0;
     width: 20vw;
     }
-    .unit {
-    margin-right: 0px;
-    }
+
     .copy-width-col-copy-r-half {
     padding: 2vh 0vw;
     padding-left: 0;
@@ -897,6 +895,24 @@ body, .body {
     padding: 3vh 0vw;
     padding-left: 0;
     width: 40vw;
+}
+
+.copy-width-large-col-copy-lr {
+    padding: 4vh 8vw;
+    width: 78vw;
+}
+
+.copy-width-large-col-copy-l-copy {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 18vw;
+}
+
+
+.copy-width-large-col-copy-r-copy {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 44vw;
 }
 
 }

@@ -955,6 +955,27 @@ body, .body {
   z-index: 100;
 }
 
+.copy-width-col-copy-lr {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.copy-width-col-copy-l-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 20vw;
+}
+
+.copy-width-col-copy-r-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 20vw;
+}
+
+
 .copy-width-col-copy-l-copy {
   padding: 3vh 0vw;
   padding-left: 0;

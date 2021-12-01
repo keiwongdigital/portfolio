@@ -643,7 +643,7 @@ body, .body {
     }
 
     .copy-width-large-col-copy-l-img {
-    padding: 2vh 0vw;
+    padding: 0vh 0vw;
     padding-left: 0;
     width: 18vw;
     }
@@ -1038,7 +1038,7 @@ strong {
 @media (max-width: 768px) {
 
     .copy-width-large-col-copy-l-copy {
-    padding: 0;
+    padding: 0 0 3vh 0;
     padding-left: 0;
     width: 100%;
     margin: auto;

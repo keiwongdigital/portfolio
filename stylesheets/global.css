@@ -199,7 +199,7 @@ h6, .h6 {
   line-height: calc(32px + (38 - 32) * ((100vw - 320px) / (2560 - 320)));
   color: #222222;
   font-weight: 200;
-  margin-right: 38px;
+  padding-right: 3vw;
 }
 
 .largecopy {
