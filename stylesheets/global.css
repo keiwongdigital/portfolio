@@ -167,10 +167,10 @@ h6, .h6 {
 }
 
 .highlight-3 {
-  font-size: 20px;
-  font-size: calc(20px + (20 - 18) * ((100vw - 320px) / (2560 - 320)));
+  font-size: 16px;
+  font-size: calc(16px + (16 - 12) * ((100vw - 320px) / (2560 - 320)));
   letter-spacing: 1.25px;
-  line-height: calc(30px + (30 - 24) * ((100vw - 320px) / (2560 - 320)));
+  line-height: calc(22px + (22 - 18) * ((100vw - 320px) / (2560 - 320)));
   font-weight: 500;
 }
 

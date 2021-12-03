@@ -106,6 +106,7 @@
 
 .project-overview-subhead {
   opacity: .5;
+  line-height: calc(28px + (24 - 18) * ((100vw - 320px) / (2560 - 320)));
 }
 
 .project-overview-value {

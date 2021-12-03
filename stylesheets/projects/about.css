@@ -1058,6 +1058,10 @@ strong {
     width: 100%;
 }
 
+    .point-line-height {
+    line-height: calc(6px + (6 - 4) * ((100vw - 320px) / (2560 - 320)));
+}
+
     .team {
    display: flex;
    justify-content: space-between;
