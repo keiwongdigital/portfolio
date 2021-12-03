@@ -1047,7 +1047,7 @@ strong {
     .copy-width-large-col-copy-l-img {
     padding: 0;
     padding-left: 0;
-    width: 58%;
+    width: 65%;
     margin: auto;
     display: flex;
     }
@@ -1067,15 +1067,17 @@ strong {
 }
 
     .copy-width-large-col-copy-lr {
-    padding: 3vh 8vw;
+    padding: 0vh 0vw;
     width: 78vw;
+    margin-top: 6vh;
     }
+
 
     .largecopy {
     font-size: 20px;
-    font-size: calc(18px + (16 - 14) * ((100vw - 320px) / (2560 - 320)));
+    font-size: calc(18px + (18 - 14) * ((100vw - 320px) / (2560 - 320)));
     letter-spacing: 1.55px;
-    line-height: calc(38px + (32 - 28) * ((100vw - 320px) / (2560 - 320)));
+    line-height: calc(30px + (30 - 24) * ((100vw - 320px) / (2560 - 320)));
     font-weight: 300;
 }
 
@@ -1087,3 +1089,19 @@ ul {
     padding-left: 20px;
     padding-top: 0;
 }
+
+    .intro-01 {
+    font-size: 38px;
+    font-size: calc(38px + (28 - 24) * ((100vw - 320px) / (2560 - 320)));
+    letter-spacing: 1.25px;
+    line-height: calc(32px + (32 - 28) * ((100vw - 320px) / (2560 - 320)));
+    font-weight: 700;
+    }
+
+    .intro-02 {
+    font-size: 32px;
+    font-size: calc(28px + (28 - 24) * ((100vw - 320px) / (2560 - 320)));
+    letter-spacing: 1.25px;
+    line-height: calc(32px + (32 - 28) * ((100vw - 320px) / (2560 - 320)));
+    font-weight: 500;
+    }
