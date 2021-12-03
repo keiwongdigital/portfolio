@@ -80,7 +80,7 @@ $(document).ready(function() {
 
 });
 
-// jumpto -> div class=data-scroll-target
+// jumpto -> class=data-scroll-target="true"
 $("#jumpto").click(function() {
   $("html, body").animate({
     scrollTop: $( $('[data-scroll-target]')).offset().top + 20

@@ -17,7 +17,7 @@
 <meta property='og:image'         content='../images/myop.jpg'>
 
 
-<!--<link rel='stylesheet' href='https://use.typekit.net/bxp7lue.css'>-->
+<link rel='stylesheet' href='https://use.typekit.net/bxp7lue.css'>
 <link rel='stylesheet' href='../stylesheets/global.css' />
 <link rel='stylesheet' href='../stylesheets/layout.css' />
 <link rel='stylesheet' href='../stylesheets/landing.css' />
@@ -28,10 +28,10 @@
 <link rel='stylesheet' href='../stylesheets/flickity.css' media="screen" />
 <link rel="stylesheet" href="../stylesheets/magnific-popup.css">
 <link rel='stylesheet' href='../stylesheets/glitch-btn.css' />
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
 
 <!--<link rel='stylesheet' href='../stylesheets/top-arrow.css' />-->
-<!--<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway:400,500,600'>-->
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800'>
 <!--<link rel='stylesheet' href='../stylesheets/pageloader.css' />-->
 </head>
 
@@ -84,14 +84,23 @@
     </div>
 
 
-    <div class="copy-width spacing-large">
-      <p class="observable h1 spacing-title">Project Goals</p>
-      <p class="observable body spacing-small">Develop a digitize card platform aims to implement features and interactions to create a fresh and smoothly experience for business users. Key task abilities all in one spot. Total Visibility into business card and contact effortlessly, grow professional. Also, We believe it could reduce the entry barrier to physical card user and, in that way, increase our potential market.</p>
 
-      <p class="observable body spacing-large">The highly project vision was paperless, "Save a tree", "Save Mother Earth". Did you know? 8 billion of business cards we print each year end up in the bin within a week.</p>
+    <div class="team copy-width-large-col-copy-lr spacing-large observable">
+      <div class="copy-width-large-col-copy-l-copy">
+        <p class="observable h1 spacing-title txtpoint">Project Goals</p>
+      </div>
+      <div class="copy-width-large-col-copy-r-copy">
+        <p class="observable body spacing-small">Develop a digitize card platform aims to implement features and interactions to create a fresh and smoothly experience for business users. Key task abilities all in one spot. Total Visibility into business card and contact effortlessly, grow professional. Also, We believe it could reduce the entry barrier to physical card user and, in that way, increase our potential market.</p>
+
+        <p class="observable body spacing-medium">The highly project vision was paperless, "Save a tree", "Save Mother Earth". Did you know? 8 billion of business cards we print each year end up in the bin within a week.</p>
+
+        <div id="jumpto" class="glitch-btn observable spacing-small" >
+          <span class="jumpto texthover underlined">↓ Jump to Solutions / Prototype</span>
+        </div>
+      </div>
     </div>
 
-    <div class="spacing-small"></div>
+    <div class="spacing-large"></div>
 
     <div class="body-width-small spacing-medium observable parallax-section">
       <div class="parallax-6"> <img class="lazy" data-src="../images/projects/rollcase/parallax-1.png"> </div>
@@ -186,7 +195,7 @@
       </div>
 
 
-    <div class="copy-width spacing-large"></div>
+    <div class="copy-width spacing-large observable"></div>
 
 
     <div class="copy-width spacing-small">
@@ -197,7 +206,7 @@
     </div>
 
 
-    <div class="copy-width spacing-copy">
+    <div class="copy-width observable spacing-copy">
       <p class="observable body spacing-medium">Throughout a few brainstorming with teamate, created an affinity diagram to identify the project scope and evaluated of the result. We are ideating two main issue of the solution:</p>
     </div>
 
@@ -287,14 +296,14 @@
       <p class="observable body spacing-medium">After I got the revisions with teamates. I started with whole wireframes in XD. Below is the core features wireframing from the last high-fidelity iteration of this project.</p>
     </div>
 
-    <div class="full-width spacing-large main-carousel-2 observable">
-      <div class="carousel-cell"><img src="../images/projects/rollcase/wireframe_01.jpg"></div>
-      <div class="carousel-cell"><img src="../images/projects/rollcase/wireframe_02.jpg"></div>
-      <div class="carousel-cell"><img src="../images/projects/rollcase/wireframe_03.jpg"></div>
-      <div class="carousel-cell"><img src="../images/projects/rollcase/wireframe_04.jpg"></div>
+    <div class="full-width spacing-large main-carousel-2">
+      <div class="carousel-cell observable"><img src="../images/projects/rollcase/wireframe_01.jpg"></div>
+      <div class="carousel-cell observable"><img src="../images/projects/rollcase/wireframe_02.jpg"></div>
+      <div class="carousel-cell observable"><img src="../images/projects/rollcase/wireframe_03.jpg"></div>
+      <div class="carousel-cell observable"><img src="../images/projects/rollcase/wireframe_04.jpg"></div>
     </div>
 
-    <div class="copy-width spacing-large"></div>
+    <div class="copy-width spacing-large observable"></div>
 
 
     <div class="copy-width spacing-medium">
@@ -307,7 +316,7 @@
     </div>
 
 
-    <div class="full-width spacing-large main-carousel observable">
+    <div class="full-width spacing-large main-carousel">
       <div class="carousel-cell"><img src="../images/projects/rollcase/logo.png"></a></div>
       <div class="carousel-cell"><img src="../images/projects/rollcase/typeface.png"></div>
       <div class="carousel-cell"><img src="../images/projects/rollcase/color.png"></div>
@@ -317,7 +326,7 @@
       <div class="carousel-cell"><img src="../images/projects/rollcase/illustration.png"></div>
     </div>
 
-    <div class="spacing-medium"></div>
+    <div class="spacing-medium" data-scroll-target="true"></div>
 
     <div class="copy-width spacing-medium">
       <p class="observable h2 spacing-title">IMPLEMENTATION</p>
@@ -481,6 +490,7 @@
     <script src="../javascript/project-page.js"></script>
     <script src="../javascript/jquery.magnific-popup.js"></script>
     <script src="../javascript/vanilla-back-to-top.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js">
     <script>addBackToTop({
       backgroundColor: 'rgba(255,255,255, 0.1)',
       cornerOffset: 30, // px
