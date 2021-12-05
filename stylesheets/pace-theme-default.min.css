@@ -40,7 +40,7 @@
     display: block;
     position: fixed;
     z-index: 2000;
-    top: 20px;
+    top: 29px;
     right: 16px;
     width: 20px;
     height: 20px;
@@ -49,11 +49,11 @@
     border-left-color: #aaa;
     border-radius: 10px;
     opacity: 0.8;
-    -webkit-animation: pace-spinner 400ms linear infinite;
-    -moz-animation: pace-spinner 400ms linear infinite;
-    -ms-animation: pace-spinner 400ms linear infinite;
-    -o-animation: pace-spinner 400ms linear infinite;
-    animation: pace-spinner 400ms linear infinite;
+    -webkit-animation: pace-spinner 800ms linear infinite;
+    -moz-animation: pace-spinner 800ms linear infinite;
+    -ms-animation: pace-spinner 800ms linear infinite;
+    -o-animation: pace-spinner 800ms linear infinite;
+    animation: pace-spinner 800ms linear infinite;
 }
 
 @-webkit-keyframes pace-spinner {
@@ -86,20 +86,19 @@
     display: block;
     position: fixed;
     z-index: 2000;
-    top: 50%;
-    left: 50%;
-    width: 14px;
-    height: 14px;
+    top: 12px;
+    right: 15px;
+    width: 12px;
+    height: 12px;
     border: solid 2px transparent;
     border-top-color: #aaa;
     border-left-color: #aaa;
     border-radius: 10px;
     opacity: 0.8;
-    -webkit-animation: pace-spinner 400ms linear infinite;
-    -moz-animation: pace-spinner 400ms linear infinite;
-    -ms-animation: pace-spinner 400ms linear infinite;
-    -o-animation: pace-spinner 400ms linear infinite;
-    animation: pace-spinner 400ms linear infinite;
-}
+    -webkit-animation: pace-spinner 800ms linear infinite;
+    -moz-animation: pace-spinner 800ms linear infinite;
+    -ms-animation: pace-spinner 800ms linear infinite;
+    -o-animation: pace-spinner 800ms linear infinite;
+    animation: pace-spinner 800ms linear infinite;
 
 }
