@@ -1,6 +1,6 @@
 
 
-   
+
 if ( /^((?!chrome|android).)*safari/i.test(navigator.userAgent)) {
   window.onpageshow = function(event) {
     if (event.persisted) {
@@ -159,4 +159,6 @@ window.addEventListener('load', function() {
     new Viewport();
   }
 });
+
+
 
