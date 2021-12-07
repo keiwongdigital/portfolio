@@ -25,12 +25,15 @@ https://www.cakeresume.com/resources/how-to-prepare-a-job-interview
 1.互動過程
 
 展現 UX 設計思維的
+「人」是關鍵元素, 透過收集同理解數據，再進行分析，構成返個大picture, 個人思考一定有盲點
 
+
+之前公司都無 UX mindset
 
 
 
 Point:
-UX 設計師則重「解決問題」的能力, 使用者「用起來的感覺」
+UX 設計師則重「解決問題」的能力, 使用者「用起來的感覺」 執行層面
 UI 「看起來的感覺」，後面經過UX分析同研究, 最後用UI呈現结果outcome
 
 
