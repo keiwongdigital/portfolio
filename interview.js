@@ -1,3 +1,11 @@
+JobsDB field:
+I am an experienced Designer with 10 years experience and a focus on digital, UI and interactive design. In my experience, the best projects are ones where the people involved come from different perspectives, work closely together, and grow as a result of it.
+
+I have a penchant for digital products, but I'm also increasingly interested in UX field. Base on prior working experience, not involved in much UX design process deeply. In order to do this I take full of the roles involved in designing a product UX in my portfolio. Focused on the extensive understanding of user values, needs, and limitations. I look to actively apply these skills to deliver great product design.
+
+A portfolio of my work can be found at: bit.ly/KEI_Portfolio
+
+
 ref: 
 https://www.cakeresume.com/resources/how-to-prepare-for-a-junior-ux-designer-job
 https://www.cakeresume.com/resources/how-to-prepare-a-job-interview
