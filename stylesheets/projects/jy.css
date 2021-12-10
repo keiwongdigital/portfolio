@@ -131,6 +131,22 @@
     min-height: 100%;
     cursor: move;
   }
+
+  .carousel-cell-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    min-height: 100%;
+    cursor: move;
+  }
+
+  .carousel-cell-3 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    min-height: 100%;
+    cursor: move;
+  }
     
   .carousel-cell img {
     margin-right: 5vw;

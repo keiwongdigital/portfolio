@@ -320,7 +320,7 @@ p {
 
 
 
-/*  -- Video Options --  */
+/*  -- Video Options --  
 
 video::-webkit-media-controls-play-button {
   display: none;
@@ -347,6 +347,8 @@ video::-webkit-media-controls-time-remaining-display {
   display: none;
 }
 
+*/
+
 
 /* -- Footer Colors -- */
 
@@ -368,6 +370,8 @@ video::-webkit-media-controls-time-remaining-display {
   margin: 0;
 }
 
+
+
 /* -- Carousel -- */
 
 .carousel-cell {
@@ -377,6 +381,23 @@ video::-webkit-media-controls-time-remaining-display {
   min-height: 100%;
   cursor: move;
 }
+
+.carousel-cell-2 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  min-height: 100%;
+  cursor: move;
+}
+
+.carousel-cell-3 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  min-height: 100%;
+  cursor: move;
+}
+
 /* --
 .carousel-cell img {
   margin-right: 7vw;
