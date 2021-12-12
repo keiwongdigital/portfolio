@@ -167,11 +167,11 @@ h6, .h6 {
 }
 
 .highlight-3 {
-  font-size: 16px;
-  font-size: calc(16px + (16 - 12) * ((100vw - 320px) / (2560 - 320)));
+  font-size: 32px;
+  font-size: calc(32px + (34 - 30) * ((100vw - 320px) / (2560 - 320)));
   letter-spacing: 1.25px;
-  line-height: calc(22px + (22 - 18) * ((100vw - 320px) / (2560 - 320)));
-  font-weight: 500;
+  line-height: calc(44px + (38 - 34) * ((100vw - 320px) / (2560 - 320)));
+  font-weight: 700;
 }
 
 .highlight {
@@ -316,6 +316,9 @@ li {
   /*line-height: 2.2em; */
 }
 
+.copy-point {
+  font-style: italic;
+}
 
 
 .text-span {

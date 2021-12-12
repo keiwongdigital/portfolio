@@ -224,9 +224,9 @@
       100%{background-position: 0% 50%}
   }
 
-  .umghk-color {
-    color: #1179fe;
-  }
+.rollcase-color {
+  color: #cd8c00;
+}
 
 
 @media (min-width: 0px) and (max-width: 768px) {
