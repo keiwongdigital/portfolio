@@ -101,7 +101,7 @@ $("#scroll-down").click(function() {
 class TextScramble {
   constructor(el) {
     this.el = el
-    this.chars = "!<$-_$/[]{}—=+*^?#_"
+    this.chars = "!<$-_$/[]{}—=+*^.?#_"
     this.update = this.update.bind(this)
   }
   setText(newText) {
@@ -112,8 +112,8 @@ class TextScramble {
     for (let i = 0; i < length; i++) {
       const from = oldText[i] || ""
       const to = newText[i] || ""
-      const start = Math.floor(Math.random() * 40)
-      const end = start + Math.floor(Math.random() * 40)
+      const start = Math.floor(Math.random() * 60)
+      const end = start + Math.floor(Math.random() * 60)
       this.queue.push({ from, to, start, end })
     }
     cancelAnimationFrame(this.frameRequest)
@@ -178,7 +178,7 @@ var el = document.querySelector(".msg")
 if (el) {
   var fx = new TextScramble(el)
   var GlitchShuffleDelay = 500;
-  var phrases = ["A designer of many things across multiple platforms and more meaningful experiences, focused on every pixel.  "]
+  var phrases = ["A designer of many things across multiple platforms and more meaningful experiences, focused on every pixel."]
   var counter = 0
   var next = function() {
     fx.setText(phrases[counter]).then(function() {

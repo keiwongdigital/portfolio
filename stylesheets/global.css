@@ -339,6 +339,7 @@ li {
 }
 
 
+/*
 @font-face {
   font-family: 'Sometimes Times';
   src: url('../fonts/Sometimes Times.eot');
@@ -349,6 +350,7 @@ li {
   font-weight: normal;
   font-style: normal;
 }
+*/
 
 
 .text-span-2 {
@@ -364,9 +366,9 @@ li {
 .text-span-3 {
     font-family: 'Playfair Display', serif;
     font-size: 44px;
-    font-size: calc(42px + (48px - 42) * ((100vw - 320px) / (2560 - 320)));
-    font-weight: 300;
-    letter-spacing: -3px;
+    font-size: calc(42px + (46px - 42) * ((100vw - 320px) / (2560 - 320)));
+    font-weight: 800;
+    letter-spacing: -2px;
     line-height: 54px;
 }
 
