@@ -442,3 +442,27 @@ a.loud {
     -ms-flex: 0 auto;
     flex: 0 auto;
 }
+
+
+
+
+.point-title {
+    position: relative;
+    padding: 34px 0 0 42px;
+    font-size: 74px;
+    font-weight: 200;
+    color: #dedede;
+    text-transform: capitalize;
+}
+
+.point-title span {
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding: 6px 0 0 0;
+    color: #555;
+    font-size: 20px;
+    letter-spacing: -1px;
+    font-weight: 800;
+    z-index: -1;
+}
