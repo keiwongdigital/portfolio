@@ -448,8 +448,8 @@ a.loud {
 
 .point-title {
     position: relative;
-    padding: 34px 0 0 42px;
-    font-size: 74px;
+    padding: 22px 0 20px 28px;
+    font-size: 80px;
     font-weight: 200;
     color: #dedede;
     text-transform: capitalize;
@@ -459,9 +459,9 @@ a.loud {
     top: 0;
     left: 0;
     position: absolute;
-    padding: 6px 0 0 0;
+    padding: 0 0 0 0;
     color: #555;
-    font-size: 20px;
+    font-size: 17px;
     letter-spacing: -1px;
     font-weight: 800;
     z-index: -1;

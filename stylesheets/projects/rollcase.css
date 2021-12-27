@@ -610,7 +610,7 @@ body, .body {
     }
 
     .copy-width-col-copy-r-copy {
-    padding: 2vh 0vw;
+    padding: 0vh 0vw;
     padding-left: 0;
     width: 40vw;
     }
@@ -742,13 +742,13 @@ body, .body {
 }
 
 .copy-width-col-copy-l-copy {
-  padding: 2vh 0vw;
+  padding: 1vh 0vw;
   padding-left: 0;
   width: 15vw;
 }
 
 .copy-width-col-copy-r-copy {
-  padding: 3vh 0vw;
+  padding: 1vh 0vw;
   padding-left: 0;
   width: 40vw;
 }
