@@ -448,7 +448,7 @@ a.loud {
 
 .point-title {
     position: relative;
-    padding: 22px 0 20px 28px;
+    padding: 22px 0 20px 32px;
     font-size: 80px;
     font-weight: 200;
     color: #dedede;
@@ -461,8 +461,8 @@ a.loud {
     position: absolute;
     padding: 0 0 0 0;
     color: #555;
-    font-size: 17px;
-    letter-spacing: -1px;
+    font-size: 14px;
+    letter-spacing: 0px;
     font-weight: 800;
     z-index: -1;
 }

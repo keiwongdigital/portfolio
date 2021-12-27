@@ -1128,3 +1128,12 @@ strong {
 .parallax-copy-shw {
   text-shadow:#fff -2px -2px 10px;
 }
+
+
+.jy-text-color {
+  color: #222;
+}
+
+.jy-text-gray-color {
+  color: #fff;
+}
