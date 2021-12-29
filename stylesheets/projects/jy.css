@@ -324,7 +324,7 @@
     .team .col {
         padding: 3vh 7vw;
         padding-left: 0;
-        width: 100%;
+        width: 85%;
     }
 
     .team .col-copy {
@@ -735,17 +735,15 @@ body, .body {
     .parallax-6 img {
     top: 0;
     left: 0;
-    width: 38vw;
+    width: 40vw;
     }
 
     .parallax-7 img {
-    top: 16vh;
-    left: -20px;
-    width: 32vw;
+    top: 34vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30vw;
+    width: 28vw;
     }
 
     .unit {
@@ -1136,4 +1134,5 @@ strong {
 
 .jy-text-gray-color {
   color: #fff;
+  
 }
