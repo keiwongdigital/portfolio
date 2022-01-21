@@ -202,7 +202,7 @@
         <p class=" body spacing-small">係呢度，我盡量考慮番現實場景，UI上保持單手操作流暢。 Design左垂直滾動方法 數字卡片盒，User feedback, 巨地既感覺 “幾似真實” “主要功能容易睇到”。 提高了Users使用的動力和預期。 根據參與者的觀察，將 Card list 突出Digital card卡片，我刪除了中間Filter 圖標既描述text，剩係Show icon。</p>
 
         <p class=" body spacing-copy">2. Create own card 方面</p>
-        <p class=" body spacing-small">新流程能夠輕鬆引導完成任務, 我觀察到, 參與者最常用可定制選項, 而不是內置模板，雖然順利完成任務, 。 雖然順利完成任務, 參與者說完成步驟四步有D長。 所以，我將步驟, 從四步簡化為三步, 同埋Fix 1D交互元素問題。</p>
+        <p class=" body spacing-small">新流程能夠輕鬆引導完成任務, 我觀察到, 參與者最常用可定制選項, 而不是內置模板，雖然順利完成任務, 。 雖然順利完成任務, 參與者說完成步驟四步有D長。 所以，我將步驟, 從四步簡化為三步, 同埋Fix 1d交互元素問題。</p>
 
         <p class=" body spacing-copy">3. Scan card 方面</p>
         <p class=" body spacing-small">Testing時 User擔心會 Miss data Capture唔到, 所以, 係Final flow，相應地添加了卡片Preview。 如果卡片數據Capture唔正確，卡片Preview可以幫巨地進行編輯。</p>
@@ -222,7 +222,7 @@
 
     <div class="copy-width spacing-large">
         <p class=" h1 spacing-title">「 Design System 」</p>
-        <p class=" body spacing-small">為App design 定左了三個Keyword：時尚、簡單, 可靠，inspire logo design,  App 裡面我利用了好多icon處理,，可以幫助User 清晰地導航, 操作。</p>
+        <p class=" body spacing-small">為App design 定左了三個Keyword：時尚、簡單, 可靠，inspire logo design,  App 裡面我利用了好多icon處理, 可以幫助User 清晰地導航, 操作。</p>
     </div>
 
 
@@ -235,28 +235,54 @@
 
 
         <p class=" h1 spacing-copy">1</p>
-        <p class=" body spacing-small">主頁作為“數字卡片箱”, 係App既核心Screen，顯示當前卡片狀態，方便訪問並進一步輕鬆組織卡片。 By default ，最新卡片係Card list頂部。 中間有 Filter panel,  目的係比User快速Sort out聯繫人list，例如最近的聯繫人、 收藏夾、 公司等。 Click卡片入去聯繫人詳細信息。 User可以直接向左滑動電話號碼, 直接打撥打電話。 另外，如果巨地有關係，Users可以在聯繫人列表中添加人員。 功能的靈感來自迭代階段。 比User跟進他們既個人網絡。</p>
+        <p class=" body spacing-small">主頁作為“數字卡片盒”, 係App既核心Screen，顯示當前卡片狀態，方便訪問並進一步輕鬆組織卡片。 By default ，最新卡片係Card list頂部。 中間有 Filter panel,  目的係比User快速Sort out聯繫人list，例如最近的聯繫人、 收藏夾、 公司等。 Click卡片入去聯繫人詳細信息。 User可以直接向左滑動電話號碼, 直接打撥打電話。 另外，如果巨地有關係，Users可以 聯繫人列表中添加人員。 呢個功能係inpire ITERATION階段。 比User跟進他們既個人網絡。</p>
 
-        <p class=" body spacing-small">設計與垂直滾動交互的方式讓用戶感覺“真實”的卡片盒，以便在這裡進行相同的動作。通過將核心功能按鈕放置在明顯的位置，設計了融合卡片和動態視覺的磨砂玻璃效果。當用戶滾動時，卡片仍然模糊在另一張卡片後面，它更吸引人。</p>
-
-
-        <p class=" h1 spacing-copy">2</p>
-        <p class=" body spacing-small">.................</p>
+        <p class=" body spacing-small">Design左垂直Scrolling 貼近真實揾卡片動作, 讓用戶感覺“真實”的卡片盒。 核心功能 Button放置明顯位置，UI處理上, Funtion bar design 左半透明磨砂效果。 </p>
 
 
+        <p class=" h1 spacing-copy">2 Create own card</p>
+        <p class=" body spacing-small">如原型所示，當User click頭像，入去“我的卡片盒”，呢個係自己卡片的中心。 可以create自己的卡片，有3種模式：</p>
 
-        <p class=" h1 spacing-copy">3</p>
-        <p class=" body spacing-small">.................</p>
+        <p class=" body spacing-small">
+                1. 重新開始 - 逐步創建卡片
+            <br>2. 企業 - 創建後從雲存儲訪問
+            <br>3. 掃卡——通過OCR掃描儀提取實體卡數據</p>
+
+        <p class=" body spacing-small">Start all over</p>
+        <p class=" body spacing-small">在第 1 步 - 聯繫信息中，用戶可以從通訊錄導入，郵件和 vCard 格式通過他們的手機同步，以便聯繫信息始終是最新的，從而防止手動數據輸入錯誤。此外，如果需要，用戶可以添加頭部圖標。</p>
+
+        <p class=" body spacing-small">在第 2 步 - 數字卡片視覺創建分為兩個選項：</p>
+
+        <p class=" body spacing-small">- Customizable<br>
+        用戶使用工具、裁剪和顏色疊加等自定義視覺元素</p>
+
+        <p class=" body spacing-small">- Build-in template<br>
+        用戶應用現成的模板，系統將加載導入的數據，有助於簡化整個過程</p>
+
+        <p class=" body spacing-small">在第 3 步 - 有一個卡片樣式設置，允許用戶調整卡片佈局、文本樣式和信息顯示設置。隨著用戶調整他們的數字卡，結果將立即在預覽中發生變化。對於卡片顯示的信息，卡片詳細信息設置有更靈活的選項。</p>
+
+        <p class=" body spacing-small">此外，啟用“設置為企業模板”，只需一次創建哪個雲基礎存儲，與同事或團隊共享。允許用戶重複使用卡片模板內容以使其品牌指南標準化，避免浪費時間重複工作。 </p>
 
 
 
-        <p class=" h1 spacing-copy">4</p>
-        <p class=" body spacing-small">.................</p>
+        <p class=" h1 spacing-copy">3 Create parnter card</p>
+        <p class=" body spacing-small">如前所述，一旦用戶創建了第一張 rollCase 數字名片。它通過NFC的功能卡交換幾乎完全滿足用戶的自動化工作需求。如果業務夥伴有 rollCase 應用程序，那就更好了。</p>
+
+        <p class=" body spacing-small">如原型所示，在主屏幕中向上滑動中心“交換”圖標。多卡用戶可以刷數字卡兌換。然後，附近的目標設備，一切都自動完成，整個過程都帶有動畫指示。交換卡後，當您分享和接收聯繫信息時，他們可以將其直接保存到他們的手機中。此外，通過 QR 碼（創建卡片時自動生成）或 vCard 文件格式與其他人共享卡片，即使其他人不使用 rollCase 應用程序。</p>
+
+        <p class=" body spacing-small">交換後，主屏幕顯示新卡。然後，通過長按管理操作讓用戶編輯、刪除的數字卡。它還通過電子郵件、WhatsApp、Facbook 和 Skype 等提供卡片共享。在卡片詳細信息頁面中，如果需要，用戶可以在其中添加註釋/計劃提醒以及組織活動的日期。 </p>
 
 
 
-        <p class=" h1 spacing-copy">5</p>
-        <p class=" body spacing-small">.................</p>
+        <p class=" h1 spacing-copy">4 Scad card</p>
+        <p class=" body spacing-small">如您所見，點擊“掃描”按鈕啟動應用內攝像頭，然後，拍攝一張實體卡片，它具有 OCR 功能的攝像頭可即時檢測每個字段，從而從卡片照片中提取數據。 用戶只需瞄準並點擊拍攝照片，然後在屏幕頂部顯示您掃描卡片的結果縮略圖。 通過 OCR 處理，將姓名、職務、公司名稱等信息轉換為可編輯的格式，如果有任何不正確的細節，用戶可以通過頂部的縮略圖手動修復。</p>
+
+        <p class=" body spacing-small">導入信息後，如果用戶不需要看到卡，則“保留相機拍攝”選項是保留拍攝之前作為數字卡出現的快捷方式。 從用戶的角度來看，它可以立即創建您的業務合作夥伴卡。 </p>
+
+
+
+        <p class=" h1 spacing-copy">5. Onboarding</p>
+        <p class=" body spacing-small">載入動畫插圖，顯示應用程序的核心信息。 讓用戶知道應用程序的功能及其包含的功能和更多指導。 除瞭如何做之外，他們還想知道應用程序可以為他們做什麼，並提高對它的關注度和信任度。 此外，允許用戶指紋登錄不僅方便而且非常快捷。 </p>
 
     </div>
 
