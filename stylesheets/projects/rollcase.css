@@ -493,7 +493,7 @@ body, .body {
         align-items: flex-start;
         flex-direction: row;
         flex-wrap: wrap;
-        align-items: baseline;
+        /*align-items: baseline;*/
     }
 
     .team .col {
@@ -631,7 +631,7 @@ body, .body {
     .copy-width-large-col-copy-l-copy {
     padding: 2vh 0vw;
     padding-left: 0;
-    width: 18vw;
+    width: 15vw;
     }
 
     .copy-width-large-col-copy-r-copy {
@@ -699,7 +699,7 @@ body, .body {
    align-items: flex-start;
    flex-direction: row;
    flex-wrap: nowrap;
-   align-items: baseline;
+   /*align-items: baseline;*/
 }
 
 .col-outer {
@@ -758,6 +758,7 @@ body, .body {
   padding-left: 0;
   width: 16vw;
 }
+
 
 .copy-width-large-col-copy-r-copy {
   padding: 3vh 1vw;
