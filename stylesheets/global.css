@@ -453,6 +453,7 @@ a.loud {
     font-weight: 200;
     color: #dedede;
     text-transform: capitalize;
+    letter-spacing: -1px;
 }
 
 .point-title span {
