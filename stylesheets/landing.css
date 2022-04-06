@@ -30,6 +30,7 @@
 #snippet {
   position: relative;
   width: 100%;
+  top: 0;
 }
 
 #scroll-down {
@@ -114,7 +115,7 @@
 @media (max-width: 768px) {
   .landing {
     margin: 0;
-    height: 60vh;
+    height: 68vh;
   }
 
   #scroll-down {
@@ -129,6 +130,7 @@
   #info {
   cursor: pointer;
   width: 70%;
+  padding-top: 8%;
   }
 
   #name {
