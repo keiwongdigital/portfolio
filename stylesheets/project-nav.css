@@ -7,6 +7,10 @@
   color: white;
 }
 
+#project-nav a {
+  width: 50%;
+}
+
 .project-nav-width {
   display: flex;
   justify-content: space-between;
