@@ -106,8 +106,8 @@
 }
 
 .parallax-7 img {
-    top: 20vh;
-    left: -140px;
+    top: 26vh;
+    left: -160px;
     width: 30vw;
 }
 
@@ -282,9 +282,9 @@
     }
     
     .parallax-7 img {
-        top: -7vh;
-        left: 0;
-        width: 100%;
+        top: -6vh;
+        left: 14vw;
+        width: 87%;
     }
 
     .team {
