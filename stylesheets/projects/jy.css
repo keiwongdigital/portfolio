@@ -617,8 +617,8 @@ body, .body {
     }
 
     .parallax-1 img {
-        top: -10vh;
-        left: -1vw;
+        top: -13vh;
+        left: -2vw;
         width: 36vw;
     }
     
@@ -850,6 +850,13 @@ body, .body {
     display: flex;
     align-items: center;
     max-height: 650px;
+}
+
+
+.parallax-1 img {
+    top: -15vh;
+    left: -3vw;
+     width: 50vw;
 }
 
 .parallax-4 {
