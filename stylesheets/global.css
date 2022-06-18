@@ -199,18 +199,10 @@ h6, .h6 {
 }
 
 .highlight-5 {
-  font-size: 46px;
-  font-size: calc(46px + (43 - 40) * ((100vw - 320px) / (2560 - 320)));
-  letter-spacing: 0.25px;
-  line-height: calc(48px + (46 - 42) * ((100vw - 320px) / (2560 - 320)));
-  font-weight: 200;
-}
-
-.highlight-5 {
   font-size: 16px;
-  font-size: calc(16px + (16 - 12) * ((100vw - 320px) / (2560 - 320)));
-  letter-spacing: 1.25px;
-  line-height: calc(28px + (24 - 20) * ((100vw - 320px) / (2560 - 320)));
+  font-size: calc(16px + (18 - 13) * ((100vw - 320px) / (2560 - 320)));
+  letter-spacing: 1.3px;
+  line-height: calc(30px + (30 - 26) * ((100vw - 320px) / (2560 - 320)));
   font-weight: 500;
 }
 
