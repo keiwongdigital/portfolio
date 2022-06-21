@@ -558,9 +558,9 @@ body, .body {
     }
 
     .parallax-1 img {
-        top: 0;
-        left: 0;
-        width: 100%;
+        top: -13vh;
+        left: -2vw;
+        width: 36vw;
     }
     
     .parallax-2 img {
@@ -582,10 +582,10 @@ body, .body {
     }
 
     .parallax-3 p {
-        top: 0;
-        left: 0;
-        width: 45vw;
-
+    /* top: 10px; */
+    left: -80px;
+    width: 32vw;
+    /* background-color: black; */
     }
 
     .parallax-4 {
