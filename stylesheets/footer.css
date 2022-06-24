@@ -7,6 +7,7 @@
   color: white;
   align-items: center;
   justify-content: center;
+  margin: 0;
 }
 
 .footer {
@@ -20,6 +21,29 @@
 .returnArrow {
   padding-right: 5px;
 }
+
+
+/* -- Footer Colors -- */
+
+
+
+#footer .underlined:before {
+  background-color:#646464;
+}
+
+
+#footer .underlined:after {
+  background-color: white;
+}
+
+#footer .h2 {
+  margin: 0;
+}
+
+
+
+
+
 
 @media (max-width: 768px) {
 

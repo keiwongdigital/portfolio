@@ -7,8 +7,6 @@
   color: white;
 }
 
-
-
 .project-nav-width {
   display: flex;
   justify-content: space-between;
@@ -25,6 +23,14 @@
 #project-nav .underlined:after {
   background-color: white;
 }
+
+
+.whi-color-option {
+  background-color: white;
+  color: #181818;
+}
+
+
 
 @media (max-width: 768px) {
 
