@@ -16,6 +16,7 @@
   width: 55%;
   opacity: 0.8;
   font-size: 14px;
+  padding-top: 4vh;
 }
 
 .landing {
@@ -130,12 +131,14 @@
   #msg {
   width: 100%;
   padding-top: 2vh;
+  height:100px;
   }
 
   #info {
   cursor: pointer;
   width: 70%;
   padding-top: 8%;
+  height:20px;
   }
 
   #name {
@@ -156,7 +159,7 @@
     font-size: 48px;
     font-size: calc(48px + (50px - 44) * ((100vw - 320px) / (2560 - 320)));
     font-weight: 800;
-    letter-spacing: -3px;
+    letter-spacing: -3.5px;
     line-height: 32px;
 }
 
@@ -165,9 +168,10 @@
   font-size: 18px;
   font-weight: 500;
   font-size: calc(16px + (19 - 16) * ((100vw - 320px) / (2560 - 320)));
-  letter-spacing: 1.25px;
+  letter-spacing: 1.3px;
   line-height: 26px;
 }
+
 
 
 }
