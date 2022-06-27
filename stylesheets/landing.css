@@ -129,7 +129,7 @@
 
   #msg {
   width: 100%;
-  padding-top: 3vh;
+  padding-top: 2vh;
   }
 
   #info {
@@ -140,8 +140,9 @@
 
   #name {
   width: 100%;
-  margin-bottom: 3vh;
+  margin-bottom: 2vh;
   }
+
 
   #snippet {
   position: relative;
@@ -152,11 +153,20 @@
 
 .text-span-3 {
     font-family: 'Playfair Display', serif;
-    font-size: 44px;
-    font-size: calc(46px + (44px - 40) * ((100vw - 320px) / (2560 - 320)));
+    font-size: 48px;
+    font-size: calc(48px + (50px - 44) * ((100vw - 320px) / (2560 - 320)));
     font-weight: 800;
-    letter-spacing: -5px;
-    line-height: 42px;
+    letter-spacing: -3px;
+    line-height: 32px;
+}
+
+#msg, .h6 {
+  font-family: 'Raleway','Arimo', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  font-size: calc(16px + (19 - 16) * ((100vw - 320px) / (2560 - 320)));
+  letter-spacing: 1.25px;
+  line-height: 26px;
 }
 
 
