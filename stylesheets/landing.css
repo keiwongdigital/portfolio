@@ -116,7 +116,7 @@
 @media (max-width: 768px) {
   .landing {
     margin: 0;
-    height: 68vh;
+    height: 72vh;
   }
 
   #scroll-down {
@@ -144,7 +144,6 @@
   width: 100%;
   top: 0;
   padding-top: 15%;
-  height: 70vh;
 }
 
 }
