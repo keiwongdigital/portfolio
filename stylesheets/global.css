@@ -399,7 +399,7 @@ li {
 .text-span-3 {
     font-family: 'Playfair Display', serif;
     font-size: 74px;
-    font-size: calc(62px + (60px - 56) * ((100vw - 320px) / (2560 - 320)));
+    font-size: calc(56px + (54px - 48) * ((100vw - 320px) / (2560 - 320)));
     font-weight: 800;
     letter-spacing: -5px;
     line-height: 56px;
