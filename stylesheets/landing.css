@@ -152,11 +152,11 @@
 
 .text-span-3 {
     font-family: 'Playfair Display', serif;
-    font-size: 64px;
-    font-size: calc(64px + (60px - 56) * ((100vw - 320px) / (2560 - 320)));
+    font-size: 44px;
+    font-size: calc(46px + (44px - 40) * ((100vw - 320px) / (2560 - 320)));
     font-weight: 800;
     letter-spacing: -5px;
-    line-height: 52px;
+    line-height: 42px;
 }
 
 
