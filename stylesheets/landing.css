@@ -120,6 +120,10 @@
   }
 
   #scroll-down {
+  position: absolute;
+  bottom: 2%;
+  left: 5%;
+  opacity: .3;
     /*display: none;*/
   }
 
