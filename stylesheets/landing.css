@@ -139,4 +139,11 @@
   margin-bottom: 3vh;
   }
 
+  #snippet {
+  position: relative;
+  width: 100%;
+  top: 2%;
+  height: 50vh;
+}
+
 }
