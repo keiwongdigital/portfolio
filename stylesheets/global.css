@@ -402,7 +402,7 @@ li {
     font-size: calc(70px + (66px - 58) * ((100vw - 320px) / (2560 - 320)));
     font-weight: 800;
     letter-spacing: -5px;
-    line-height: 6vh;
+    line-height: 54px;
 }
 
 .text-span-4 {
