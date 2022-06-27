@@ -1,0 +1,1111 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 5% 4% 0;
+  overflow-x: hidden;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /*max-height: 80vh;*/
+}
+.hero img {
+    width: auto;
+    max-width: 100%;
+    top: -12vh;
+}
+
+.white-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    padding: 15vh 0;
+}
+
+
+.site-video {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color:
+    padding: 10vh 0;
+}
+
+
+
+.image-position {
+    width: 100%;
+    height: 100%;
+}
+
+.video-position {
+    position: absolute;
+    top: 5%;
+    left: 10.5%;
+    width: 79%;
+    height: 78%;
+    z-index: 1;
+}
+
+.video-position_animation {
+    position: absolute;
+    top: 5%;
+    left: 10.5%;
+    width: 79%;
+    height: 85%;
+    z-index: 1;
+}
+
+.parallax-section {
+    display: flex;
+    align-items: center;
+}
+
+.parallax-1 img {
+    top: 0;
+    left: 0;
+    width: 50vw;
+}
+
+.parallax-2 img {
+    top: 190px;
+    left: -20px;
+    width: 30vw;
+}
+
+.parallax-3 p {
+    top: 150px;
+    left: -80px;
+    width: 25vw;
+    /*background-color: black;*/
+}
+
+.parallax-video-inner {
+    align-items: center;
+}
+
+.parallax-4 {
+    top: -20vh;
+    left: 62%;
+    width: 28vw;
+    z-index: 99;
+
+}
+
+.parallax-5 img {
+    top: 5vh;
+    left: 30%;
+    width: 30vw;
+    z-index: 100;
+}
+
+.parallax-6 img {
+    top: 0;
+    left: 0;
+    width: 50vw;
+}
+
+.parallax-7 img {
+    top: 35vh;
+    left: -140px;
+    width: 30vw;
+}
+
+
+.bump {
+    margin-top: -50vh;
+    padding-top: 50vh;
+    background-color: #212121;
+    width: 100%;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+.carousel-cell {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    min-height: 100%;
+    cursor: move;
+  }
+    
+  .carousel-cell img {
+    margin-right: 5vw;
+    margin-left: 9vw;
+    min-height: 100%;
+    width: 50vw;
+  }
+
+  .carousel-cell-45vw {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    min-height: 100%;
+    cursor: move;
+  }
+    
+  .carousel-cell-45vw img {
+    margin-right: 8vw;
+    margin-left: 8vw;
+    min-height: 90%;
+    width: 45vw;
+  }
+
+    .carousel .observed {
+    animation: move 0;
+    animation: move-left 1s forwards;
+  }
+
+  .team {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+
+  .team .col {
+      padding: 2vw;
+      padding-left: 0;
+      width: 100%;
+  }
+
+  .team .col .spacing-copy {
+      margin-bottom: 1vh;
+  }
+
+  .team .col .h5 {
+    line-height: 18px;
+  }
+
+  .col-outer {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+
+  .col-outer .col {
+      padding: 2vw;
+      padding-left: 0;
+      width: 100%;
+  }
+
+  .col-outer .col .spacing-copy {
+      margin-bottom: 1vh;
+  }
+
+  .col-outer .col .h5 {
+    line-height: 18px;
+  }
+
+
+  .green-bar {
+    background: linear-gradient(to right, #4AD215, #BBFC5C);
+    background-size: 400% 400%;
+    height: 20px;
+    width: 100%;
+    animation: gradient-loop 10s infinite;
+  }
+
+  .black {
+      background-color: #272727;
+      padding-bottom: 30vh;
+      margin-bottom: -15vh;
+  }
+  
+  @keyframes gradient-loop { 
+      0%{background-position: 0% 50%}
+      50%{background-position: 100% 50%}
+      100%{background-position: 0% 50%}
+  }
+
+
+
+
+@media (min-width: 0px) and (max-width: 768px) {
+
+    .parallax-section {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .parallax-1 img {
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    
+    .parallax-2 img {
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .parallax-3 p {
+        top: 3vh;
+        left: 0;
+        width: 100%;
+    } 
+
+    .parallax-video-inner {
+        display: flex;
+        align-items: center;
+    }
+
+    .parallax-4 {
+        top: -10vh;
+        left: 0;
+        width: 55vw;
+        margin: auto;
+        z-index: 99;
+    }
+
+    .parallax-5 img {
+      display: none;
+    }
+
+    .parallax-6 img {
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    
+    .parallax-7 img {
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .team {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .team .col {
+        padding: 3vh 7vw;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .team .col-copy {
+        padding: 3vh 3vw;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .team .col-l-copy {
+        padding: 1vh 1vw;
+        padding-left: 0;
+    }
+
+    .team .col-r-copy {
+        padding: 1vh 1vw;
+        padding-left: 0;
+    }
+
+    .team .col .spacing-copy {
+        margin-bottom: 1.1vh;
+    }
+
+    .col-outer .col {
+        padding: 3vh 7vw;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .col-outer .col .spacing-copy {
+        margin-bottom: 1.1vh;
+    }
+
+    .carousel-cell {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        min-height: 100%;
+        cursor: move;
+    }
+    
+    .carousel-cell img {
+        margin-right: 7vw;
+        margin-left: 10vw;
+        min-height: 100%;
+        max-width: 100vw;
+        width: 93vw;
+    }
+
+    .copy-width-col-copy-l-copy {
+    padding: 0vh 0vw;
+    padding-left: 0;
+    width: 100%;
+    }
+
+    .copy-width-col-copy-r-copy {
+    padding: 0vh 0vw;
+    padding-left: 0;
+    width: 100%;
+    }
+
+    .copy-width-large-col-copy-l-copy {
+    padding: 4vh 0vw 4vh;
+    padding-left: 0;
+    width: 50%;
+    }
+
+    .copy-width-large-col-copy-l-img {
+    padding: 4vh 0vw 4vh;
+    padding-left: 0;
+    width: 50%;
+    }
+
+    .copy-width-large-col-copy-r-copy {
+    padding: 0vh 0vw;
+    padding-left: 0;
+    width: 100%;
+    }
+
+    .copy-width-col-copy-l-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 100%;
+    }
+
+    .copy-width-col-copy-r-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 100%;
+    }
+}
+
+
+body {
+  color: #111111;
+}
+/*
+body, .body {
+  font-family: "raleway","Merriweather", sans-serif;
+  font-size: 14px;
+  font-size: calc(12px + (16 - 12) * ((100vw - 320px) / (2560 - 320)));
+  letter-spacing: 1.5px;
+  line-height: 32px;
+}
+*/
+
+/* -- Project Navigation -- */
+
+#project-navigation {
+  /*background-color: rgba(10,10,10, 0.5);*/
+}
+
+#contact-button {
+  margin-right: 7vw;
+  /*color: #e1e1e1;*/
+}
+
+/* -- Landing Colors -- */
+
+.underlined:before {
+  background-color: rgba(0,0,0, 0.1);
+}
+
+.underlined:after {
+  background-color: rgba(0,0,0, 0.8);
+}
+
+.selected:before {
+  background-color: white;
+}
+
+/* -- Project Overview -- */
+
+
+.project-intro {
+  list-style: none;
+  width: 100%;
+  float: left;
+}
+
+.project-into-ul ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  float: left;
+  width: 100%; 
+  list-style-position: outside;
+  margin-bottom: .75rem;
+  padding-left: 20px;
+  padding-top: 22px;
+}
+
+.project-into-ul li {
+  width: 30%;
+  margin-bottom: .25rem;
+  line-height: 28px;
+}
+
+.project-into-ul h5 {
+  line-height: 1px;
+}
+
+.project-into-ul p {
+}
+
+
+.margin-colum-top {
+  margin-top: 6px;
+}
+
+
+.project-into-ul ul {
+  list-style-position: outside;
+  color: #e1e1e1;
+  margin-bottom: .75rem;
+  padding-left: 0px;
+  padding-top: 22px;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1399px) {
+
+
+    .team {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .team .col {
+        padding: 2vh 2vw;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .team .col .spacing-copy {
+        margin-bottom: 1vh;
+    }
+
+    .team .col-copy {
+      padding: 3vh 1vw;
+      padding-left: 0;
+      width: 32vw;
+    }
+
+    .team .col-l-copy {
+      padding: 4vh 1vw;
+      padding-left: 0;
+      width: 20vw;
+    }
+
+    .team .col-r-copy {
+      padding: 3vh 1vw;
+      padding-left: 0;
+      width: 42vw;
+    }
+
+    .team .col-image {
+      padding: 3vh 1vw;
+      padding-left: 0;
+      width: 38vw;
+    }
+
+    .carousel-cell {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        min-height: 100%;
+        cursor: move;
+    }
+    
+    .carousel-cell img {
+        margin-right: 4.5vw;
+        margin-left: 6.5vw;
+        min-width: 40vw;
+        max-width: 70vw;
+    }
+
+    .parallax-video-inner {
+        display: flex;
+        align-items: center;
+        max-height: 480px;
+    }
+
+    .parallax-section {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .parallax-1 img {
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    
+    .parallax-2 img {
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .parallax-6 img {
+    top: 0;
+    left: -80;
+    width: 42vw;
+    }
+
+    .parallax-7 img {
+    top: 24vh;
+    left: -80px;
+    width: 26vw;
+    }
+
+    .parallax-3 p {
+        top: 0;
+        left: 0;
+        width: 45vw;
+
+    }
+
+    .parallax-4 {
+        top: -15vh;
+        left: 65%;
+        width: 26vw;
+        z-index: 99;
+    }
+
+    .parallax-5 img {
+      top: -12vh;
+      left: 5%;
+      width: 32vw;
+      z-index: 100;
+    }
+
+
+    .copy-width-large-col-copy-lr {
+    padding: 0 8vw;
+    width: 78vw;
+    }
+
+    .copy-width-col-copy-l-copy {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 17vw;
+    }
+
+    .copy-width-col-copy-r-copy {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 26vw;
+    }
+
+
+    .copy-width-col-copy-l-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 21vw;
+    }
+
+    .copy-width-col-copy-r-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 21vw;
+    }
+
+    .copy-width-large-col-copy-l-copy {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 18vw;
+    }
+
+    .copy-width-large-col-copy-l-img {
+    padding: 0vh 0vw;
+    padding-left: 0;
+    width: 18vw;
+    }
+
+    .copy-width-large-col-copy-r-copy {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 39vw;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+
+    .copy-width-col-copy-l-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 100%;
+    }
+
+    .copy-width-col-copy-r-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 100%;
+    }
+
+    /*.statement {
+    font-size: 22px;
+    font-size: calc(22px + (34 - 30) * ((100vw - 320px) / (2560 - 320)));
+    letter-spacing: 1.25px;
+    line-height: calc(32px + (38 - 34) * ((100vw - 320px) / (2560 - 320)));
+    font-weight: 300;
+    }*/
+}
+
+
+@media (min-width: 1024px) and (max-width: 1399px) {
+    .copy-width-col-copy-l-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 20vw;
+    }
+
+    .copy-width-col-copy-r-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 20vw;
+    }
+    .parallax-6 img {
+    top: 0;
+    left: 0;
+    width: 38vw;
+    }
+
+    .parallax-7 img {
+    top: 16vh;
+    left: -20px;
+    width: 32vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30vw;
+    }
+}
+
+
+
+
+/* ----------- Exsiting Editing Screen----------- */
+@media (min-width: 1399px) and (max-width: 1680px){
+
+.team {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   flex-direction: row;
+   flex-wrap: nowrap;
+}
+
+.col-outer {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.team .col {
+   padding: 3vh 1vw;
+   padding-left: 0;
+   width: 49%;
+}
+
+.team .col-copy {
+   padding: 3vh 1vw;
+   padding-left: 1vw;
+   padding-bottom: 1vh;
+   width: 30vw;
+}
+
+.team .col-l-copy {
+  padding: 3vh 1vw;
+  padding-left: 0;
+  width: 17vw;
+}
+
+.team .col-r-copy {
+  padding: 3vh 1vw;
+  padding-left: 0;
+  width: 42vw;
+}
+
+.team .col-image {
+   padding: 3vh 1vw;
+   padding-left: 0;
+   width: 38vw;
+}
+
+.copy-width-col-copy-l-copy {
+  padding: 3vh 0vw;
+  padding-left: 0;
+  width: 15vw;
+}
+
+.copy-width-col-copy-r-copy {
+  padding: 3vh 0vw;
+  padding-left: 0;
+  width: 28vw;
+}
+
+.copy-width-large-col-copy-l-copy {
+  padding: 3vh 1vw;
+  padding-left: 0;
+  width: 16vw;
+}
+
+.copy-width-large-col-copy-l-img {
+  padding: 3vh 1vw;
+  padding-left: 0;
+  width: 16vw;
+}
+
+.copy-width-large-col-copy-r-copy {
+  padding: 3vh 1vw;
+  padding-left: 0;
+  width: 38vw;
+}
+
+.copy-width-col-copy-l-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 20vw;
+}
+
+.copy-width-col-copy-r-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 20vw;
+}
+
+
+
+.team .col .spacing-copy {
+    margin-bottom: 1vh;
+}
+
+.parallax-video-inner {
+    display: flex;
+    align-items: center;
+    max-height: 650px;
+}
+
+.parallax-4 {
+    top: -10vh;
+    left: 62%;
+    width: 24vw;
+    z-index: 99;
+}
+
+.parallax-5 img {
+  top: 1vh;
+  left: 16%;
+  width: 28vw;
+  z-index: 100;
+}
+
+}
+
+
+/* ----------- large than 1600px ----------- */
+@media (min-width: 1679px) {
+
+.team {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: stretch;
+}
+
+.col-outer {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.team .col {
+   padding: 3vh 1vw;
+   padding-left: 0;
+   width: 49%;
+}
+
+.team .col-copy {
+   padding: 3vh 3vw;
+   padding-left: 0;
+   width: 30vw;
+}
+
+.team .col-l-copy {
+    padding: 3vh 1vw;
+    padding-left: 0;
+    width: 17vw;
+}
+
+.team .col-r-copy {
+    padding: 3vh 1vw;
+    padding-left: 0;
+    width: 50vw;
+}
+
+.team .col-image {
+   padding: 3vh 1vw;
+   padding-left: 0;
+   width: 38vw;
+}
+
+.team .col .spacing-copy {
+    margin-bottom: 1vh;
+}
+
+.parallax-video-inner {
+    display: flex;
+    align-items: center;
+    max-height: 650px;
+}
+
+.parallax-4 {
+    top: -10vh;
+    left: 65%;
+    width: 24vw;
+    z-index: 99;
+}
+
+.parallax-5 img {
+  top: -2vh;
+  left: 60%;
+  width: 22vw;
+  z-index: 100;
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.copy-width-large-col-copy-l-copy {
+    padding: 3vh 3vw;
+    /*padding-left: 0;*/
+    width: 20vw;
+}
+
+.copy-width-large-col-copy-l-img {
+    padding: 3vh 3vw;
+    /*padding-left: 0;*/
+    width: 20vw;
+}
+
+.copy-width-large-col-copy-r-copy {
+    padding: 3vh 1vw;
+    /*padding-left: 0;*/
+    width: 36vw;
+}
+
+}
+
+
+
+.full-width-jy-color {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.jy-color {
+  color: #c08300;
+}
+
+
+/* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+  padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+  top: 0;
+  bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+  padding: 0;
+}
+
+
+/* 
+
+for zoom animation 
+uncomment this part if you haven't added this code anywhere else
+
+*/
+
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: all 0.3s ease-out; 
+  -moz-transition: all 0.3s ease-out; 
+  -o-transition: all 0.3s ease-out; 
+  transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+    opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+    opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing.mfp-bg {
+  opacity: 0;
+}
+
+
+
+
+/* Between for ipad pro */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .copy-width-col-copy-l-copy {
+    padding: 0vh 0vw;
+    padding-left: 0;
+    width: 100%;
+    }
+
+    .copy-width-col-copy-r-copy {
+    padding: 0vh 0vw;
+    padding-left: 0;
+    width: 100%;
+    }
+    .parallax-6 img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    }
+
+    .parallax-7 img {
+    top: 0vh;
+    left: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    }
+}
+
+
+strong {
+    color: #fff;
+    font-weight: 500;
+    padding: 0.2em 0.2em;
+    background-color: #111;
+}
+
+
+@media (max-width: 768px) {
+
+    .copy-width-large-col-copy-l-copy {
+    padding: 0 0 3vh 0;
+    padding-left: 0;
+    width: 100%;
+    margin: auto;
+    }
+
+    .copy-width-large-col-copy-l-img {
+    padding: 0;
+    padding-left: 0;
+    width: 65%;
+    margin: auto;
+    display: flex;
+    }
+
+    .copy-width-large-col-copy-r-copy {
+    padding: 0vh 0vw;
+    padding-left: 0;
+    width: 100%;
+}
+
+    .point-line-height {
+    line-height: calc(6px + (6 - 4) * ((100vw - 320px) / (2560 - 320)));
+}
+
+    .team {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   flex-direction: row;
+   /*flex-wrap: nowrap;*/
+}
+
+    .copy-width-large-col-copy-lr {
+    padding: 0vh 0vw;
+    width: 78vw;
+    margin-top: 6vh;
+    }
+
+
+    .largecopy {
+    font-size: 20px;
+    font-size: calc(18px + (18 - 14) * ((100vw - 320px) / (2560 - 320)));
+    letter-spacing: 1.55px;
+    line-height: calc(30px + (30 - 24) * ((100vw - 320px) / (2560 - 320)));
+    font-weight: 300;
+}
+
+}
+
+ul {
+    list-style-position: outside;
+    margin-bottom: .75rem;
+    padding-left: 20px;
+    padding-top: 0;
+}
+
+    .intro-01 {
+    font-size: 38px;
+    font-size: calc(38px + (28 - 24) * ((100vw - 320px) / (2560 - 320)));
+    letter-spacing: 1.25px;
+    line-height: calc(32px + (32 - 28) * ((100vw - 320px) / (2560 - 320)));
+    font-weight: 700;
+    }
+
+    .intro-02 {
+    font-size: 32px;
+    font-size: calc(28px + (28 - 24) * ((100vw - 320px) / (2560 - 320)));
+    letter-spacing: 1.25px;
+    line-height: calc(32px + (32 - 28) * ((100vw - 320px) / (2560 - 320)));
+    font-weight: 500;
+    }
