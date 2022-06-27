@@ -114,6 +114,8 @@
 }
 
 
+
+
 @media (max-width: 768px) {
   .landing {
     margin: 0;
@@ -131,19 +133,19 @@
   #msg {
   width: 100%;
   padding-top: 2vh;
-  height:100px;
+  height: 80px;
   }
 
   #info {
   cursor: pointer;
   width: 70%;
-  padding-top: 8%;
+  padding-top: 16%;
   height:20px;
   }
 
   #name {
   width: 100%;
-  margin-bottom: 2vh;
+  margin-bottom: 3vh;
   }
 
 
@@ -156,8 +158,8 @@
 
 .text-span-3 {
     font-family: 'Playfair Display', serif;
-    font-size: 48px;
-    font-size: calc(48px + (50px - 44) * ((100vw - 320px) / (2560 - 320)));
+    font-size: 52px;
+    font-size: calc(52px + (56px - 50) * ((100vw - 320px) / (2560 - 320)));
     font-weight: 800;
     letter-spacing: -3.5px;
     line-height: 32px;
@@ -169,7 +171,7 @@
   font-weight: 500;
   font-size: calc(16px + (19 - 16) * ((100vw - 320px) / (2560 - 320)));
   letter-spacing: 1.3px;
-  line-height: 26px;
+  line-height: 24px;
 }
 
 
