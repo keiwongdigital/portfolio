@@ -2,6 +2,7 @@
 
 #name {
   width: 100%;
+  margin-bottom: 3vh;
 }
 
 #msg {
@@ -135,6 +136,7 @@
 
   #name {
   width: 100%;
+  margin-bottom: 3vh;
   }
 
 }
