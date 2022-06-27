@@ -116,15 +116,15 @@
 @media (max-width: 768px) {
   .landing {
     margin: 0;
-    height: 76vh;
+    height: 78vh;
   }
 
   #scroll-down {
   position: absolute;
-  bottom: 2%;
+  bottom: 1%;
   left: 5%;
   opacity: .3;
-    /*display: none;*/
+  display: none;
   }
 
   #msg {
