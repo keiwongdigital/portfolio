@@ -146,4 +146,14 @@
   padding-top: 15%;
 }
 
+.text-span-3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 64px;
+    font-size: calc(64px + (60px - 56) * ((100vw - 320px) / (2560 - 320)));
+    font-weight: 800;
+    letter-spacing: -5px;
+    line-height: 52px;
+}
+
+
 }
