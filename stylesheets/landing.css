@@ -153,6 +153,7 @@
   #name {
   width: 100%;
   top: 0;
+  padding-top: 5vh;
   }
 
 
@@ -161,6 +162,7 @@
   width: 100%;
   top: 0;
   padding-top: 3vh;
+  height: 620px;
 }
 
 .text-span-3 {
