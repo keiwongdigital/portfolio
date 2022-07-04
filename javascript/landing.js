@@ -112,8 +112,8 @@ class TextScramble {
     for (let i = 0; i < length; i++) {
       const from = oldText[i] || ""
       const to = newText[i] || ""
-      const start = Math.floor(Math.random() * 60)
-      const end = start + Math.floor(Math.random() * 60)
+      const start = Math.floor(Math.random() * 120)
+      const end = start + Math.floor(Math.random() * 120)
       this.queue.push({ from, to, start, end })
     }
     cancelAnimationFrame(this.frameRequest)
@@ -131,7 +131,7 @@ class TextScramble {
         complete++
         output += to
       } else if (this.frame >= start) {
-        if (!char || Math.random() < 0.28) {
+        if (!char || Math.random() < 0.18) {
           char = this.randomChar()
           this.queue[i].char = char
         }
@@ -177,8 +177,8 @@ var el = document.querySelector(".msg")
 
 if (el) {
   var fx = new TextScramble(el)
-  var GlitchShuffleDelay = 500;
-  var phrases = ["A designer of many things across multiple platforms and more meaningful experiences, focused on every pixel."]
+  var GlitchShuffleDelay = 200;
+  var phrases = ["Make ideas* as potent as possible."]
   var counter = 0
   var next = function() {
     fx.setText(phrases[counter]).then(function() {

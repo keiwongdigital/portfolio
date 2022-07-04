@@ -1,22 +1,27 @@
 /* --- Landing Section --- */
 
 #name {
+  position: relative;
   width: 100%;
-  margin-bottom: 3vh;
+  padding-top: 1vh;
+  padding-bottom: 2vh;
 }
 
 #msg {
-  width: 60%;
-  padding-top: 1vh;
-  padding-bottom: 3vh;
+  position: relative;
+  width: 48%;
+  top: 0;
+  padding-top: 3vh;
+  min-height: 320px;
 }
 
 #info {
+  position: relative;
   cursor: pointer;
   width: 55%;
   opacity: 0.8;
   font-size: 14px;
-  padding-top: 4vh;
+  padding-top: 2vh;
 }
 
 .landing {
@@ -30,7 +35,6 @@
 }
 
 #snippet {
-  position: relative;
   width: 100%;
   top: 0;
 }
@@ -131,21 +135,24 @@
   }
 
   #msg {
-  width: 100%;
-  padding-top: 2vh;
-  height: 80px;
+  position: relative;
+  width: 80%;
+  top: 0;
+  padding-top: 4vh;
+  min-height: 220px;
   }
 
   #info {
+  position: relative;
   cursor: pointer;
   width: 70%;
-  padding-top: 12vh;
+  padding-top: 8vh;
   height:20px;
   }
 
   #name {
   width: 100%;
-  margin-bottom: 3vh;
+  top: 0;
   }
 
 
@@ -153,7 +160,7 @@
   position: relative;
   width: 100%;
   top: 0;
-  padding-top: 18%;
+
 }
 
 .text-span-3 {
