@@ -31,13 +31,12 @@
   justify-content: center;
   height: 100vh;
   padding: 0 5% 5% 5%;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 #snippet {
   width: 100%;
   top: 0;
-  overflow: hidden;
 }
 
 #scroll-down {
@@ -125,6 +124,7 @@
   .landing {
     margin: 0;
     height: 68vh;
+    overflow: hidden;
   }
 
   #scroll-down {
