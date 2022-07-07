@@ -37,7 +37,7 @@
 #snippet {
   width: 100%;
   top: 0;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 #scroll-down {
@@ -163,6 +163,7 @@
   top: 0;
   padding-top: 3vh;
   height: 620px;
+  overflow: hidden;
 }
 
 .text-span-3 {
