@@ -112,10 +112,9 @@
 }
 
 .parallax-8 img {
-    top: 0vh;
+    top: 0;
     left: -4vw;
-    width: 31vw;
-    vertical-align: top;
+    width: 30vw;
 }
 
 
@@ -296,8 +295,8 @@
 
 
     .parallax-8 img {
-        padding: 0% 0% 0% 15%;
-        width: 85%;
+        padding: 0% 0% 0% 18%;
+        width: 87%;
     }
     
 
@@ -596,8 +595,8 @@ body, .body {
     }
 
     .parallax-3 p {
-    /* top: 10px; */
-    left: 0vw;
+    top: 3vh;
+    left: 3vw;
     width: 36vw;
     /* background-color: black; */
     }
@@ -619,8 +618,10 @@ body, .body {
 
     .parallax-8 img {
         top: 0;
-        left: -2vw;
-        width: 32vw;
+        left: 1vw;
+        width: 30vw;
+        vertical-align: top;
+        align-self: flex-start;
     }
 
 
