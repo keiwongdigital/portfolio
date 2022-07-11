@@ -2,9 +2,10 @@
 
 #name {
   position: relative;
+  top: 0;
   width: 100%;
   padding-top: 1vh;
-  padding-bottom: 2vh;
+  padding-bottom: 3vh;
 }
 
 #msg {
