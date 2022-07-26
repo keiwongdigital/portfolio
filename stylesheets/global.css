@@ -423,8 +423,8 @@ a.loud {
 }
 
 #jumpto {
-  position: absolute;
-  margin-bottom: 5vh;
+  /*position: absolute;
+  margin-bottom: 5vh;*/
   left: 0;
   opacity: .5;
 }

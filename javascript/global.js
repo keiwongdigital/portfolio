@@ -1,4 +1,8 @@
-
+window.addEventListener('load', function() {
+  if (('IntersectionObserver' in window)) {
+    new Viewport();
+  }
+});
 
 
 if ( /^((?!chrome|android).)*safari/i.test(navigator.userAgent)) {
@@ -154,11 +158,7 @@ $(function() {
 });
 */
 
-window.addEventListener('load', function() {
-  if (('IntersectionObserver' in window)) {
-    new Viewport();
-  }
-});
+
 
 
 
