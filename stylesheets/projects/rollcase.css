@@ -821,9 +821,24 @@ body, .body {
 
 .parallax-5 img {
   top: -6vh;
-  left: 3vw;
+  left: 4vw;
   width: 35vw;
   z-index: 99;
+}
+
+    .parallax-8 img {
+        top: 9vh;
+        left: -2vw;
+        width: 30vw;
+        vertical-align: top;
+        align-self: flex-start;
+    }
+
+    .parallax-3 p {
+    top: 0;
+    left: 4vw;
+    width: 31vw;
+    /*background-color: black;*/
 }
 
 }
