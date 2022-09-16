@@ -431,10 +431,18 @@
     width: 100%;
     }
 
+    .copy-width-col-copy-l-half img {
+    width: 80%;
+    }
+
     .copy-width-col-copy-r-half {
     padding: 2vh 0vw;
     padding-left: 0;
     width: 100%;
+    }
+
+    .copy-width-col-copy-r-half img {
+    width: 80%;
     }
 
     .unit {
