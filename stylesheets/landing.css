@@ -10,10 +10,11 @@
 
 #msg {
   position: relative;
-  width: 52%;
+  width: 40%;
+  line-height: 4vh;
   top: 0;
   padding-top: 3vh;
-  min-height: 320px;
+  min-height: 350px;
 }
 
 #info {
@@ -138,10 +139,10 @@
 
   #msg {
   position: relative;
-  width: 80%;
+  width: 69%;
   top: 0;
   padding-top: 4vh;
-  min-height: 230px;
+  min-height: 34vh;
   }
 
   #info {
