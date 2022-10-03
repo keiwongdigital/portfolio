@@ -21,9 +21,9 @@
   position: relative;
   cursor: pointer;
   width: 55%;
-  opacity: 0.8;
+  opacity: 0.7;
   font-size: 14px;
-  margin-top: 2vh;
+  margin-top: 1vh;
 }
 
 .landing {
@@ -149,7 +149,7 @@
   position: relative;
   cursor: pointer;
   width: 70%;
-  padding-top: 8vh;
+  padding-top: 6vh;
   }
 
   #name {
