@@ -136,11 +136,9 @@
   }
 
   #msg {
-
   width: 80%;
-  top: 0;
   padding-top: 5vh;
-  height: 22vh;
+  height: 24vh;
   }
 
   #info {
@@ -153,7 +151,6 @@
 
   #name {
   width: 100%;
-  top: 0;
   padding-top: 5vh;
   }
 
