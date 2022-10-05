@@ -10,8 +10,8 @@
 
 #msg {
   position: relative;
-  width: 50%;
-  line-height: 4vh;
+  max-width: 65%;
+  line-height: 6vh;
   top: 0;
   padding-top: 2vh;
   min-height: 354px;
@@ -143,9 +143,9 @@
   position: relative;
   width: 69%;
   top: 0;
-  padding-top: 3vh;
+  padding-top: 5vh;
   min-height: 34vh;
-  line-height: 18vh;
+  line-height: 24vh;
   }
 
   #info {

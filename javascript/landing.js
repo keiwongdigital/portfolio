@@ -101,7 +101,7 @@ $("#scroll-down").click(function() {
 class TextScramble {
   constructor(el) {
     this.el = el
-    this.chars = "!<$-_$/[]{}—=+*^.?#_"
+    this.chars = "!<$-_$/[}—=+*^.?#_"
     this.update = this.update.bind(this)
   }
   setText(newText) {
@@ -178,7 +178,7 @@ var el = document.querySelector(".msg")
 if (el) {
   var fx = new TextScramble(el)
   var GlitchShuffleDelay = 200;
-  var phrases = ["Think* possible [Idea;] make it happen!"]//Make ideas* as potent as possible//
+  var phrases = ["Think* possible [Idea]; doing things right!"]//Make ideas* as potent as possible//
   var counter = 0
   var next = function() {
     fx.setText(phrases[counter]).then(function() {
