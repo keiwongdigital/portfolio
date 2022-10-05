@@ -90,8 +90,8 @@ if(window.innerWidth >= 768) {
 // Scroll down to project on scroll down button click
 $("#scroll-down").click(function() {
   $("html, body").animate({
-    scrollTop: $( $('[data-scroll-target]')).offset().top + 135
-  }, 1500, "swing");
+    scrollTop: $( $('[data-scroll-target]')).offset().top + 140
+  }, 1200, "swing");
 });
 
 
@@ -112,8 +112,8 @@ class TextScramble {
     for (let i = 0; i < length; i++) {
       const from = oldText[i] || ""
       const to = newText[i] || ""
-      const start = Math.floor(Math.random() * 120)
-      const end = start + Math.floor(Math.random() * 120)
+      const start = Math.floor(Math.random() * 200)
+      const end = start + Math.floor(Math.random() * 100)
       this.queue.push({ from, to, start, end })
     }
     cancelAnimationFrame(this.frameRequest)
@@ -178,7 +178,7 @@ var el = document.querySelector(".msg")
 if (el) {
   var fx = new TextScramble(el)
   var GlitchShuffleDelay = 200;
-  var phrases = ["Think* possible idea; make it happen."]//Make ideas* as potent as possible//
+  var phrases = ["Think* possible [Idea;] make it happen!"]//Make ideas* as potent as possible//
   var counter = 0
   var next = function() {
     fx.setText(phrases[counter]).then(function() {
