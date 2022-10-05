@@ -178,7 +178,7 @@ var el = document.querySelector(".msg")
 if (el) {
   var fx = new TextScramble(el)
   var GlitchShuffleDelay = 200;
-  var phrases = ["Think* possible [Idea]; Doing things right!"]//Make ideas* as potent as possible//
+  var phrases = ["Think*possible [Idea]; Doing things right!"]//Make ideas* as potent as possible//
   var counter = 0
   var next = function() {
     fx.setText(phrases[counter]).then(function() {
