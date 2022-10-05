@@ -1,7 +1,6 @@
 /* --- Landing Section --- */
 @media (min-width: 769px) {
 #name {
-  position: relative;
   top: 0;
   width: 100%;
   padding-top: 1vh;
@@ -10,7 +9,7 @@
 
 #msg {
   position: relative;
-  max-width: 65%;
+  max-width: 72%;
   line-height: 6vh;
   top: 0;
   padding-top: 2vh;
@@ -144,8 +143,8 @@
   width: 69%;
   top: 0;
   padding-top: 5vh;
-  min-height: 34vh;
-  line-height: 24vh;
+  min-height: 32vh;
+  line-height: 32vh;
   }
 
   #info {
