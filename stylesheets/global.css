@@ -190,6 +190,14 @@ h6, .h6 {
   font-weight: 200;
 }
 
+.highlight-3  {
+  font-size: 32px;
+  font-size: calc(32px + (34 - 30) * ((100vw - 320px) / (2560 - 320)));
+  letter-spacing: 1.25px;
+  line-height: calc(44px + (38 - 34) * ((100vw - 320px) / (2560 - 320)));
+  font-weight: 200;
+}
+
 .highlight-4 {
   font-size: 16px;
   font-size: calc(16px + (16 - 12) * ((100vw - 320px) / (2560 - 320)));
