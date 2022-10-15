@@ -225,7 +225,7 @@ p {
     width: 100%;
   }
   .copy-width-large-col-copy-lr {
-    padding: 0 7vw;
+    padding: 4vh 7vw;
     width: 100%;
   }
   .copy-width-col-copy-lr {
@@ -294,8 +294,8 @@ p {
     width: 85vw;
   }
   .copy-width-large-col-copy-lr {
-    padding: 4vh 10vw;
-    width: 78vw;
+    padding: 3vh 8vw;
+    width: 70vw;
   }
 
   .copy-width-col-copy-lr {
