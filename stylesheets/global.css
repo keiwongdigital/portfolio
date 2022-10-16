@@ -271,9 +271,11 @@ h6, .h6 {
 
 
 .m-icons-position {
-  top: 2px;
-  padding: 0 4px 0 4px;
-  font-size: 15px;
+  font-size: 12px; 
+  top: 2pt; 
+  padding-right: -1pt;
+  padding-left: 2pt;
+  opacity: 0.6;
 }
 
 
