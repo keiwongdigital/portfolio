@@ -635,8 +635,8 @@ body, .body {
 
     .parallax-8 img {
         top: 0;
-        left: 1vw;
-        width: 30vw;
+        left: -2vw;
+        width: 28vw;
         vertical-align: top;
         align-self: flex-start;
     }
@@ -711,6 +711,7 @@ body, .body {
     }
 }
 
+
 @media (min-width: 1024px) and (max-width: 1399px) {
     .copy-width-col-copy-l-half {
     padding: 2vh 0vw;
@@ -736,6 +737,14 @@ body, .body {
     margin-left: auto;
     margin-right: auto;
     width: 30vw;
+    }
+
+    .parallax-8 img {
+        top: 0;
+        left: -2vw;
+        width: 28vw;
+        vertical-align: top;
+        align-self: flex-start;
     }
     
 }
@@ -857,11 +866,10 @@ body, .body {
 }
 
 .parallax-8 img {
-    top: 9vh;
+    top: 0vh;
     left: -2vw;
-    width: 30vw;
+    width: 28vw;
     vertical-align: top;
-    align-self: flex-start;
 }
 
     .parallax-3 p {
@@ -880,7 +888,7 @@ body, .body {
     .parallax-9 img {
     top: 0vh;
     left: -2vw;
-    width: 44vw;
+    width: 40vw;
     vertical-align: top;
 }
 
