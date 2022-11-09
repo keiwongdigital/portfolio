@@ -86,8 +86,8 @@
 
 .parallax-4 {
     top: -20vh;
-    left: 62%;
-    width: 28vw;
+    left: 40%;
+    width: 35vw;
     z-index: 99;
 }
 
@@ -273,12 +273,12 @@
         align-items: center;
     }
 
-    .parallax-4 {
-        top: -10vh;
-        left: 20vw;
-        width: 50vw;
-        z-index: 98;
-    }
+.parallax-4 {
+    top: -20vh;
+    left: 40%;
+    width: 35vw;
+    z-index: 99;
+}
 
     .parallax-5 img {
         top: 22%;
@@ -622,12 +622,12 @@ body, .body {
     /* background-color: black; */
     }
 
-    .parallax-4 {
-        top: -10vh;
-        width: 30vw;
-        z-index: 98;
-        left: 60%;
-    }
+.parallax-4 {
+    top: -20vh;
+    left: 40%;
+    width: 35vw;
+    z-index: 99;
+}
 
     .parallax-5 img {
     top: -8vh;
@@ -864,11 +864,11 @@ body, .body {
 }
 
 .parallax-4 {
-    top: -10vh;
-    width: 25vw;
-    z-index: 98;
+    top: -20vh;
+    left: 40%;
+    width: 35vw;
+    z-index: 99;
 }
-
 .parallax-5 img {
   top: -6vh;
   left: 4vw;
@@ -967,9 +967,10 @@ body, .body {
 }
 
 .parallax-4 {
-    top: -10vh;
-    width: 25vw;
-    z-index: 98;
+    top: -20vh;
+    left: 40%;
+    width: 35vw;
+    z-index: 99;
 }
 
 .parallax-5 img {
@@ -1114,7 +1115,7 @@ strong {
     color: #fff;
     font-weight: 500;
     padding: 0.2em 0.2em;
-    background-color: #2d3f58;
+    background-color: #1a273a;
     background-size: initial;
 }
 
