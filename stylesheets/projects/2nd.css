@@ -111,7 +111,7 @@
 }
 
 .parallax-8 img {
-    top: 0;
+    top: -12vh;
     left: -4vw;
     width: 30vw;
 }
@@ -302,6 +302,7 @@
 
 
     .parallax-8 img {
+        top: 0vh;
         padding: 0% 0% 0% 18%;
         width: 87%;
     }
@@ -637,7 +638,7 @@ body, .body {
     }
 
     .parallax-8 img {
-        top: 0;
+        top: -4vh;
         width: 48vw;
         left: 2%;
         vertical-align: top;
@@ -747,7 +748,7 @@ body, .body {
     }
 
     .parallax-8 img {
-        top: 0;
+        top: -12vh;
         left: -2vw;
         width: 28vw;
         vertical-align: top;
@@ -877,7 +878,7 @@ body, .body {
 }
 
 .parallax-8 img {
-    top: 0vh;
+    top: -12vh;
     left: -2vw;
     width: 28vw;
     vertical-align: top;
