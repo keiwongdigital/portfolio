@@ -68,9 +68,15 @@
 }
 
 .parallax-2 img {
-    top: 190px;
-    left: -20px;
-    width: 30vw;
+    top: 30vh;
+    left: -1.5vw;
+    width: 40vw;
+}
+
+.parallax-9 img {
+    top: 30vh;
+    left: 10vw;
+    width: 40vw;
 }
 
 .parallax-3 p {
@@ -85,9 +91,9 @@
 }
 
 .parallax-4 {
-    top: -20vh;
-    left: 40%;
-    width: 35vw;
+    top: 8vh;
+    left: 10vw;
+    width: 48vw;
     z-index: 99;
 }
 
@@ -105,9 +111,9 @@
 }
 
 .parallax-7 img {
-    top: 26vh;
-    left: -160px;
-    width: 30vw;
+    top: 10vh;
+    left: -8vw;
+    width: 52vw;
 }
 
 .parallax-8 img {
@@ -274,9 +280,9 @@
     }
 
 .parallax-4 {
-    top: -20vh;
-    left: 40%;
-    width: 35vw;
+    top: 8vh;
+    left: 8vw;
+    width: 52vw;
     z-index: 99;
 }
 
@@ -295,9 +301,9 @@
     }
     
     .parallax-7 img {
-        top: -6vh;
-        left: 14vw;
-        width: 87%;
+        top: 0vh;
+        left: 0vw;
+        width: 100%;
     }
 
 
@@ -599,21 +605,27 @@ body, .body {
     }
     
     .parallax-2 img {
-        top: 0;
-        left: 0;
-        width: 100%;
+        top: 20vh;
+        width: 30vw;
+        left: -3vw;
+    }
+
+    .parallax-9 img {
+        left: -8vw;
+        width: 64vw;
+    /* background-color: black; */
     }
 
     .parallax-6 img {
     top: 0;
-    left: -80;
+    left: -80px;
     width: 42vw;
     }
 
     .parallax-7 img {
-    top: 24vh;
-    left: -80px;
-    width: 26vw;
+    top: 4vh;
+    left: 0vw;
+    width: 52vw;
     }
 
     .parallax-3 p {
@@ -623,10 +635,12 @@ body, .body {
     /* background-color: black; */
     }
 
+
+
 .parallax-4 {
-    top: -20vh;
-    left: 40%;
-    width: 35vw;
+    top: 8vh;
+    left: 12vw;
+    width: 48vw;
     z-index: 99;
 }
 
@@ -645,11 +659,7 @@ body, .body {
         align-items: center;
     }
 
-    .parallax-copy p {
-    top: 0vh;
-    left: 2vw;
-    width: 26vw;
-    }
+
 
     .parallax-9 img {
     top: -3vh;
@@ -732,6 +742,7 @@ body, .body {
     padding-left: 0;
     width: 20vw;
     }
+    
     .parallax-6 img {
     top: 0;
     left: 0;
@@ -739,12 +750,12 @@ body, .body {
     }
 
     .parallax-7 img {
-    top: 12vh;
-    width: 32vw;
+    top: 2vh;
+    width: 80vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30vw;
+
     }
 
     .parallax-8 img {
@@ -754,6 +765,11 @@ body, .body {
         vertical-align: top;
         align-self: flex-start;
     }
+
+    .parallax-9 img {
+    left: -1.5vw;
+    width: 40vw;
+}
 
     .copy-width-70 {
     width: 80%;
@@ -865,11 +881,18 @@ body, .body {
 }
 
 .parallax-4 {
-    top: -20vh;
-    left: 40%;
-    width: 35vw;
+    top: 10vh;
+    left: 2vw;
+    width: 48vw;
     z-index: 99;
 }
+
+.parallax-7 img {
+    top: 4vh;
+    left: -6vw;
+    width: 46vw;
+}
+
 .parallax-5 img {
   top: -6vh;
   left: 4vw;
@@ -899,9 +922,15 @@ body, .body {
 
     .parallax-9 img {
     top: 0vh;
-    left: -2vw;
-    width: 40vw;
+    left: 4vw;
+    width: 48vw;
     vertical-align: top;
+}
+
+.parallax-2 img {
+    top: 36vh;
+    left: 0vw;
+    width: 34vw;
 }
 
 }
@@ -968,9 +997,9 @@ body, .body {
 }
 
 .parallax-4 {
-    top: -20vh;
-    left: 40%;
-    width: 35vw;
+    top: 8vh;
+    left: 2vw;
+    width: 50vw;
     z-index: 99;
 }
 
@@ -1099,12 +1128,12 @@ uncomment this part if you haven't added this code anywhere else
     }
 
     .parallax-7 img {
-    top: -6vh;
+    top: 0vh;
     left: 0px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 80vw;
     }
 }
 
