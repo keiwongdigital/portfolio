@@ -882,14 +882,14 @@ body, .body {
 
 .parallax-4 {
     top: 10vh;
-    left: 2vw;
-    width: 48vw;
+    left: 9.3vw;
+    width: 43.5vw;
     z-index: 99;
 }
 
 .parallax-7 img {
-    top: 4vh;
-    left: -6vw;
+    top: -8vh;
+    left: 2vw;
     width: 46vw;
 }
 
