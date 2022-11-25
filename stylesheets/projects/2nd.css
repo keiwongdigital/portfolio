@@ -654,8 +654,8 @@ body, .body {
 
 .parallax-4 {
     top: 8vh;
-    left: 12vw;
-    width: 48vw;
+    left: 6vw;
+    width: 46vw;
     z-index: 99;
 }
 
@@ -772,8 +772,8 @@ body, .body {
     }
 
     .parallax-7 img {
-    top: 2vh;
-    width: 46vw;
+    top: -8vh;
+    width: 44vw;
     left: 2vw;
     display: block;
     margin-left: auto;
