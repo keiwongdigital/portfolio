@@ -620,14 +620,14 @@ body, .body {
     }
     
     .parallax-2 img {
-        top: 20vh;
-        width: 30vw;
-        left: -3vw;
+        top: 18vh;
+        width: 29vw;
+        left: -5vw;
     }
 
     .parallax-9 img {
         left: -8vw;
-        width: 64vw;
+        width: 68vw;
     /* background-color: black; */
     }
 
@@ -682,13 +682,12 @@ body, .body {
     }
 
 
-
     .parallax-9 img {
     top: -3vh;
     left: -3vw;
-    width: 38vw;
+    width: 42vw;
     vertical-align: top;
-}
+    }
 
 
     .copy-width-col-copy-l-copy {
@@ -790,8 +789,14 @@ body, .body {
     }
 
     .parallax-9 img {
-    left: -1.5vw;
-    width: 40vw;
+    left: 2vw;
+    width: 49vw;
+    }
+
+    .parallax-2 img {
+    top: 31vh;
+    left: 0vw;
+    width: 33vw;
 }
 
     .copy-width-70 {
@@ -952,15 +957,15 @@ body, .body {
 
     .parallax-9 img {
     top: 0vh;
-    left: 4vw;
-    width: 48vw;
+    left: 2vw;
+    width: 52vw;
     vertical-align: top;
 }
 
 .parallax-2 img {
-    top: 36vh;
+    top: 42vh;
     left: 0vw;
-    width: 34vw;
+    width: 33vw;
 }
 
 }
