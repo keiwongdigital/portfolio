@@ -302,9 +302,9 @@
 
 
     .parallax-5 img {
-        top: 22%;
-        left: -54vw;
-        width: 42vw;
+        top: -21vh;
+        left: -8vw;
+        width: 60vw;
         z-index: 99;
       /*display: none;*/
     }
@@ -666,12 +666,12 @@ body, .body {
     z-index: 99;
 }
 
-    .parallax-5 img {
-    top: -8vh;
-    left: -18%;
-    width: 40vw;
+.parallax-5 img {
+    top: -11vh;
+    left: 6vw;
+    width: 32vw;
     z-index: 99;
-    }
+}
 
     .parallax-8 img {
         top: -4vh;
@@ -929,9 +929,9 @@ body, .body {
 }
 
 .parallax-5 img {
-  top: -6vh;
-  left: 4vw;
-  width: 35vw;
+  top: -7vh;
+  left: 36vw;
+  width: 34vw;
   z-index: 99;
 }
 
@@ -1046,10 +1046,10 @@ body, .body {
 }
 
 .parallax-5 img {
-    top: -6vh;
-    left: 3vw;
-    width: 35vw;
-    z-index: 99;
+  top: -7vh;
+  left: 36vw;
+  width: 34vw;
+  z-index: 99;
 }
 
 .copy-width-col-copy-lr {
