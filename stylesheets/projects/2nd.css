@@ -62,9 +62,9 @@
 }
 
 .parallax-1 img {
-    top: 0;
-    left: -2vw;
-    width: 38vw;
+    top: 10vh;
+    left: -8vw;
+    width: 52vw;
 }
 
 .parallax-2 img {
@@ -264,9 +264,12 @@
     }
 
     .parallax-1 img {
-        top: 0;
-        left: 0;
-        width: 100%;
+        top: -12vh;
+        left: 0vw;
+        width: 83%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .parallax-2 img {
@@ -619,7 +622,9 @@ body, .body {
     }
 
     .parallax-1 img {
-        width: 55vw;
+    top: 4vh;
+    left: 0vw;
+    width: 52vw;
     }
     
     .parallax-2 img {
@@ -1178,6 +1183,15 @@ uncomment this part if you haven't added this code anywhere else
     margin-left: auto;
     margin-right: auto;
     width: 80vw;
+    }
+
+    .parallax-1 img {
+    top: 0vh;
+    left: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
     }
 }
 
