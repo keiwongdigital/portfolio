@@ -623,8 +623,8 @@ body, .body {
     }
     
     .parallax-2 img {
-        top: 18vh;
-        width: 29vw;
+        top: 21vh;
+        width: 31vw;
         left: -5vw;
     }
 
@@ -670,9 +670,9 @@ body, .body {
 }
 
 .parallax-5 img {
-    top: -11vh;
+    top: -14vh;
     left: 6vw;
-    width: 32vw;
+    width: 34vw;
     z-index: 99;
 }
 
@@ -687,8 +687,8 @@ body, .body {
 
     .parallax-9 img {
     top: -3vh;
-    left: -3vw;
-    width: 42vw;
+    left: -2vw;
+    width: 48vw;
     vertical-align: top;
     }
 
