@@ -288,15 +288,15 @@
 
 .parallax-4 {
     top: 8vh;
-    left: 8vw;
-    width: 52vw;
+    left: 12vw;
+    width: 65vw;
     z-index: 99;
 }
 
 .parallax-10 {
     top: 0vh;
-    left: 17vw;
-    width: 52vw;
+    left: 18vw;
+    width: 56vw;
     z-index: 99;
 }
 
@@ -316,9 +316,12 @@
     }
     
     .parallax-7 img {
-        top: 0vh;
+        top: -12vh;
         left: 0vw;
-        width: 100%;
+        width: 83%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 
@@ -777,7 +780,6 @@ body, .body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
     }
 
     .parallax-8 img {
