@@ -18,9 +18,9 @@
     padding: 5px;
   }
 
-  .column img {
-    width: 100%;
-  }
+  /*.column img {
+    width: 100% !important;
+  }*/
 }
 
 /* -- Project Navigation -- */

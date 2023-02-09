@@ -236,6 +236,12 @@
       100%{background-position: 0% 50%}
   }
 
+    .svg_icon {
+        width: 40%;
+        display: block;
+        margin: auto;
+    }
+
 
 
 
@@ -414,6 +420,12 @@
 
     .unit {
     margin-right: 0px;
+    }
+
+    .svg_icon {
+        width: 20vw;
+        display: block;
+        margin: auto;
     }
 }
 
