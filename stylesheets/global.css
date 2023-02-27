@@ -431,11 +431,11 @@ li {
 
 .text-span-5 {
     font-family: 'Playfair Display', serif;
-    font-size: 64px;
-    font-size: calc(64px + (58px - 52) * ((100vw - 320px) / (2560 - 320)));
+    font-size: 74px;
+    font-size: calc(72px + (68px - 60) * ((100vw - 320px) / (2560 - 320)));
     font-weight: 800;
     letter-spacing: -5px;
-    line-height: 50pt;
+    line-height: 46pt;
 }
 
 
