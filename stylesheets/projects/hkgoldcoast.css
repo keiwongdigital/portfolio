@@ -960,6 +960,13 @@ body, .body {
   z-index: 100;
 }
 
+.parallax-5 {
+  top: 1vh;
+  left: 14%;
+  width: 32vw;
+  z-index: 100;
+}
+
 .parallax-2 {
   top: 1vh;
   left: -6%;
