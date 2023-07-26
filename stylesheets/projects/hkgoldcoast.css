@@ -69,13 +69,13 @@
 .parallax-2 img {
     top: 190px;
     left: -20px;
-    width: 30vw;
+    width: 32vw;
 }
 
 .parallax-2 {
     top: 190px;
     left: -20px;
-    width: 30vw;
+    width: 32vw;
 }
 
 .parallax-3 p {
@@ -107,14 +107,14 @@
 .parallax-2 img {
     top: 5vh;
     left: 30%;
-    width: 30vw;
+    width: 32vw;
     z-index: 100;
 }
 
 .parallax-2 {
     top: 5vh;
     left: 30%;
-    width: 30vw;
+    width: 32vw;
     z-index: 100;
 }
 
@@ -932,6 +932,13 @@ body, .body {
     width: 50vw;
 }
 
+.parallax-2 {
+  top: 1vh;
+  left: -6%;
+  width: 32vw;
+  z-index: 100;
+}
+
 .parallax-4 {
     top: -10vh;
     left: 62%;
@@ -967,12 +974,7 @@ body, .body {
   z-index: 100;
 }
 
-.parallax-2 {
-  top: 1vh;
-  left: -6%;
-  width: 30vw;
-  z-index: 100;
-}
+
 
     .carousel-cell-illus {
         display: flex;
