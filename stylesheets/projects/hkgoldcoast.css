@@ -105,6 +105,13 @@
     z-index: 100;
 }
 
+.parallax-5 {
+    top: 5vh;
+    left: 8%;
+    width: 42vw;
+    z-index: 100;
+}
+
 .parallax-6 img {
     top: 0;
     left: 0;
