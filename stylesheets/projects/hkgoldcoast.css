@@ -67,13 +67,13 @@
 }
 
 .parallax-2 img {
-    top: 190px;
-    left: -20px;
-    width: 32vw;
+    top: 0vh;
+    left: -18px;
+    width: 35vw;
 }
 
 .parallax-2 {
-    top: 190px;
+    top: 0vh;
     left: -20px;
     width: 32vw;
 }
@@ -105,16 +105,16 @@
 }
 
 .parallax-2 img {
-    top: 5vh;
-    left: 30%;
-    width: 32vw;
+    top: 0vh;
+    left: 28%;
+    width: 35vw;
     z-index: 100;
 }
 
 .parallax-2 {
-    top: 5vh;
-    left: 30%;
-    width: 32vw;
+    top: 0vh;
+    left: 28%;
+    width: 35vw;
     z-index: 100;
 }
 
@@ -680,9 +680,9 @@ body, .body {
     }
 
     .parallax-2 {
-      top: 1vh;
-      left: -2%;
-      width: 32vw;
+      top: 0vh;
+      left: -1%;
+      width: 34vw;
       z-index: 100;
     }
 
@@ -721,14 +721,14 @@ body, .body {
     }
 
     .parallax-5 img {
-      top: -12vh;
+      top: -4vh;
       left: 5%;
       width: 32vw;
       z-index: 100;
     }
 
     .parallax-5 {
-      top: 0vh;
+      top: -4vh;
       left: 5%;
       width: 30vw;
       z-index: 100;
@@ -933,9 +933,16 @@ body, .body {
 }
 
 .parallax-2 {
-  top: 1vh;
-  left: -6%;
-  width: 32vw;
+  top: 0vh;
+  left: -5%;
+  width: 35vw;
+  z-index: 100;
+}
+
+.parallax-2 img {
+  top: 0vh;
+  left: 20%;
+  width: 38vw;
   z-index: 100;
 }
 
@@ -961,14 +968,14 @@ body, .body {
 }
 
 .parallax-5 img {
-  top: 1vh;
+  top: 0vh;
   left: 16%;
   width: 28vw;
   z-index: 100;
 }
 
 .parallax-5 {
-  top: 1vh;
+  top: 0vh;
   left: 14%;
   width: 32vw;
   z-index: 100;
@@ -1076,16 +1083,30 @@ body, .body {
 }
 
 .parallax-5 img {
-  top: -2vh;
+  top: 0vh;
+  left: 60%;
+  width: 22vw;
+  z-index: 100;
+}
+
+.parallax-5 {
+  top: 0vh;
   left: 60%;
   width: 22vw;
   z-index: 100;
 }
 
 .parallax-2 {
-  top: 1vh;
-  left: 4%;
-  width: 32vw;
+  top: 0vh;
+  left: 3%;
+  width: 35vw;
+  z-index: 100;
+}
+
+.parallax-2 img {
+  top: 0vh;
+  left: 3%;
+  width: 35vw;
   z-index: 100;
 }
 
