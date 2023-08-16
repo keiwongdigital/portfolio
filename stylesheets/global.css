@@ -152,10 +152,10 @@ h5, .h5 {
 h6, .h6 {
   font-family: 'Raleway','Arimo', sans-serif;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 5800;
   font-size: calc(16px + (19 - 16) * ((100vw - 320px) / (2560 - 320)));
   letter-spacing: 1.25px;
-  line-height: 28px;
+  line-height: 30px;
 }
 
 .statement {
