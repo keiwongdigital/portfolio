@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    /*max-height: 80vh; */
+    /*max-height: 80vh;*/
 }
 .hero img {
     width: auto;
@@ -22,13 +22,12 @@
     padding: 15vh 0;
 }
 
+.point-title {
+    color: #333333;
+}
 
-.site-video {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background-color:
-    padding: 10vh 0;
+.point-title span {
+    color: #333;
 }
 
 
@@ -61,22 +60,41 @@
     align-items: center;
 }
 
+.parallax-0 img {
+    top: -4vh;
+    left: 0;
+    width: 50vw;
+}
+
 .parallax-1 img {
     top: 0;
-    left: -2vw;
+    left: 0;
     width: 50vw;
 }
 
 .parallax-2 img {
-    top: 190px;
+    top: 0vh;
+    left: -18px;
+    width: 35vw;
+}
+
+.parallax-2 {
+    top: 0vh;
     left: -20px;
-    width: 30vw;
+    width: 32vw;
 }
 
 .parallax-3 p {
-    top: 0;
-    left: -1vw;
-    width: 31vw;
+    /*top: 150px;*/
+    left: -2vw;
+    width: 26vw;
+    /*background-color: black;*/
+}
+
+.parallax-3-text p {
+    top: 0px;
+    left: -2vw;
+    width: 26vw;
     /*background-color: black;*/
 }
 
@@ -91,12 +109,21 @@
     z-index: 99;
 }
 
-.parallax-5 img {
-    top: 5vh;
-    left: 30%;
-    width: 30vw;
+
+.parallax-2 img {
+    top: 0vh;
+    left: 28%;
+    width: 35vw;
     z-index: 100;
 }
+
+.parallax-2 {
+    top: 0vh;
+    left: 28%;
+    width: 35vw;
+    z-index: 100;
+}
+
 
 .parallax-6 img {
     top: 0;
@@ -105,22 +132,9 @@
 }
 
 .parallax-7 img {
-    top: 26vh;
-    left: -160px;
+    top: 35vh;
+    left: -140px;
     width: 30vw;
-}
-
-.parallax-8 img {
-    top: 0;
-    left: -4vw;
-    width: 30vw;
-}
-
-.parallax-copy p {
-    top: 0;
-    left: -1vw;
-    width: 30vw;
-    /*background-color: black;*/
 }
 
 
@@ -143,12 +157,43 @@
     min-height: 100%;
     cursor: move;
   }
+
+  .carousel-cell-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    min-height: 100%;
+    cursor: move;
+  }
+
+  .carousel-cell-3 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    min-height: 100%;
+    cursor: move;
+  }
     
   .carousel-cell img {
     margin-right: 5vw;
     margin-left: 9vw;
     min-height: 100%;
     width: 50vw;
+  }
+
+  .carousel-cell-illus {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    min-height: 100%;
+    cursor: move;
+  }
+    
+  .carousel-cell-illus img {
+    margin-right: 0vw;
+    margin-left: 0vw;
+    min-height: 100%;
+    width: 100vw;
   }
 
   .carousel-cell-45vw {
@@ -236,12 +281,6 @@
       100%{background-position: 0% 50%}
   }
 
-    .svg_icon {
-        width: 32%;
-        display: block;
-        margin: auto;
-    }
-
 
 
 
@@ -251,6 +290,12 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+    }
+
+    .parallax-0 img {
+        top: -11vh;
+        left: 0;
+        width: 100%;
     }
 
     .parallax-1 img {
@@ -265,31 +310,53 @@
         width: 100%;
     }
 
-    .parallax-3 p {
+    .parallax-2 {
         top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .parallax-3 p {
+        top: 3vh;
+        left: 0;
+        width: 100%;
+    } 
+
+    .parallax-3-text p {
+        top: 3vh;
         left: 0;
         width: 100%;
     } 
 
     .parallax-video-inner {
-        display: -webkit-box;
+        display: flex;
         align-items: center;
     }
 
     .parallax-4 {
-        top: -10vh;
-        left: 20vw;
-        width: 50vw;
+        top: -8vh;
+        width: 65vw;
         z-index: 98;
+        left: 60%;
+    }
+
+    /*.parallax-2 img {
+      display: none;
+    }
+    */
+
+    .parallax-2 {
+    width: 100%;
     }
 
     .parallax-5 img {
         top: 22%;
-        left: -54vw;
+        left: -12vw;
         width: 42vw;
         z-index: 99;
       /*display: none;*/
     }
+
 
     .parallax-6 img {
         top: 0;
@@ -298,29 +365,10 @@
     }
     
     .parallax-7 img {
-        top: -6vh;
-        left: 14vw;
-        width: 87%;
+        top: -8vh;
+        left: 16vw;
+        width: 70%;
     }
-
-
-    .parallax-8 img {
-        padding: 0% 0% 0% 18%;
-        width: 87%;
-    }
-
-    .parallax-9 img {
-        top: 0;
-        left: 0;
-        width: 100%;
-    }
-
-    .parallax-copy p {
-        top: 0;
-        left: 0;
-        width: 100%;
-    } 
-    
 
     .team {
         display: flex;
@@ -333,7 +381,7 @@
     .team .col {
         padding: 3vh 7vw;
         padding-left: 0;
-        width: 100%;
+        width: 85%;
     }
 
     .team .col-copy {
@@ -382,6 +430,22 @@
         width: 93vw;
     }
 
+    .carousel-cell-illus {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        min-height: 100%;
+        cursor: move;
+    }
+    
+    .carousel-cell-illus img {
+        margin-right: 0vw;
+        margin-left: 0vw;
+        max-width: 100vw;
+        width: 100vw;
+    }
+
+
     .copy-width-col-copy-l-copy {
     padding: 0vh 0vw;
     padding-left: 0;
@@ -400,12 +464,6 @@
     width: 100%;
     }
 
-    .copy-width-large-col-copy-l-copy img{
-    padding: 0vh 0vw;
-    padding-left: 0;
-    width: 50%;
-    }
-
     .copy-width-large-col-copy-r-copy {
     padding: 0vh 0vw;
     padding-left: 0;
@@ -418,29 +476,29 @@
     width: 100%;
     }
 
+    .copy-width-col-copy-l-half img {
+    width: 80%;
+    }
+
     .copy-width-col-copy-r-half {
     padding: 2vh 0vw;
     padding-left: 0;
     width: 100%;
     }
 
-    .unit {
-    margin-right: 0px;
+    .copy-width-col-copy-r-half img {
+    width: 80%;
     }
 
-    .svg_icon {
-        width: 21vw;
-        display: block;
-        margin: auto;
+    .unit {
+    margin-right: 30vw;
     }
 }
 
 
 body {
-    background-color: #191b1c;
-    color: #eaeaea;
+  color: #0b0b0b;
 }
-
 /*
 body, .body {
   font-family: "raleway","Merriweather", sans-serif;
@@ -459,17 +517,17 @@ body, .body {
 
 #contact-button {
   margin-right: 7vw;
-  color: #e1e1e1;
+  /*color: #e1e1e1;*/
 }
 
 /* -- Landing Colors -- */
 
 .underlined:before {
-  background-color: rgba(255,255,255, 0.2);
+  background-color: rgba(0,0,0, 0.1);
 }
 
 .underlined:after {
-  background-color: rgba(255,255,255, 0.5);
+  background-color: rgba(0,0,0, 0.8);
 }
 
 .selected:before {
@@ -531,7 +589,7 @@ body, .body {
 
 
 
-@media (min-width: 769px) and (max-width: 1399px) {
+@media (min-width: 768px) and (max-width: 1399px) {
 
 
     .team {
@@ -592,17 +650,45 @@ body, .body {
         max-width: 70vw;
     }
 
+
+    .carousel-cell-illus {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        min-height: 100%;
+        cursor: move;
+    }
+    
+    .carousel-cell-illus img {
+        margin-right: 0vw;
+        margin-left: 0vw;
+        min-width: 80vw;
+        max-width: 80vw;
+        left: -10vw;
+    }
+
+
     .parallax-video-inner {
         display: flex;
         align-items: center;
-
+        max-height: 480px;
     }
 
     .parallax-section {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+        display: flex;
+        align-items: flex-start;
     }
+
+
+    .parallax-0 img {
+        top: -13vh;
+        left: 8vw;
+        width: 48vw;
+    }
+    
 
     .parallax-1 img {
         top: -13vh;
@@ -615,6 +701,14 @@ body, .body {
         left: 0;
         width: 100%;
     }
+
+    .parallax-2 {
+      top: 0vh;
+      left: -1%;
+      width: 34vw;
+      z-index: 100;
+    }
+
 
     .parallax-6 img {
     top: 0;
@@ -629,67 +723,42 @@ body, .body {
     }
 
     .parallax-3 p {
-    top: 3vh;
-    left: 3vw;
-    width: 36vw;
+    /* top: 10px; */
+    left: -2vw;
+    width: 32.5vw;
     /* background-color: black; */
     }
 
-    .parallax-4 {
-        top: -10vh;
-        width: 30vw;
-        z-index: 98;
-        left: 60%;
-    }
-
-    .parallax-5 img {
-      top: -4vh;
-      left: 5%;
-      width: 32vw;
-      z-index: 100;
-    }
-
-    .parallax-5 {
-      top: -4vh;
-      left: 5%;
-      width: 30vw;
-      z-index: 100;
-    }
-
-
-    .parallax-8 img {
-        top: 0;
-        left: -2vw;
-        width: 28vw;
-        vertical-align: top;
-        align-self: flex-start;
-    }
-
-    .parallax-copy p {
-    top: 0vh;
-    left: 2vw;
-    width: 26vw;
-    }
-
-    .parallax-9 img {
+    .parallax-3-text p {
     top: -3vh;
-    left: -3vw;
-    width: 38vw;
-    vertical-align: top;
+    left: -2vw;
+    width: 32.5vw;
+    /* background-color: black; */
+    }
+
+.parallax-4 {
+    top: -10vh;
+    width: 25vw;
+    z-index: 98;
 }
 
+    .parallax-5 img {
+    top: -8vh;
+    left: -1%;
+    width: 40vw;
+    z-index: 99;
+    }
 
     .copy-width-col-copy-l-copy {
-    padding: 0vh 0vw;
+    padding: 2vh 0vw;
     padding-left: 0;
     width: 17vw;
-    margin: 0 16px 0 0;
     }
 
     .copy-width-col-copy-r-copy {
-    padding: 0vh 0vw;
+    padding: 2vh 0vw;
     padding-left: 0;
-    width: 40vw;
+    width: 36vw;
     }
 
 
@@ -708,7 +777,7 @@ body, .body {
     .copy-width-large-col-copy-l-copy {
     padding: 2vh 0vw;
     padding-left: 0;
-    width: 15vw;
+    width: 18vw;
     }
 
     .copy-width-large-col-copy-r-copy {
@@ -717,6 +786,9 @@ body, .body {
     width: 44vw;
     }
 
+    .unit {
+    margin-right: 10vw;
+    }
 
 }
 
@@ -735,7 +807,6 @@ body, .body {
     }
 }
 
-
 @media (min-width: 1024px) and (max-width: 1399px) {
     .copy-width-col-copy-l-half {
     padding: 2vh 0vw;
@@ -751,26 +822,20 @@ body, .body {
     .parallax-6 img {
     top: 0;
     left: 0;
-    width: 38vw;
+    width: 40vw;
     }
 
     .parallax-7 img {
-    top: 12vh;
-    width: 32vw;
+    top: 34vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30vw;
+    width: 28vw;
     }
 
-    .parallax-8 img {
-        top: 0;
-        left: -2vw;
-        width: 28vw;
-        vertical-align: top;
-        align-self: flex-start;
+    .unit {
+    margin-right: 0px;
     }
-    
 }
 
 
@@ -828,15 +893,15 @@ body, .body {
 }
 
 .copy-width-col-copy-l-copy {
-  padding: 1vh 0vw;
+  padding: 3vh 0vw;
   padding-left: 0;
   width: 15vw;
 }
 
 .copy-width-col-copy-r-copy {
-  padding: 1vh 0vw;
+  padding: 3vh 0vw;
   padding-left: 0;
-  width: 40vw;
+  width: 38vw;
 }
 
 .copy-width-large-col-copy-l-copy {
@@ -844,7 +909,6 @@ body, .body {
   padding-left: 0;
   width: 16vw;
 }
-
 
 .copy-width-large-col-copy-r-copy {
   padding: 3vh 1vw;
@@ -876,10 +940,53 @@ body, .body {
     max-height: 650px;
 }
 
+.parallax-0 img {
+    top: -18vh;
+    left: 36vw;
+    width: 47vw;
+}
+
+
+.parallax-1 img {
+    top: -15vh;
+    left: -1vw;
+    width: 50vw;
+}
+
+
+
+.parallax-2 {
+  top: 0vh;
+  left: -5%;
+  width: 35vw;
+  z-index: 100;
+}
+
+.parallax-2 img {
+  top: 0vh;
+  left: 20%;
+  width: 38vw;
+  z-index: 100;
+}
+
 .parallax-4 {
     top: -10vh;
     width: 25vw;
     z-index: 98;
+}
+
+.parallax-3 p {
+    /*top: 150px;*/
+    left: -2vw;
+    width: 28vw;
+    /*background-color: black;*/
+}
+
+.parallax-3-text p {
+    top: -28vh;
+    left: -2vw;
+    width: 28vw;
+    /*background-color: black;*/
 }
 
 .parallax-5 img {
@@ -889,32 +996,24 @@ body, .body {
   z-index: 99;
 }
 
-.parallax-8 img {
-    top: 0vh;
-    left: -2vw;
-    width: 28vw;
-    vertical-align: top;
-}
 
-    .parallax-3 p {
-    top: 0;
-    left: 4vw;
-    width: 31vw;
-    /*background-color: black;*/
-}
 
-    .parallax-copy p {
-    top: 0vh;
-    left: 3vw;
-    width: 22vw;
-}
+    .carousel-cell-illus {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        min-height: 100%;
+        cursor: move;
+    }
+    
+    .carousel-cell-illus img {
+        margin-right: 0vw;
+        margin-left: 0vw;
+        min-width: 64vw;
+        max-width: 64vw;
+        left: -18vw;
+    }
 
-    .parallax-9 img {
-    top: 0vh;
-    left: -2vw;
-    width: 40vw;
-    vertical-align: top;
-}
 
 }
 
@@ -923,12 +1022,24 @@ body, .body {
 @media (min-width: 1679px) {
 
 .team {
-   display: flex;
-   justify-content: space-between;
-   align-items: flex-start;
-   flex-direction: row;
-   flex-wrap: wrap;
-   align-items: stretch;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* align-items: baseline; */
+}
+
+.copy-width-large-col-copy-l-copy {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 18vw;
+}
+
+.copy-width-large-col-copy-r-copy {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 44vw;
 }
 
 .col-outer {
@@ -981,8 +1092,9 @@ body, .body {
 
 .parallax-4 {
     top: -10vh;
-    width: 25vw;
-    z-index: 98;
+    left: 65%;
+    width: 24vw;
+    z-index: 99;
 }
 
 .parallax-5 img {
@@ -990,6 +1102,27 @@ body, .body {
     left: 3vw;
     width: 35vw;
     z-index: 99;
+}
+
+.parallax-5 {
+  top: 0vh;
+  left: 60%;
+  width: 22vw;
+  z-index: 100;
+}
+
+.parallax-2 {
+  top: 0vh;
+  left: 3%;
+  width: 35vw;
+  z-index: 100;
+}
+
+.parallax-2 img {
+  top: 0vh;
+  left: 3%;
+  width: 35vw;
+  z-index: 100;
 }
 
 .copy-width-col-copy-lr {
@@ -1000,45 +1133,59 @@ body, .body {
     flex-wrap: nowrap;
 }
 
-.copy-width-col-copy-l-copy {
-    padding: 3vh 0vw;
+.copy-width-col-copy-l-half {
+    padding: 2vh 0vw;
     padding-left: 0;
-    width: 15vw;
+    width: 20vw;
+}
+
+.copy-width-col-copy-r-half {
+    padding: 2vh 0vw;
+    padding-left: 0;
+    width: 20vw;
+}
+
+
+.copy-width-col-copy-l-copy {
+  padding: 3vh 0vw;
+  padding-left: 0;
+  width: 15vw;
 }
 
 .copy-width-col-copy-r-copy {
-    padding: 3vh 0vw;
-    padding-left: 0;
-    width: 40vw;
-}
-
-.copy-width-large-col-copy-lr {
-    padding: 4vh 8vw;
-    width: 78vw;
-}
-
-.copy-width-large-col-copy-l-copy {
-    padding: 2vh 0vw;
-    padding-left: 0;
-    width: 18vw;
+  padding: 3vh 0vw;
+  padding-left: 0;
+  width: 28vw;
 }
 
 
-.copy-width-large-col-copy-r-copy {
-    padding: 2vh 0vw;
-    padding-left: 0;
-    width: 44vw;
-}
+    .carousel-cell-illus {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        min-height: 100%;
+        cursor: move;
+    }
+    
+    .carousel-cell-illus img {
+        margin-right: 0vw;
+        margin-left: 0vw;
+        min-width: 52vw;
+        max-width: 52vw;
+        left: -23.5vw;
+    }
 
-}
+    }
 
 
-
-.full-width-umg-color {
+.full-width-jy-color {
   width: 100%;
-  background-color: #191b1c;
+  background-color: #f5f5f5;
 }
 
+.jy-color {
+  color: #d29001;
+}
 
 
 /* padding-bottom and top for image */
@@ -1110,7 +1257,7 @@ uncomment this part if you haven't added this code anywhere else
     }
 
     .parallax-7 img {
-    top: -6vh;
+    top: 0vh;
     left: 0px;
     display: block;
     margin-left: auto;
@@ -1119,16 +1266,26 @@ uncomment this part if you haven't added this code anywhere else
     }
 }
 
-.rollcase-color {
-  color: #ff9000;
-}
 
 strong {
-    color: #fff;
+    color: #111;
     font-weight: 500;
     padding: 0.2em 0.2em;
-    background-color: #bc7f24;
-    background-size: initial;
+    background-color: #e6bea6;
+}
+
+
+.parallax-copy-shw {
+  text-shadow:#fff -2px -2px 10px;
+}
+
+
+.jy-text-color {
+  color: #222;
+}
+
+.jy-text-gray-color {
+  color: #fff;
 }
 
 
