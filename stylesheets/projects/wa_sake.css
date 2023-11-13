@@ -350,9 +350,9 @@
     }
 
     .parallax-5 img {
-        top: 22%;
-        left: -12vw;
-        width: 42vw;
+        top: 21%;
+        left: -14vw;
+        width: 49vw;
         z-index: 99;
       /*display: none;*/
     }
@@ -744,7 +744,7 @@ body, .body {
 
     .parallax-5 img {
     top: -8vh;
-    left: -1%;
+    left: 2%;
     width: 40vw;
     z-index: 99;
     }
@@ -991,7 +991,7 @@ body, .body {
 
 .parallax-5 img {
   top: -6vh;
-  left: 4vw;
+  left: 6vw;
   width: 35vw;
   z-index: 99;
 }
