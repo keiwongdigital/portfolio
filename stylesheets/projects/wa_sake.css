@@ -260,6 +260,10 @@
     line-height: 18px;
   }
 
+.copy-width-70 {
+    width: 70%;
+}
+
 
   .green-bar {
     background: linear-gradient(to right, #4AD215, #BBFC5C);
@@ -490,6 +494,11 @@
     width: 80%;
     }
 
+    .copy-width-70 {
+    width: 100%;
+    }
+
+
     .unit {
     margin-right: 30vw;
     }
@@ -712,8 +721,8 @@ body, .body {
 
     .parallax-6 img {
     top: 0;
-    left: -80;
-    width: 42vw;
+    left: -80px;
+    width: 41vw;
     }
 
     .parallax-7 img {
@@ -821,7 +830,7 @@ body, .body {
     }
     .parallax-6 img {
     top: 0;
-    left: 0;
+    left: -3vw;
     width: 40vw;
     }
 
