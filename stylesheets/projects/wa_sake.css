@@ -671,8 +671,8 @@ body, .body {
     .carousel-cell-illus img {
         margin-right: 0vw;
         margin-left: 0vw;
-        min-width: 80vw;
-        max-width: 80vw;
+        min-width: 63vw;
+        max-width: 63vw;
         left: -10vw;
     }
 
@@ -1018,8 +1018,8 @@ body, .body {
     .carousel-cell-illus img {
         margin-right: 0vw;
         margin-left: 0vw;
-        min-width: 64vw;
-        max-width: 64vw;
+        min-width: 58vw;
+        max-width: 58vw;
         left: -18vw;
     }
 
@@ -1179,8 +1179,8 @@ body, .body {
     .carousel-cell-illus img {
         margin-right: 0vw;
         margin-left: 0vw;
-        min-width: 52vw;
-        max-width: 52vw;
+        min-width: 48vw;
+        max-width: 48vw;
         left: -23.5vw;
     }
 
