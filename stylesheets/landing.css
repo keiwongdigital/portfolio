@@ -9,7 +9,7 @@
 
 #msg {
   max-width: 72%;
-  line-height: 6vh;
+  line-height: 8vh;
   top: 0;
   padding-top: 2vh;
   height: 38vh;
@@ -146,8 +146,9 @@
 
   #msg {
   width: 80%;
-  padding-top: 5vh;
-  height: 24vh;
+  padding-top: 4vh;
+  height: 26vh;
+  line-height: 2vh;
   }
 
   #info {
