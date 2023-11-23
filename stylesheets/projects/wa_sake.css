@@ -337,11 +337,11 @@
         align-items: center;
     }
 
-    .parallax-4 {
-        top: -8vh;
-        width: 65vw;
+    .parallax-4 img{
+        top: 14vh;
+        width: 38vw;
         z-index: 98;
-        left: 60%;
+        left: -6vw;
     }
 
     /*.parallax-2 img {
@@ -354,9 +354,9 @@
     }
 
     .parallax-5 img {
-        top: 21%;
-        left: -14vw;
-        width: 49vw;
+        top: -6vh;
+        left: -19vw;
+        width: 58vw;
         z-index: 99;
       /*display: none;*/
     }
