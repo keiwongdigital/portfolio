@@ -735,7 +735,7 @@ body, .body {
 
     .parallax-3 p {
     /* top: 10px; */
-    left: -1vw;
+    left: 4vw;
     width: 32vw;
     /* background-color: black; */
     }
@@ -985,9 +985,9 @@ body, .body {
 }
 
 .parallax-3 p {
-    top: -14vh;
-    left: -1vw;
-    width: 27vw;
+    top: -7vh;
+    left: -2vw;
+    width: 29vw;
     /*background-color: black;*/
 }
 
