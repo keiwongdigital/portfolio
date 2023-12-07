@@ -128,7 +128,8 @@
 .parallax-6 img {
     top: 0;
     left: 0;
-    width: 50vw;
+    width: 52vw;
+    z-index: 999;
 }
 
 .parallax-7 img {
@@ -310,7 +311,7 @@
     
     .parallax-2 img {
         top: 0;
-        left: 0;
+        left: -18vw;
         width: 100%;
     }
 
@@ -355,22 +356,22 @@
 
     .parallax-5 img {
         top: -6vh;
-        left: -19vw;
-        width: 58vw;
-        z-index: 99;
+        left: 0vw;
+        width: 100%;
       /*display: none;*/
     }
 
 
     .parallax-6 img {
-        top: 0;
-        left: 0;
-        width: 100%;
+        top: 8vh;
+        left: -4vw;
+        width: 92vw;
+        z-index: 999;
     }
     
     .parallax-7 img {
-        top: -8vh;
-        left: 16vw;
+        top: 11vh;
+        left: 10vw;
         width: 74%;
     }
 
@@ -712,9 +713,9 @@ body, .body {
     }
 
     .parallax-2 {
-      top: 0vh;
-      left: -1%;
-      width: 34vw;
+      top: -2vh;
+      left: 5vw;
+      width: 35vw;
       z-index: 100;
     }
 
@@ -723,8 +724,8 @@ body, .body {
     .parallax-6 img {
     top: 0;
     left: -80px;
-    width: 41vw;
-
+    width: 46vw;
+    z-index: 999;
     }
 
     .parallax-7 img {
@@ -756,7 +757,7 @@ body, .body {
     .parallax-5 img {
     top: -8vh;
     left: 2%;
-    width: 40vw;
+    width: 42vw;
     z-index: 99;
     }
 
@@ -830,16 +831,18 @@ body, .body {
     padding-left: 0;
     width: 20vw;
     }
+
     .parallax-6 img {
     top: 0;
-    left: 2vw;
-    width: 36vw;
+    left: -6vw;
+    width: 56vw; /* no parallax-7 right side, bg setting */
+    z-index: 999;
     }
 
     .parallax-7 img {
     top: 11vh;
     left: -7vw;
-    width: 30vw;
+    width: 25vw;
     }
 
     .unit {
@@ -986,7 +989,7 @@ body, .body {
 
 .parallax-3 p {
     top: -7vh;
-    left: -2vw;
+    left: 9vw;
     width: 29vw;
     /*background-color: black;*/
 }
@@ -1001,14 +1004,14 @@ body, .body {
 .parallax-5 img {
   top: -6vh;
   left: 6vw;
-  width: 35vw;
-  z-index: 99;
+  width: 37vw;
 }
 
     .parallax-6 img {
     top: 0;
-    left: -3vw;
-    width: 46vw;
+    left: 5vw;
+    width: 50vw;
+    z-index: 999;
     }
 
 .parallax-7 img {
@@ -1120,8 +1123,7 @@ body, .body {
 .parallax-5 img {
     top: -6vh;
     left: 3vw;
-    width: 35vw;
-    z-index: 99;
+    width: 38vw;
 }
 
 .parallax-5 {
@@ -1270,16 +1272,18 @@ uncomment this part if you haven't added this code anywhere else
     padding-left: 0;
     width: 100%;
     }
+
     .parallax-6 img {
     top: 0;
-    left: 0;
-    width: 100%;
+    left: -4vw;
+    width: 66vw; /* no parallax-7 right side, bg setting */
+    z-index: 999;
     }
 
     .parallax-7 img {
     top: 12vh;
-    left: -80px;
-    width: 48vw;
+    left: -8vw;
+    width: 26vw;
     }
 }
 
