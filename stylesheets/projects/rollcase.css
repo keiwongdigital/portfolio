@@ -80,6 +80,13 @@
     /*background-color: black;*/
 }
 
+.parallax-3-mix-9-10 p {
+    top: 0;
+    left: -1vw;
+    width: 31vw;
+    margin-bottom: 2vh;
+}
+
 .parallax-video-inner {
     align-items: center;
 }
@@ -115,6 +122,22 @@
     left: -4vw;
     width: 30vw;
 }
+
+
+.parallax-9 img {
+    left: 30%;
+    width: 30vw;
+    z-index: 100;
+    vertical-align: top;
+}
+
+.parallax-10 img {
+    top: 5vh;
+    width: 30vw;
+    z-index: 100;
+}
+
+
 
 .parallax-copy p {
     top: 0;
@@ -271,6 +294,12 @@
         width: 100%;
     } 
 
+    .parallax-3-mix-9-10 p {
+        top: 0;
+        left: 0;
+        width: 100%;
+    } 
+
     .parallax-video-inner {
         display: -webkit-box;
         align-items: center;
@@ -315,10 +344,17 @@
         width: 100%;
     }
 
+    .parallax-10 img {
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
     .parallax-copy p {
         top: 0;
         left: 0;
         width: 100%;
+        margin: auto;
     } 
     
 
@@ -635,6 +671,12 @@ body, .body {
     /* background-color: black; */
     }
 
+    .parallax-3-mix-9-10 p {
+    width: 62%;
+    margin: auto;
+    margin-bottom: 2vh;
+    }
+
     .parallax-4 {
         top: -10vh;
         width: 30vw;
@@ -664,11 +706,18 @@ body, .body {
     }
 
     .parallax-9 img {
-    top: -3vh;
-    left: -3vw;
-    width: 38vw;
+    left: 0;
+    width: 54vw;
+    margin: auto;
     vertical-align: top;
-}
+    }
+
+    .parallax-10 img {
+    top: 0vh;
+    left: 0vw;
+    width: 54vw;
+    margin: auto;
+    }
 
 
     .copy-width-col-copy-l-copy {
@@ -740,6 +789,7 @@ body, .body {
     padding-left: 0;
     width: 20vw;
     }
+
     .parallax-6 img {
     top: 0;
     left: 0;
@@ -762,6 +812,31 @@ body, .body {
         vertical-align: top;
         align-self: flex-start;
     }
+
+
+    .parallax-3-mix-9-10 p {
+    top: 0;
+    left: 1vw;
+    width: 26vw;
+    margin-bottom: 2vh;
+}
+
+
+.parallax-9 img {
+  left: -8vw;
+  width: 39vw;
+  margin: auto;
+  z-index: 99;
+    vertical-align: top;
+}
+
+.parallax-10 img {
+  top: 0vh;
+  left: 6vw;
+  width: 39vw;
+  margin: auto;
+  z-index: 99;
+}
     
 }
 
@@ -895,20 +970,38 @@ body, .body {
     /*background-color: black;*/
 }
 
+    .parallax-3-mix-9-10 p {
+    top: 0;
+    left: 4vw;
+    width: 29vw;
+    margin-bottom: 2vh;
+}
+
+
     .parallax-copy p {
     top: 0vh;
     left: 3vw;
     width: 22vw;
 }
 
-    .parallax-9 img {
-    top: 0vh;
-    left: -2vw;
-    width: 40vw;
-    vertical-align: top;
+.parallax-9 img {
+  left: -4vw;
+  width: 36vw;
+  z-index: 99;
+      vertical-align: top;
+}
+
+.parallax-10 img {
+  top: -4vh;
+  left: 4vw;
+  width: 36vw;
+  z-index: 99;
 }
 
 }
+/* ----------- End @media (min-width: 1399px) and (max-width: 1680px)----------- */
+
+
 
 
 /* ----------- large than 1600px ----------- */
@@ -980,6 +1073,19 @@ body, .body {
 .parallax-5 img {
     top: -6vh;
     left: 3vw;
+    width: 35vw;
+    z-index: 99;
+}
+
+.parallax-9 img {
+    left: 3vw;
+    width: 35vw;
+    z-index: 99;
+        vertical-align: top;
+}
+
+.parallax-10 img {
+    top: -6vh;
     width: 35vw;
     z-index: 99;
 }
