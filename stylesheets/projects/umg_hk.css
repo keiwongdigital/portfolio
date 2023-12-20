@@ -570,7 +570,8 @@ body, .body {
 
     .parallax-8 {
         top: 0vh;
-        width: 38vw;
+        left: -1vw;
+        width: 39vw;
     }
 
     .parallax-1 img {
@@ -857,7 +858,7 @@ body, .body {
     .parallax-8 img {
         top: -6vh;
         left: -5vw;
-        width: 45vw;
+        width: 46vw;
     }
 
     .parallax-3 p {
