@@ -412,10 +412,10 @@ li {
 
 .text-span-3 {
     font-family: 'Playfair Display', serif;
-    font-size: 74px;
-    font-size: calc(74px + (64px - 60) * ((100vw - 320px) / (2560 - 320)));
+    font-size: 70px;
+    font-size: calc(70px + (60px - 58) * ((100vw - 320px) / (2560 - 320)));
     font-weight: 800;
-    letter-spacing: -5px;
+    letter-spacing: -4px;
     line-height: 40pt;
 }
 

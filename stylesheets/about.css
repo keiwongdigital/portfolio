@@ -370,7 +370,7 @@
     }
 
     .copy-width-large-col-copy-l-img {
-    padding: 4vh 0vw 4vh;
+    padding: 4vh 0vw 6vh;
     padding-left: 0;
     width: 50%;
     }
@@ -643,9 +643,9 @@ body, .body {
     }
 
     .copy-width-large-col-copy-l-img {
-    padding: 0vh 0vw;
+    padding: 4vh 0vw 6vh;
     padding-left: 0;
-    width: 18vw;
+    width: 21vw;
     }
 
     .copy-width-large-col-copy-r-copy {
@@ -782,9 +782,9 @@ body, .body {
 }
 
 .copy-width-large-col-copy-l-img {
-  padding: 3vh 1vw;
+    padding: 4vh 4vw 6vh;
   padding-left: 0;
-  width: 16vw;
+  width: 26vw;
 }
 
 .copy-width-large-col-copy-r-copy {
