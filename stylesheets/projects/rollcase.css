@@ -1,4 +1,3 @@
-
 .hero {
     display: flex;
     justify-content: center;
@@ -6,6 +5,7 @@
     width: 100%;
     /*max-height: 80vh; */
 }
+
 .hero img {
     width: auto;
     max-width: 100%;
@@ -27,7 +27,6 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    background-color:
     padding: 10vh 0;
 }
 
@@ -36,6 +35,11 @@
 .image-position {
     width: 100%;
     height: 100%;
+}
+
+.image-fit-cover {
+    object-fit: cover;
+    /*aviod img width or hight change*/
 }
 
 .video-position {
@@ -165,105 +169,113 @@
     flex-direction: row;
     min-height: 100%;
     cursor: move;
-  }
-    
-  .carousel-cell img {
+}
+
+.carousel-cell img {
     margin-right: 5vw;
     margin-left: 9vw;
     min-height: 100%;
     width: 50vw;
-  }
+}
 
-  .carousel-cell-45vw {
+.carousel-cell-45vw {
     display: flex;
     align-items: center;
     flex-direction: row;
     min-height: 100%;
     cursor: move;
-  }
-    
-  .carousel-cell-45vw img {
+}
+
+.carousel-cell-45vw img {
     margin-right: 8vw;
     margin-left: 8vw;
     min-height: 90%;
     width: 45vw;
-  }
+}
 
-    .carousel .observed {
+.carousel .observed {
     animation: move 0;
     animation: move-left 1s forwards;
-  }
+}
 
-  .team {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      flex-direction: row;
-      flex-wrap: wrap;
-  }
+.team {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
-  .team .col {
-      padding: 2vw;
-      padding-left: 0;
-      width: 100%;
-  }
+.team .col {
+    padding: 2vw;
+    padding-left: 0;
+    width: 100%;
+}
 
-  .team .col .spacing-copy {
-      margin-bottom: 1vh;
-  }
+.team .col .spacing-copy {
+    margin-bottom: 1vh;
+}
 
-  .team .col .h5 {
+.team .col .h5 {
     line-height: 18px;
-  }
+}
 
-  .col-outer {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      flex-direction: row;
-      flex-wrap: wrap;
-  }
+.col-outer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
-  .col-outer .col {
-      padding: 2vw;
-      padding-left: 0;
-      width: 100%;
-  }
+.col-outer .col {
+    padding: 2vw;
+    padding-left: 0;
+    width: 100%;
+}
 
-  .col-outer .col .spacing-copy {
-      margin-bottom: 1vh;
-  }
+.col-outer .col .spacing-copy {
+    margin-bottom: 1vh;
+}
 
-  .col-outer .col .h5 {
+.col-outer .col .h5 {
     line-height: 18px;
-  }
+}
 
 
-  .green-bar {
+.green-bar {
     background: linear-gradient(to right, #4AD215, #BBFC5C);
     background-size: 400% 400%;
     height: 20px;
     width: 100%;
     animation: gradient-loop 10s infinite;
-  }
+}
 
-  .black {
-      background-color: #272727;
-      padding-bottom: 30vh;
-      margin-bottom: -15vh;
-  }
-  
-  @keyframes gradient-loop { 
-      0%{background-position: 0% 50%}
-      50%{background-position: 100% 50%}
-      100%{background-position: 0% 50%}
-  }
+.black {
+    background-color: #272727;
+    padding-bottom: 30vh;
+    margin-bottom: -15vh;
+}
 
-    .svg_icon {
-        width: 32%;
-        display: block;
-        margin: auto;
+@keyframes gradient-loop {
+    0% {
+        background-position: 0% 50%
     }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+.svg_icon {
+    width: 32%;
+    display: block;
+    margin: auto;
+}
 
 
 
@@ -281,7 +293,7 @@
         left: 0;
         width: 100%;
     }
-    
+
     .parallax-2 img {
         top: 0;
         left: 0;
@@ -292,13 +304,13 @@
         top: 0;
         left: 0;
         width: 100%;
-    } 
+    }
 
     .parallax-3-mix-9-10 p {
         top: 0;
         left: 0;
         width: 100%;
-    } 
+    }
 
     .parallax-video-inner {
         display: -webkit-box;
@@ -317,7 +329,7 @@
         left: -54vw;
         width: 42vw;
         z-index: 99;
-      /*display: none;*/
+        /*display: none;*/
     }
 
     .parallax-6 img {
@@ -325,7 +337,7 @@
         left: 0;
         width: 100%;
     }
-    
+
     .parallax-7 img {
         top: -6vh;
         left: 14vw;
@@ -355,8 +367,8 @@
         left: 0;
         width: 100%;
         margin: auto;
-    } 
-    
+    }
+
 
     .team {
         display: flex;
@@ -409,7 +421,7 @@
         min-height: 100%;
         cursor: move;
     }
-    
+
     .carousel-cell img {
         margin-right: 7vw;
         margin-left: 10vw;
@@ -419,49 +431,49 @@
     }
 
     .copy-width-col-copy-l-copy {
-    padding: 0vh 0vw;
-    padding-left: 0;
-    width: 100%;
+        padding: 0vh 0vw;
+        padding-left: 0;
+        width: 100%;
     }
 
     .copy-width-col-copy-r-copy {
-    padding: 0vh 0vw;
-    padding-left: 0;
-    width: 100%;
+        padding: 0vh 0vw;
+        padding-left: 0;
+        width: 100%;
     }
 
     .copy-width-large-col-copy-l-copy {
-    padding: 0vh 0vw;
-    padding-left: 0;
-    width: 100%;
+        padding: 0vh 0vw;
+        padding-left: 0;
+        width: 100%;
     }
 
-    .copy-width-large-col-copy-l-copy img{
-    padding: 0vh 0vw;
-    padding-left: 0;
-    width: 50%;
+    .copy-width-large-col-copy-l-copy img {
+        padding: 0vh 0vw;
+        padding-left: 0;
+        width: 50%;
     }
 
     .copy-width-large-col-copy-r-copy {
-    padding: 0vh 0vw;
-    padding-left: 0;
-    width: 100%;
+        padding: 0vh 0vw;
+        padding-left: 0;
+        width: 100%;
     }
 
     .copy-width-col-copy-l-half {
-    padding: 2vh 0vw;
-    padding-left: 0;
-    width: 100%;
+        padding: 2vh 0vw;
+        padding-left: 0;
+        width: 100%;
     }
 
     .copy-width-col-copy-r-half {
-    padding: 2vh 0vw;
-    padding-left: 0;
-    width: 100%;
+        padding: 2vh 0vw;
+        padding-left: 0;
+        width: 100%;
     }
 
     .unit {
-    margin-right: 0px;
+        margin-right: 0px;
     }
 
     .svg_icon {
@@ -490,74 +502,73 @@ body, .body {
 /* -- Project Navigation -- */
 
 #project-navigation {
-  /*background-color: rgba(10,10,10, 0.5);*/
+    /*background-color: rgba(10,10,10, 0.5);*/
 }
 
 #contact-button {
-  margin-right: 7vw;
-  color: #e1e1e1;
+    margin-right: 7vw;
+    color: #e1e1e1;
 }
 
 /* -- Landing Colors -- */
 
 .underlined:before {
-  background-color: rgba(255,255,255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .underlined:after {
-  background-color: rgba(255,255,255, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .selected:before {
-  background-color: white;
+    background-color: white;
 }
 
 /* -- Project Overview -- */
 
 
 .project-intro {
-  list-style: none;
-  width: 100%;
-  float: left;
+    list-style: none;
+    width: 100%;
+    float: left;
 }
 
 .project-into-ul ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  float: left;
-  width: 100%; 
-  list-style-position: outside;
-  margin-bottom: .75rem;
-  padding-left: 20px;
-  padding-top: 22px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    width: 100%;
+    list-style-position: outside;
+    margin-bottom: .75rem;
+    padding-left: 20px;
+    padding-top: 22px;
 }
 
 .project-into-ul li {
-  width: 30%;
-  margin-bottom: .25rem;
-  line-height: 28px;
+    width: 30%;
+    margin-bottom: .25rem;
+    line-height: 28px;
 }
 
 .project-into-ul h5 {
-  line-height: 1px;
+    line-height: 1px;
 }
 
-.project-into-ul p {
-}
+.project-into-ul p {}
 
 
 .margin-colum-top {
-  margin-top: 6px;
+    margin-top: 6px;
 }
 
 
 .project-into-ul ul {
-  list-style-position: outside;
-  color: #e1e1e1;
-  margin-bottom: .75rem;
-  padding-left: 0px;
-  padding-top: 22px;
+    list-style-position: outside;
+    color: #e1e1e1;
+    margin-bottom: .75rem;
+    padding-left: 0px;
+    padding-top: 22px;
 }
 
 
@@ -590,27 +601,27 @@ body, .body {
     }
 
     .team .col-copy {
-      padding: 3vh 1vw;
-      padding-left: 0;
-      width: 32vw;
+        padding: 3vh 1vw;
+        padding-left: 0;
+        width: 32vw;
     }
 
     .team .col-l-copy {
-      padding: 4vh 1vw;
-      padding-left: 0;
-      width: 20vw;
+        padding: 4vh 1vw;
+        padding-left: 0;
+        width: 20vw;
     }
 
     .team .col-r-copy {
-      padding: 3vh 1vw;
-      padding-left: 0;
-      width: 42vw;
+        padding: 3vh 1vw;
+        padding-left: 0;
+        width: 42vw;
     }
 
     .team .col-image {
-      padding: 3vh 1vw;
-      padding-left: 0;
-      width: 38vw;
+        padding: 3vh 1vw;
+        padding-left: 0;
+        width: 38vw;
     }
 
     .carousel-cell {
@@ -620,7 +631,7 @@ body, .body {
         min-height: 100%;
         cursor: move;
     }
-    
+
     .carousel-cell img {
         margin-right: 4.5vw;
         margin-left: 6.5vw;
@@ -645,7 +656,7 @@ body, .body {
         left: -3vw;
         width: 36vw;
     }
-    
+
     .parallax-2 img {
         top: 0;
         left: 0;
@@ -653,28 +664,28 @@ body, .body {
     }
 
     .parallax-6 img {
-    top: 0;
-    left: -80;
-    width: 42vw;
+        top: 0;
+        left: -80;
+        width: 42vw;
     }
 
     .parallax-7 img {
-    top: 24vh;
-    left: -80px;
-    width: 26vw;
+        top: 24vh;
+        left: -80px;
+        width: 26vw;
     }
 
     .parallax-3 p {
-    top: 3vh;
-    left: 3vw;
-    width: 36vw;
-    /* background-color: black; */
+        top: 3vh;
+        left: 3vw;
+        width: 36vw;
+        /* background-color: black; */
     }
 
     .parallax-3-mix-9-10 p {
-    width: 62%;
-    margin: auto;
-    margin-bottom: 2vh;
+        width: 62%;
+        margin: auto;
+        margin-bottom: 2vh;
     }
 
     .parallax-4 {
@@ -685,10 +696,10 @@ body, .body {
     }
 
     .parallax-5 img {
-    top: -8vh;
-    left: -18%;
-    width: 40vw;
-    z-index: 99;
+        top: -8vh;
+        left: -18%;
+        width: 40vw;
+        z-index: 99;
     }
 
     .parallax-8 img {
@@ -700,109 +711,109 @@ body, .body {
     }
 
     .parallax-copy p {
-    top: 0vh;
-    left: 2vw;
-    width: 26vw;
+        top: 0vh;
+        left: 2vw;
+        width: 26vw;
     }
 
     .parallax-9 img {
-    left: 0;
-    width: 54vw;
-    margin: auto;
-    vertical-align: top;
+        left: 0;
+        width: 54vw;
+        margin: auto;
+        vertical-align: top;
     }
 
     .parallax-10 img {
-    top: 0vh;
-    left: 0vw;
-    width: 54vw;
-    margin: auto;
+        top: 0vh;
+        left: 0vw;
+        width: 54vw;
+        margin: auto;
     }
 
 
     .copy-width-col-copy-l-copy {
-    padding: 0vh 0vw;
-    padding-left: 0;
-    width: 17vw;
-    margin: 0 16px 0 0;
+        padding: 0vh 0vw;
+        padding-left: 0;
+        width: 17vw;
+        margin: 0 16px 0 0;
     }
 
     .copy-width-col-copy-r-copy {
-    padding: 0vh 0vw;
-    padding-left: 0;
-    width: 40vw;
+        padding: 0vh 0vw;
+        padding-left: 0;
+        width: 40vw;
     }
 
 
     .copy-width-col-copy-l-half {
-    padding: 2vh 0vw;
-    padding-left: 0;
-    width: 21vw;
+        padding: 2vh 0vw;
+        padding-left: 0;
+        width: 21vw;
     }
 
     .copy-width-col-copy-r-half {
-    padding: 2vh 0vw;
-    padding-left: 0;
-    width: 21vw;
+        padding: 2vh 0vw;
+        padding-left: 0;
+        width: 21vw;
     }
 
     .copy-width-large-col-copy-l-copy {
-    padding: 2vh 0vw;
-    padding-left: 0;
-    width: 15vw;
+        padding: 2vh 0vw;
+        padding-left: 0;
+        width: 15vw;
     }
 
     .copy-width-large-col-copy-r-copy {
-    padding: 2vh 0vw;
-    padding-left: 0;
-    width: 44vw;
+        padding: 2vh 0vw;
+        padding-left: 0;
+        width: 44vw;
     }
 
 
 }
 
 
-@media (min-width: 768px) and (max-width: 1023px){
+@media (min-width: 768px) and (max-width: 1023px) {
     .copy-width-col-copy-l-half {
-    padding: 2vh 0vw;
-    padding-left: 0;
-    width: 100%;
+        padding: 2vh 0vw;
+        padding-left: 0;
+        width: 100%;
     }
 
     .copy-width-col-copy-r-half {
-    padding: 2vh 0vw;
-    padding-left: 0;
-    width: 100%;
+        padding: 2vh 0vw;
+        padding-left: 0;
+        width: 100%;
     }
 }
 
 
 @media (min-width: 1024px) and (max-width: 1399px) {
     .copy-width-col-copy-l-half {
-    padding: 2vh 0vw;
-    padding-left: 0;
-    width: 20vw;
+        padding: 2vh 0vw;
+        padding-left: 0;
+        width: 20vw;
     }
 
     .copy-width-col-copy-r-half {
-    padding: 2vh 0vw;
-    padding-left: 0;
-    width: 20vw;
+        padding: 2vh 0vw;
+        padding-left: 0;
+        width: 20vw;
     }
 
     .parallax-6 img {
-    top: 0;
-    left: 0;
-    width: 38vw;
+        top: 0;
+        left: 0;
+        width: 38vw;
     }
 
     .parallax-7 img {
-    top: 12vh;
-    width: 32vw;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30vw;
+        top: 12vh;
+        width: 32vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30vw;
     }
 
     .parallax-8 img {
@@ -815,190 +826,191 @@ body, .body {
 
 
     .parallax-3-mix-9-10 p {
-    top: 0;
-    left: 1vw;
-    width: 26vw;
-    margin-bottom: 2vh;
-}
+        top: 0;
+        left: 1vw;
+        width: 26vw;
+        margin-bottom: 2vh;
+    }
 
 
-.parallax-9 img {
-  left: -8vw;
-  width: 39vw;
-  margin: auto;
-  z-index: 99;
-    vertical-align: top;
-}
+    .parallax-9 img {
+        left: -8vw;
+        width: 39vw;
+        margin: auto;
+        z-index: 99;
+        vertical-align: top;
+    }
 
-.parallax-10 img {
-  top: 0vh;
-  left: 6vw;
-  width: 39vw;
-  margin: auto;
-  z-index: 99;
-}
-    
+    .parallax-10 img {
+        top: 0vh;
+        left: 6vw;
+        width: 39vw;
+        margin: auto;
+        z-index: 99;
+    }
+
 }
 
 
 
 
 /* ----------- Exsiting Editing Screen----------- */
-@media (min-width: 1399px) and (max-width: 1680px){
+@media (min-width: 1399px) and (max-width: 1680px) {
 
-.team {
-   display: flex;
-   justify-content: space-between;
-   align-items: flex-start;
-   flex-direction: row;
-   flex-wrap: nowrap;
-   /*align-items: baseline;*/
-}
+    .team {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        /*align-items: baseline;*/
+    }
 
-.col-outer {
-   display: flex;
-   justify-content: space-between;
-   align-items: flex-start;
-   flex-direction: row;
-   flex-wrap: wrap;
-}
+    .col-outer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 
-.team .col {
-   padding: 3vh 1vw;
-   padding-left: 0;
-   width: 49%;
-}
+    .team .col {
+        padding: 3vh 1vw;
+        padding-left: 0;
+        width: 49%;
+    }
 
-.team .col-copy {
-   padding: 3vh 1vw;
-   padding-left: 1vw;
-   padding-bottom: 1vh;
-   width: 30vw;
-}
+    .team .col-copy {
+        padding: 3vh 1vw;
+        padding-left: 1vw;
+        padding-bottom: 1vh;
+        width: 30vw;
+    }
 
-.team .col-l-copy {
-  padding: 3vh 1vw;
-  padding-left: 0;
-  width: 17vw;
-}
+    .team .col-l-copy {
+        padding: 3vh 1vw;
+        padding-left: 0;
+        width: 17vw;
+    }
 
-.team .col-r-copy {
-  padding: 3vh 1vw;
-  padding-left: 0;
-  width: 42vw;
-}
+    .team .col-r-copy {
+        padding: 3vh 1vw;
+        padding-left: 0;
+        width: 42vw;
+    }
 
-.team .col-image {
-   padding: 3vh 1vw;
-   padding-left: 0;
-   width: 38vw;
-}
+    .team .col-image {
+        padding: 3vh 1vw;
+        padding-left: 0;
+        width: 38vw;
+    }
 
-.copy-width-col-copy-l-copy {
-  padding: 1vh 0vw;
-  padding-left: 0;
-  width: 15vw;
-}
+    .copy-width-col-copy-l-copy {
+        padding: 1vh 0vw;
+        padding-left: 0;
+        width: 15vw;
+    }
 
-.copy-width-col-copy-r-copy {
-  padding: 1vh 0vw;
-  padding-left: 0;
-  width: 40vw;
-}
+    .copy-width-col-copy-r-copy {
+        padding: 1vh 0vw;
+        padding-left: 0;
+        width: 40vw;
+    }
 
-.copy-width-large-col-copy-l-copy {
-  padding: 3vh 1vw;
-  padding-left: 0;
-  width: 16vw;
-}
-
-
-.copy-width-large-col-copy-r-copy {
-  padding: 3vh 1vw;
-  padding-left: 0;
-  width: 38vw;
-}
-
-.copy-width-col-copy-l-half {
-    padding: 2vh 0vw;
-    padding-left: 0;
-    width: 20vw;
-}
-
-.copy-width-col-copy-r-half {
-    padding: 2vh 0vw;
-    padding-left: 0;
-    width: 20vw;
-}
+    .copy-width-large-col-copy-l-copy {
+        padding: 3vh 1vw;
+        padding-left: 0;
+        width: 16vw;
+    }
 
 
+    .copy-width-large-col-copy-r-copy {
+        padding: 3vh 1vw;
+        padding-left: 0;
+        width: 38vw;
+    }
 
-.team .col .spacing-copy {
-    margin-bottom: 1vh;
-}
+    .copy-width-col-copy-l-half {
+        padding: 2vh 0vw;
+        padding-left: 0;
+        width: 20vw;
+    }
 
-.parallax-video-inner {
-    display: flex;
-    align-items: center;
-    max-height: 650px;
-}
+    .copy-width-col-copy-r-half {
+        padding: 2vh 0vw;
+        padding-left: 0;
+        width: 20vw;
+    }
 
-.parallax-4 {
-    top: -10vh;
-    width: 25vw;
-    z-index: 98;
-}
 
-.parallax-5 img {
-  top: -6vh;
-  left: 4vw;
-  width: 35vw;
-  z-index: 99;
-}
 
-.parallax-8 img {
-    top: 0vh;
-    left: -2vw;
-    width: 28vw;
-    vertical-align: top;
-}
+    .team .col .spacing-copy {
+        margin-bottom: 1vh;
+    }
+
+    .parallax-video-inner {
+        display: flex;
+        align-items: center;
+        max-height: 650px;
+    }
+
+    .parallax-4 {
+        top: -10vh;
+        width: 25vw;
+        z-index: 98;
+    }
+
+    .parallax-5 img {
+        top: -6vh;
+        left: 4vw;
+        width: 35vw;
+        z-index: 99;
+    }
+
+    .parallax-8 img {
+        top: 0vh;
+        left: -2vw;
+        width: 28vw;
+        vertical-align: top;
+    }
 
     .parallax-3 p {
-    top: 0;
-    left: 4vw;
-    width: 31vw;
-    /*background-color: black;*/
-}
+        top: 0;
+        left: 4vw;
+        width: 31vw;
+        /*background-color: black;*/
+    }
 
     .parallax-3-mix-9-10 p {
-    top: 0;
-    left: 4vw;
-    width: 29vw;
-    margin-bottom: 2vh;
-}
+        top: 0;
+        left: 4vw;
+        width: 29vw;
+        margin-bottom: 2vh;
+    }
 
 
     .parallax-copy p {
-    top: 0vh;
-    left: 3vw;
-    width: 22vw;
+        top: 0vh;
+        left: 3vw;
+        width: 22vw;
+    }
+
+    .parallax-9 img {
+        left: -4vw;
+        width: 36vw;
+        z-index: 99;
+        vertical-align: top;
+    }
+
+    .parallax-10 img {
+        top: -4vh;
+        left: 4vw;
+        width: 36vw;
+        z-index: 99;
+    }
+
 }
 
-.parallax-9 img {
-  left: -4vw;
-  width: 36vw;
-  z-index: 99;
-      vertical-align: top;
-}
-
-.parallax-10 img {
-  top: -4vh;
-  left: 4vw;
-  width: 36vw;
-  z-index: 99;
-}
-
-}
 /* ----------- End @media (min-width: 1399px) and (max-width: 1680px)----------- */
 
 
@@ -1007,150 +1019,152 @@ body, .body {
 /* ----------- large than 1600px ----------- */
 @media (min-width: 1679px) {
 
-.team {
-   display: flex;
-   justify-content: space-between;
-   align-items: flex-start;
-   flex-direction: row;
-   flex-wrap: wrap;
-   align-items: stretch;
-}
+    .team {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
 
-.col-outer {
-   display: flex;
-   justify-content: space-between;
-   align-items: flex-start;
-   flex-direction: row;
-   flex-wrap: wrap;
-}
+    .col-outer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 
-.team .col {
-   padding: 3vh 1vw;
-   padding-left: 0;
-   width: 49%;
-}
+    .team .col {
+        padding: 3vh 1vw;
+        padding-left: 0;
+        width: 49%;
+    }
 
-.team .col-copy {
-   padding: 3vh 3vw;
-   padding-left: 0;
-   width: 30vw;
-}
+    .team .col-copy {
+        padding: 3vh 3vw;
+        padding-left: 0;
+        width: 30vw;
+    }
 
-.team .col-l-copy {
-    padding: 3vh 1vw;
-    padding-left: 0;
-    width: 17vw;
-}
+    .team .col-l-copy {
+        padding: 3vh 1vw;
+        padding-left: 0;
+        width: 17vw;
+    }
 
-.team .col-r-copy {
-    padding: 3vh 1vw;
-    padding-left: 0;
-    width: 50vw;
-}
+    .team .col-r-copy {
+        padding: 3vh 1vw;
+        padding-left: 0;
+        width: 50vw;
+    }
 
-.team .col-image {
-   padding: 3vh 1vw;
-   padding-left: 0;
-   width: 38vw;
-}
+    .team .col-image {
+        padding: 3vh 1vw;
+        padding-left: 0;
+        width: 38vw;
+    }
 
-.team .col .spacing-copy {
-    margin-bottom: 1vh;
-}
+    .team .col .spacing-copy {
+        margin-bottom: 1vh;
+    }
 
-.parallax-video-inner {
-    display: flex;
-    align-items: center;
-    max-height: 650px;
-}
+    .parallax-video-inner {
+        display: flex;
+        align-items: center;
+        max-height: 650px;
+    }
 
-.parallax-4 {
-    top: -10vh;
-    width: 25vw;
-    z-index: 98;
-}
+    .parallax-4 {
+        top: -10vh;
+        width: 25vw;
+        z-index: 98;
+    }
 
-.parallax-5 img {
-    top: -6vh;
-    left: 3vw;
-    width: 35vw;
-    z-index: 99;
-}
+    .parallax-5 img {
+        top: -6vh;
+        left: 3vw;
+        width: 35vw;
+        z-index: 99;
+    }
 
-.parallax-9 img {
-    left: 3vw;
-    width: 35vw;
-    z-index: 99;
+    .parallax-9 img {
+        left: 3vw;
+        width: 35vw;
+        z-index: 99;
         vertical-align: top;
-}
+    }
 
-.parallax-10 img {
-    top: -6vh;
-    width: 35vw;
-    z-index: 99;
-}
+    .parallax-10 img {
+        top: -6vh;
+        width: 35vw;
+        z-index: 99;
+    }
 
-.copy-width-col-copy-lr {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
+    .copy-width-col-copy-lr {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
 
-.copy-width-col-copy-l-copy {
-    padding: 3vh 0vw;
-    padding-left: 0;
-    width: 15vw;
-}
+    .copy-width-col-copy-l-copy {
+        padding: 3vh 0vw;
+        padding-left: 0;
+        width: 15vw;
+    }
 
-.copy-width-col-copy-r-copy {
-    padding: 3vh 0vw;
-    padding-left: 0;
-    width: 40vw;
-}
+    .copy-width-col-copy-r-copy {
+        padding: 3vh 0vw;
+        padding-left: 0;
+        width: 40vw;
+    }
 
-.copy-width-large-col-copy-lr {
-    padding: 4vh 8vw;
-    width: 78vw;
-}
+    .copy-width-large-col-copy-lr {
+        padding: 4vh 8vw;
+        width: 78vw;
+    }
 
-.copy-width-large-col-copy-l-copy {
-    padding: 2vh 0vw;
-    padding-left: 0;
-    width: 18vw;
-}
+    .copy-width-large-col-copy-l-copy {
+        padding: 2vh 0vw;
+        padding-left: 0;
+        width: 18vw;
+    }
 
 
-.copy-width-large-col-copy-r-copy {
-    padding: 2vh 0vw;
-    padding-left: 0;
-    width: 44vw;
-}
+    .copy-width-large-col-copy-r-copy {
+        padding: 2vh 0vw;
+        padding-left: 0;
+        width: 44vw;
+    }
 
 }
 
 
 
 .full-width-umg-color {
-  width: 100%;
-  background-color: #191b1c;
+    width: 100%;
+    background-color: #191b1c;
 }
 
 
 
 /* padding-bottom and top for image */
 .mfp-no-margins img.mfp-img {
-  padding: 0;
+    padding: 0;
 }
+
 /* position of shadow behind the image */
 .mfp-no-margins .mfp-figure:after {
-  top: 0;
-  bottom: 0;
+    top: 0;
+    bottom: 0;
 }
+
 /* padding for main container */
 .mfp-no-margins .mfp-container {
-  padding: 0;
+    padding: 0;
 }
 
 
@@ -1164,24 +1178,25 @@ uncomment this part if you haven't added this code anywhere else
 
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
-  opacity: 0;
-  -webkit-backface-visibility: hidden;
-  -webkit-transition: all 0.3s ease-out; 
-  -moz-transition: all 0.3s ease-out; 
-  -o-transition: all 0.3s ease-out; 
-  transition: all 0.3s ease-out;
+    opacity: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 .mfp-with-zoom.mfp-ready .mfp-container {
     opacity: 1;
 }
+
 .mfp-with-zoom.mfp-ready.mfp-bg {
     opacity: 0.8;
 }
 
-.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing .mfp-container,
 .mfp-with-zoom.mfp-removing.mfp-bg {
-  opacity: 0;
+    opacity: 0;
 }
 
 
@@ -1191,34 +1206,35 @@ uncomment this part if you haven't added this code anywhere else
 @media (min-width: 768px) and (max-width: 1023px) {
 
     .copy-width-col-copy-l-copy {
-    padding: 0vh 0vw;
-    padding-left: 0;
-    width: 100%;
+        padding: 0vh 0vw;
+        padding-left: 0;
+        width: 100%;
     }
 
     .copy-width-col-copy-r-copy {
-    padding: 0vh 0vw;
-    padding-left: 0;
-    width: 100%;
+        padding: 0vh 0vw;
+        padding-left: 0;
+        width: 100%;
     }
+
     .parallax-6 img {
-    top: 0;
-    left: 0;
-    width: 100%;
+        top: 0;
+        left: 0;
+        width: 100%;
     }
 
     .parallax-7 img {
-    top: -6vh;
-    left: 0px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
+        top: -6vh;
+        left: 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
     }
 }
 
 .rollcase-color {
-  color: #ff9000;
+    color: #ff9000;
 }
 
 strong {
@@ -1228,5 +1244,3 @@ strong {
     background-color: #bc7f24;
     background-size: initial;
 }
-
-

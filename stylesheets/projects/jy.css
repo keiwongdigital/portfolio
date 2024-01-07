@@ -1,136 +1,383 @@
-
 .hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    /*max-height: 80vh;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /*max-height: 80vh;*/
 }
+
 .hero img {
-    width: auto;
-    max-width: 100%;
-    top: -12vh;
+  width: auto;
+  max-width: 100%;
+  top: -12vh;
 }
 
 .white-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    background-color: white;
-    padding: 15vh 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+  padding: 15vh 0;
 }
 
 .point-title {
-    color: #333333;
+  color: #333333;
 }
 
 .point-title span {
-    color: #333;
+  color: #333;
 }
 
 
 
 .image-position {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .video-position {
-    position: absolute;
-    top: 5%;
-    left: 10.5%;
-    width: 79%;
-    height: 78%;
-    z-index: 1;
+  position: absolute;
+  top: 5%;
+  left: 10.5%;
+  width: 79%;
+  height: 78%;
+  z-index: 1;
 }
 
 .video-position_animation {
-    position: absolute;
-    top: 5%;
-    left: 10.5%;
-    width: 79%;
-    height: 85%;
-    z-index: 1;
+  position: absolute;
+  top: 5%;
+  left: 10.5%;
+  width: 79%;
+  height: 85%;
+  z-index: 1;
 }
 
 .parallax-section {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .parallax-1 img {
-    top: 0;
-    left: 0;
-    width: 50vw;
+  top: 0;
+  left: 0;
+  width: 50vw;
 }
 
 .parallax-2 img {
-    top: 190px;
-    left: -20px;
-    width: 30vw;
+  top: 190px;
+  left: -20px;
+  width: 30vw;
 }
 
 .parallax-3 p {
-    /*top: 150px;*/
-    left: -2vw;
-    width: 26vw;
-    /*background-color: black;*/
+  /*top: 150px;*/
+  left: -2vw;
+  width: 26vw;
+  /*background-color: black;*/
 }
 
 .parallax-3-text p {
-    top: 0px;
-    left: -2vw;
-    width: 26vw;
-    /*background-color: black;*/
+  top: 0px;
+  left: -2vw;
+  width: 26vw;
+  /*background-color: black;*/
 }
 
 .parallax-video-inner {
-    align-items: center;
+  align-items: center;
 }
 
 .parallax-4 {
-    top: -20vh;
-    left: 62%;
-    width: 28vw;
-    z-index: 99;
+  top: -20vh;
+  left: 62%;
+  width: 28vw;
+  z-index: 99;
 
 }
 
 .parallax-5 img {
-    top: 5vh;
-    left: 30%;
-    width: 30vw;
-    z-index: 100;
+  top: 5vh;
+  left: 30%;
+  width: 30vw;
+  z-index: 100;
 }
 
 .parallax-6 img {
-    top: 0;
-    left: 0;
-    width: 50vw;
+  top: 0;
+  left: 0;
+  width: 50vw;
 }
 
 .parallax-7 img {
-    top: 35vh;
-    left: -140px;
-    width: 30vw;
+  top: 35vh;
+  left: -140px;
+  width: 30vw;
 }
 
 
 .bump {
-    margin-top: -50vh;
-    padding-top: 50vh;
-    background-color: #212121;
-    width: 100%;
-    z-index: -1;
-    display: flex;
-    justify-content: center;
-    color: white;
+  margin-top: -50vh;
+  padding-top: 50vh;
+  background-color: #212121;
+  width: 100%;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  color: white;
 }
 
 
 .carousel-cell {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  min-height: 100%;
+  cursor: move;
+}
+
+.carousel-cell-2 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  min-height: 100%;
+  cursor: move;
+}
+
+.carousel-cell-3 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  min-height: 100%;
+  cursor: move;
+}
+
+.carousel-cell img {
+  margin-right: 5vw;
+  margin-left: 9vw;
+  min-height: 100%;
+  width: 50vw;
+}
+
+.carousel-cell-illus {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  min-height: 100%;
+  cursor: move;
+}
+
+.carousel-cell-illus img {
+  margin-right: 0vw;
+  margin-left: 0vw;
+  min-height: 100%;
+  width: 100vw;
+}
+
+.carousel-cell-45vw {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  min-height: 100%;
+  cursor: move;
+}
+
+.carousel-cell-45vw img {
+  margin-right: 8vw;
+  margin-left: 8vw;
+  min-height: 90%;
+  width: 45vw;
+}
+
+.carousel .observed {
+  animation: move 0;
+  animation: move-left 1s forwards;
+}
+
+.team {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.team .col {
+  padding: 2vw;
+  padding-left: 0;
+  width: 100%;
+}
+
+.team .col .spacing-copy {
+  margin-bottom: 1vh;
+}
+
+.team .col .h5 {
+  line-height: 18px;
+}
+
+.col-outer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.col-outer .col {
+  padding: 2vw;
+  padding-left: 0;
+  width: 100%;
+}
+
+.col-outer .col .spacing-copy {
+  margin-bottom: 1vh;
+}
+
+.col-outer .col .h5 {
+  line-height: 18px;
+}
+
+
+.green-bar {
+  background: linear-gradient(to right, #4AD215, #BBFC5C);
+  background-size: 400% 400%;
+  height: 20px;
+  width: 100%;
+  animation: gradient-loop 10s infinite;
+}
+
+.black {
+  background-color: #272727;
+  padding-bottom: 30vh;
+  margin-bottom: -15vh;
+}
+
+@keyframes gradient-loop {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+
+
+
+@media (min-width: 0px) and (max-width: 768px) {
+
+  .parallax-section {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .parallax-1 img {
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .parallax-2 img {
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .parallax-3 p {
+    top: 3vh;
+    left: 0;
+    width: 100%;
+  }
+
+  .parallax-3-text p {
+    top: 3vh;
+    left: 0;
+    width: 100%;
+  }
+
+  .parallax-video-inner {
+    display: flex;
+    align-items: center;
+  }
+
+  .parallax-4 {
+    top: -10vh;
+    left: 0;
+    width: 55vw;
+    margin: auto;
+    z-index: 99;
+  }
+
+  .parallax-5 img {
+    display: none;
+  }
+
+  .parallax-6 img {
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .parallax-7 img {
+    top: -8vh;
+    left: 16vw;
+    width: 70%;
+  }
+
+  .team {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .team .col {
+    padding: 3vh 7vw;
+    padding-left: 0;
+    width: 85%;
+  }
+
+  .team .col-copy {
+    padding: 3vh 3vw;
+    padding-left: 0;
+    width: 100%;
+  }
+
+  .team .col-l-copy {
+    padding: 1vh 1vw;
+    padding-left: 0;
+  }
+
+  .team .col-r-copy {
+    padding: 1vh 1vw;
+    padding-left: 0;
+  }
+
+  .team .col .spacing-copy {
+    margin-bottom: 1.1vh;
+  }
+
+  .col-outer .col {
+    padding: 3vh 7vw;
+    padding-left: 0;
+    width: 100%;
+  }
+
+  .col-outer .col .spacing-copy {
+    margin-bottom: 1.1vh;
+  }
+
+  .carousel-cell {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -138,27 +385,12 @@
     cursor: move;
   }
 
-  .carousel-cell-2 {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    min-height: 100%;
-    cursor: move;
-  }
-
-  .carousel-cell-3 {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    min-height: 100%;
-    cursor: move;
-  }
-    
   .carousel-cell img {
-    margin-right: 5vw;
-    margin-left: 9vw;
+    margin-right: 7vw;
+    margin-left: 10vw;
     min-height: 100%;
-    width: 50vw;
+    max-width: 100vw;
+    width: 93vw;
   }
 
   .carousel-cell-illus {
@@ -168,292 +400,69 @@
     min-height: 100%;
     cursor: move;
   }
-    
+
   .carousel-cell-illus img {
     margin-right: 0vw;
     margin-left: 0vw;
-    min-height: 100%;
+    max-width: 100vw;
     width: 100vw;
   }
 
-  .carousel-cell-45vw {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    min-height: 100%;
-    cursor: move;
-  }
-    
-  .carousel-cell-45vw img {
-    margin-right: 8vw;
-    margin-left: 8vw;
-    min-height: 90%;
-    width: 45vw;
-  }
 
-    .carousel .observed {
-    animation: move 0;
-    animation: move-left 1s forwards;
-  }
-
-  .team {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      flex-direction: row;
-      flex-wrap: wrap;
-  }
-
-  .team .col {
-      padding: 2vw;
-      padding-left: 0;
-      width: 100%;
-  }
-
-  .team .col .spacing-copy {
-      margin-bottom: 1vh;
-  }
-
-  .team .col .h5 {
-    line-height: 18px;
-  }
-
-  .col-outer {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      flex-direction: row;
-      flex-wrap: wrap;
-  }
-
-  .col-outer .col {
-      padding: 2vw;
-      padding-left: 0;
-      width: 100%;
-  }
-
-  .col-outer .col .spacing-copy {
-      margin-bottom: 1vh;
-  }
-
-  .col-outer .col .h5 {
-    line-height: 18px;
-  }
-
-
-  .green-bar {
-    background: linear-gradient(to right, #4AD215, #BBFC5C);
-    background-size: 400% 400%;
-    height: 20px;
-    width: 100%;
-    animation: gradient-loop 10s infinite;
-  }
-
-  .black {
-      background-color: #272727;
-      padding-bottom: 30vh;
-      margin-bottom: -15vh;
-  }
-  
-  @keyframes gradient-loop { 
-      0%{background-position: 0% 50%}
-      50%{background-position: 100% 50%}
-      100%{background-position: 0% 50%}
-  }
-
-
-
-
-@media (min-width: 0px) and (max-width: 768px) {
-
-    .parallax-section {
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .parallax-1 img {
-        top: 0;
-        left: 0;
-        width: 100%;
-    }
-    
-    .parallax-2 img {
-        top: 0;
-        left: 0;
-        width: 100%;
-    }
-
-    .parallax-3 p {
-        top: 3vh;
-        left: 0;
-        width: 100%;
-    } 
-
-    .parallax-3-text p {
-        top: 3vh;
-        left: 0;
-        width: 100%;
-    } 
-
-    .parallax-video-inner {
-        display: flex;
-        align-items: center;
-    }
-
-    .parallax-4 {
-        top: -10vh;
-        left: 0;
-        width: 55vw;
-        margin: auto;
-        z-index: 99;
-    }
-
-    .parallax-5 img {
-      display: none;
-    }
-
-    .parallax-6 img {
-        top: 0;
-        left: 0;
-        width: 100%;
-    }
-    
-    .parallax-7 img {
-        top: -8vh;
-        left: 16vw;
-        width: 70%;
-    }
-
-    .team {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .team .col {
-        padding: 3vh 7vw;
-        padding-left: 0;
-        width: 85%;
-    }
-
-    .team .col-copy {
-        padding: 3vh 3vw;
-        padding-left: 0;
-        width: 100%;
-    }
-
-    .team .col-l-copy {
-        padding: 1vh 1vw;
-        padding-left: 0;
-    }
-
-    .team .col-r-copy {
-        padding: 1vh 1vw;
-        padding-left: 0;
-    }
-
-    .team .col .spacing-copy {
-        margin-bottom: 1.1vh;
-    }
-
-    .col-outer .col {
-        padding: 3vh 7vw;
-        padding-left: 0;
-        width: 100%;
-    }
-
-    .col-outer .col .spacing-copy {
-        margin-bottom: 1.1vh;
-    }
-
-    .carousel-cell {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        min-height: 100%;
-        cursor: move;
-    }
-    
-    .carousel-cell img {
-        margin-right: 7vw;
-        margin-left: 10vw;
-        min-height: 100%;
-        max-width: 100vw;
-        width: 93vw;
-    }
-
-    .carousel-cell-illus {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        min-height: 100%;
-        cursor: move;
-    }
-    
-    .carousel-cell-illus img {
-        margin-right: 0vw;
-        margin-left: 0vw;
-        max-width: 100vw;
-        width: 100vw;
-    }
-
-
-    .copy-width-col-copy-l-copy {
+  .copy-width-col-copy-l-copy {
     padding: 0vh 0vw;
     padding-left: 0;
     width: 100%;
-    }
+  }
 
-    .copy-width-col-copy-r-copy {
+  .copy-width-col-copy-r-copy {
     padding: 0vh 0vw;
     padding-left: 0;
     width: 100%;
-    }
+  }
 
-    .copy-width-large-col-copy-l-copy {
+  .copy-width-large-col-copy-l-copy {
     padding: 0vh 0vw;
     padding-left: 0;
     width: 100%;
-    }
+  }
 
-    .copy-width-large-col-copy-r-copy {
+  .copy-width-large-col-copy-r-copy {
     padding: 0vh 0vw;
     padding-left: 0;
     width: 100%;
-    }
+  }
 
-    .copy-width-col-copy-l-half {
+  .copy-width-col-copy-l-half {
     padding: 2vh 0vw;
     padding-left: 0;
     width: 100%;
-    }
+  }
 
-    .copy-width-col-copy-l-half img {
+  .copy-width-col-copy-l-half img {
     width: 80%;
-    }
+  }
 
-    .copy-width-col-copy-r-half {
+  .copy-width-col-copy-r-half {
     padding: 2vh 0vw;
     padding-left: 0;
     width: 100%;
-    }
+  }
 
-    .copy-width-col-copy-r-half img {
+  .copy-width-col-copy-r-half img {
     width: 80%;
-    }
+  }
 
-    .unit {
+  .unit {
     margin-right: 30vw;
-    }
+  }
 }
 
 
 body {
   color: #0b0b0b;
 }
+
 /*
 body, .body {
   font-family: "raleway","Merriweather", sans-serif;
@@ -478,11 +487,11 @@ body, .body {
 /* -- Landing Colors -- */
 
 .underlined:before {
-  background-color: rgba(0,0,0, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .underlined:after {
-  background-color: rgba(0,0,0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .selected:before {
@@ -503,7 +512,7 @@ body, .body {
   display: flex;
   justify-content: space-between;
   float: left;
-  width: 100%; 
+  width: 100%;
   list-style-position: outside;
   margin-bottom: .75rem;
   padding-left: 20px;
@@ -520,8 +529,7 @@ body, .body {
   line-height: 1px;
 }
 
-.project-into-ul p {
-}
+.project-into-ul p {}
 
 
 .margin-colum-top {
@@ -547,389 +555,390 @@ body, .body {
 @media (min-width: 768px) and (max-width: 1399px) {
 
 
-    .team {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        flex-direction: row;
-        flex-wrap: wrap;
-        /*align-items: baseline;*/
-    }
+  .team {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*align-items: baseline;*/
+  }
 
-    .team .col {
-        padding: 2vh 2vw;
-        padding-left: 0;
-        width: 100%;
-    }
+  .team .col {
+    padding: 2vh 2vw;
+    padding-left: 0;
+    width: 100%;
+  }
 
-    .team .col .spacing-copy {
-        margin-bottom: 1vh;
-    }
+  .team .col .spacing-copy {
+    margin-bottom: 1vh;
+  }
 
-    .team .col-copy {
-      padding: 3vh 1vw;
-      padding-left: 0;
-      width: 32vw;
-    }
+  .team .col-copy {
+    padding: 3vh 1vw;
+    padding-left: 0;
+    width: 32vw;
+  }
 
-    .team .col-l-copy {
-      padding: 4vh 1vw;
-      padding-left: 0;
-      width: 20vw;
-    }
+  .team .col-l-copy {
+    padding: 4vh 1vw;
+    padding-left: 0;
+    width: 20vw;
+  }
 
-    .team .col-r-copy {
-      padding: 3vh 1vw;
-      padding-left: 0;
-      width: 42vw;
-    }
+  .team .col-r-copy {
+    padding: 3vh 1vw;
+    padding-left: 0;
+    width: 42vw;
+  }
 
-    .team .col-image {
-      padding: 3vh 1vw;
-      padding-left: 0;
-      width: 38vw;
-    }
+  .team .col-image {
+    padding: 3vh 1vw;
+    padding-left: 0;
+    width: 38vw;
+  }
 
-    .carousel-cell {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        min-height: 100%;
-        cursor: move;
-    }
-    
-    .carousel-cell img {
-        margin-right: 4.5vw;
-        margin-left: 6.5vw;
-        min-width: 40vw;
-        max-width: 70vw;
-    }
+  .carousel-cell {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    min-height: 100%;
+    cursor: move;
+  }
 
-
-    .carousel-cell-illus {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        min-height: 100%;
-        cursor: move;
-    }
-    
-    .carousel-cell-illus img {
-        margin-right: 0vw;
-        margin-left: 0vw;
-        min-width: 80vw;
-        max-width: 80vw;
-        left: -10vw;
-    }
+  .carousel-cell img {
+    margin-right: 4.5vw;
+    margin-left: 6.5vw;
+    min-width: 40vw;
+    max-width: 70vw;
+  }
 
 
-    .parallax-video-inner {
-        display: flex;
-        align-items: center;
-        max-height: 480px;
-    }
+  .carousel-cell-illus {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    min-height: 100%;
+    cursor: move;
+  }
 
-    .parallax-section {
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        align-items: flex-start;
-    }
+  .carousel-cell-illus img {
+    margin-right: 0vw;
+    margin-left: 0vw;
+    min-width: 80vw;
+    max-width: 80vw;
+    left: -10vw;
+  }
 
-    .parallax-1 img {
-        top: -13vh;
-        left: -3vw;
-        width: 36vw;
-    }
-    
-    .parallax-2 img {
-        top: 0;
-        left: 0;
-        width: 100%;
-    }
 
-    .parallax-6 img {
+  .parallax-video-inner {
+    display: flex;
+    align-items: center;
+    max-height: 480px;
+  }
+
+  .parallax-section {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .parallax-1 img {
+    top: -13vh;
+    left: -3vw;
+    width: 36vw;
+  }
+
+  .parallax-2 img {
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .parallax-6 img {
     top: 0;
     left: -80;
     width: 42vw;
-    }
+  }
 
-    .parallax-7 img {
+  .parallax-7 img {
     top: 24vh;
     left: -80px;
     width: 26vw;
-    }
+  }
 
-    .parallax-3 p {
+  .parallax-3 p {
     /* top: 10px; */
     left: -2vw;
     width: 32.5vw;
     /* background-color: black; */
-    }
+  }
 
-    .parallax-3-text p {
+  .parallax-3-text p {
     top: -3vh;
     left: -2vw;
     width: 32.5vw;
     /* background-color: black; */
-    }
+  }
 
-    .parallax-4 {
-        top: -15vh;
-        left: 65%;
-        width: 26vw;
-        z-index: 99;
-    }
+  .parallax-4 {
+    top: -15vh;
+    left: 65%;
+    width: 26vw;
+    z-index: 99;
+  }
 
-    .parallax-5 img {
-      top: -12vh;
-      left: 5%;
-      width: 32vw;
-      z-index: 100;
-    }
+  .parallax-5 img {
+    top: -12vh;
+    left: 5%;
+    width: 32vw;
+    z-index: 100;
+  }
 
-    .copy-width-col-copy-l-copy {
+  .copy-width-col-copy-l-copy {
     padding: 2vh 0vw;
     padding-left: 0;
     width: 17vw;
-    }
+  }
 
-    .copy-width-col-copy-r-copy {
+  .copy-width-col-copy-r-copy {
     padding: 2vh 0vw;
     padding-left: 0;
     width: 36vw;
-    }
+  }
 
 
-    .copy-width-col-copy-l-half {
+  .copy-width-col-copy-l-half {
     padding: 2vh 0vw;
     padding-left: 0;
     width: 21vw;
-    }
+  }
 
-    .copy-width-col-copy-r-half {
+  .copy-width-col-copy-r-half {
     padding: 2vh 0vw;
     padding-left: 0;
     width: 21vw;
-    }
+  }
 
-    .copy-width-large-col-copy-l-copy {
+  .copy-width-large-col-copy-l-copy {
     padding: 2vh 0vw;
     padding-left: 0;
     width: 18vw;
-    }
+  }
 
-    .copy-width-large-col-copy-r-copy {
+  .copy-width-large-col-copy-r-copy {
     padding: 2vh 0vw;
     padding-left: 0;
     width: 44vw;
-    }
+  }
 
-    .unit {
+  .unit {
     margin-right: 10vw;
-    }
+  }
 
 }
 
 
-@media (min-width: 768px) and (max-width: 1023px){
-    .copy-width-col-copy-l-half {
+@media (min-width: 768px) and (max-width: 1023px) {
+  .copy-width-col-copy-l-half {
     padding: 2vh 0vw;
     padding-left: 0;
     width: 100%;
-    }
+  }
 
-    .copy-width-col-copy-r-half {
+  .copy-width-col-copy-r-half {
     padding: 2vh 0vw;
     padding-left: 0;
     width: 100%;
-    }
+  }
 }
 
 @media (min-width: 1024px) and (max-width: 1399px) {
-    .copy-width-col-copy-l-half {
+  .copy-width-col-copy-l-half {
     padding: 2vh 0vw;
     padding-left: 0;
     width: 20vw;
-    }
+  }
 
-    .copy-width-col-copy-r-half {
+  .copy-width-col-copy-r-half {
     padding: 2vh 0vw;
     padding-left: 0;
     width: 20vw;
-    }
-    .parallax-6 img {
+  }
+
+  .parallax-6 img {
     top: 0;
     left: 0;
     width: 40vw;
-    }
+  }
 
-    .parallax-7 img {
+  .parallax-7 img {
     top: 34vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 28vw;
-    }
+  }
 
-    .unit {
+  .unit {
     margin-right: 0px;
-    }
+  }
 }
 
 
 
 
 /* ----------- Exsiting Editing Screen----------- */
-@media (min-width: 1399px) and (max-width: 1680px){
+@media (min-width: 1399px) and (max-width: 1680px) {
 
-.team {
-   display: flex;
-   justify-content: space-between;
-   align-items: flex-start;
-   flex-direction: row;
-   flex-wrap: nowrap;
-   /*align-items: baseline;*/
-}
+  .team {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /*align-items: baseline;*/
+  }
 
-.col-outer {
-   display: flex;
-   justify-content: space-between;
-   align-items: flex-start;
-   flex-direction: row;
-   flex-wrap: wrap;
-}
+  .col-outer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
-.team .col {
-   padding: 3vh 1vw;
-   padding-left: 0;
-   width: 49%;
-}
+  .team .col {
+    padding: 3vh 1vw;
+    padding-left: 0;
+    width: 49%;
+  }
 
-.team .col-copy {
-   padding: 3vh 1vw;
-   padding-left: 1vw;
-   padding-bottom: 1vh;
-   width: 30vw;
-}
+  .team .col-copy {
+    padding: 3vh 1vw;
+    padding-left: 1vw;
+    padding-bottom: 1vh;
+    width: 30vw;
+  }
 
-.team .col-l-copy {
-  padding: 3vh 1vw;
-  padding-left: 0;
-  width: 17vw;
-}
+  .team .col-l-copy {
+    padding: 3vh 1vw;
+    padding-left: 0;
+    width: 17vw;
+  }
 
-.team .col-r-copy {
-  padding: 3vh 1vw;
-  padding-left: 0;
-  width: 42vw;
-}
+  .team .col-r-copy {
+    padding: 3vh 1vw;
+    padding-left: 0;
+    width: 42vw;
+  }
 
-.team .col-image {
-   padding: 3vh 1vw;
-   padding-left: 0;
-   width: 38vw;
-}
+  .team .col-image {
+    padding: 3vh 1vw;
+    padding-left: 0;
+    width: 38vw;
+  }
 
-.copy-width-col-copy-l-copy {
-  padding: 3vh 0vw;
-  padding-left: 0;
-  width: 15vw;
-}
+  .copy-width-col-copy-l-copy {
+    padding: 3vh 0vw;
+    padding-left: 0;
+    width: 15vw;
+  }
 
-.copy-width-col-copy-r-copy {
-  padding: 3vh 0vw;
-  padding-left: 0;
-  width: 38vw;
-}
+  .copy-width-col-copy-r-copy {
+    padding: 3vh 0vw;
+    padding-left: 0;
+    width: 38vw;
+  }
 
-.copy-width-large-col-copy-l-copy {
-  padding: 3vh 1vw;
-  padding-left: 0;
-  width: 16vw;
-}
+  .copy-width-large-col-copy-l-copy {
+    padding: 3vh 1vw;
+    padding-left: 0;
+    width: 16vw;
+  }
 
-.copy-width-large-col-copy-r-copy {
-  padding: 3vh 1vw;
-  padding-left: 0;
-  width: 38vw;
-}
+  .copy-width-large-col-copy-r-copy {
+    padding: 3vh 1vw;
+    padding-left: 0;
+    width: 38vw;
+  }
 
-.copy-width-col-copy-l-half {
+  .copy-width-col-copy-l-half {
     padding: 2vh 0vw;
     padding-left: 0;
     width: 20vw;
-}
+  }
 
-.copy-width-col-copy-r-half {
+  .copy-width-col-copy-r-half {
     padding: 2vh 0vw;
     padding-left: 0;
     width: 20vw;
-}
+  }
 
 
 
-.team .col .spacing-copy {
+  .team .col .spacing-copy {
     margin-bottom: 1vh;
-}
+  }
 
-.parallax-video-inner {
+  .parallax-video-inner {
     display: flex;
     align-items: center;
     max-height: 650px;
-}
+  }
 
 
-.parallax-1 img {
+  .parallax-1 img {
     top: -15vh;
     left: -1vw;
     width: 50vw;
-}
+  }
 
-.parallax-4 {
+  .parallax-4 {
     top: -10vh;
     left: 62%;
     width: 24vw;
     z-index: 99;
-}
+  }
 
-.parallax-3 p {
+  .parallax-3 p {
     /*top: 150px;*/
     left: -2vw;
     width: 28vw;
     /*background-color: black;*/
-}
+  }
 
-.parallax-3-text p {
+  .parallax-3-text p {
     top: -28vh;
     left: -2vw;
     width: 28vw;
     /*background-color: black;*/
-}
+  }
 
-.parallax-5 img {
-  top: 1vh;
-  left: 16%;
-  width: 28vw;
-  z-index: 100;
-}
+  .parallax-5 img {
+    top: 1vh;
+    left: 16%;
+    width: 28vw;
+    z-index: 100;
+  }
 
-    .carousel-cell-illus {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        min-height: 100%;
-        cursor: move;
-    }
-    
-    .carousel-cell-illus img {
-        margin-right: 0vw;
-        margin-left: 0vw;
-        min-width: 64vw;
-        max-width: 64vw;
-        left: -18vw;
-    }
+  .carousel-cell-illus {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    min-height: 100%;
+    cursor: move;
+  }
+
+  .carousel-cell-illus img {
+    margin-right: 0vw;
+    margin-left: 0vw;
+    min-width: 64vw;
+    max-width: 64vw;
+    left: -18vw;
+  }
 
 
 }
@@ -938,140 +947,140 @@ body, .body {
 /* ----------- large than 1600px ----------- */
 @media (min-width: 1679px) {
 
-.team {
+  .team {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: nowrap;
     /* align-items: baseline; */
-}
+  }
 
-.copy-width-large-col-copy-l-copy {
+  .copy-width-large-col-copy-l-copy {
     padding: 2vh 0vw;
     padding-left: 0;
     width: 18vw;
-}
+  }
 
-.copy-width-large-col-copy-r-copy {
+  .copy-width-large-col-copy-r-copy {
     padding: 2vh 0vw;
     padding-left: 0;
     width: 44vw;
-}
+  }
 
-.col-outer {
-   display: flex;
-   justify-content: space-between;
-   align-items: flex-start;
-   flex-direction: row;
-   flex-wrap: wrap;
-}
+  .col-outer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
-.team .col {
-   padding: 3vh 1vw;
-   padding-left: 0;
-   width: 49%;
-}
+  .team .col {
+    padding: 3vh 1vw;
+    padding-left: 0;
+    width: 49%;
+  }
 
-.team .col-copy {
-   padding: 3vh 3vw;
-   padding-left: 0;
-   width: 30vw;
-}
+  .team .col-copy {
+    padding: 3vh 3vw;
+    padding-left: 0;
+    width: 30vw;
+  }
 
-.team .col-l-copy {
+  .team .col-l-copy {
     padding: 3vh 1vw;
     padding-left: 0;
     width: 17vw;
-}
+  }
 
-.team .col-r-copy {
+  .team .col-r-copy {
     padding: 3vh 1vw;
     padding-left: 0;
     width: 50vw;
-}
+  }
 
-.team .col-image {
-   padding: 3vh 1vw;
-   padding-left: 0;
-   width: 38vw;
-}
+  .team .col-image {
+    padding: 3vh 1vw;
+    padding-left: 0;
+    width: 38vw;
+  }
 
-.team .col .spacing-copy {
+  .team .col .spacing-copy {
     margin-bottom: 1vh;
-}
+  }
 
-.parallax-video-inner {
+  .parallax-video-inner {
     display: flex;
     align-items: center;
     max-height: 650px;
-}
+  }
 
-.parallax-4 {
+  .parallax-4 {
     top: -10vh;
     left: 65%;
     width: 24vw;
     z-index: 99;
-}
+  }
 
-.parallax-5 img {
-  top: -2vh;
-  left: 60%;
-  width: 22vw;
-  z-index: 100;
-}
+  .parallax-5 img {
+    top: -2vh;
+    left: 60%;
+    width: 22vw;
+    z-index: 100;
+  }
 
-.copy-width-col-copy-lr {
+  .copy-width-col-copy-lr {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: nowrap;
-}
+  }
 
-.copy-width-col-copy-l-half {
+  .copy-width-col-copy-l-half {
     padding: 2vh 0vw;
     padding-left: 0;
     width: 20vw;
-}
+  }
 
-.copy-width-col-copy-r-half {
+  .copy-width-col-copy-r-half {
     padding: 2vh 0vw;
     padding-left: 0;
     width: 20vw;
+  }
+
+
+  .copy-width-col-copy-l-copy {
+    padding: 3vh 0vw;
+    padding-left: 0;
+    width: 15vw;
+  }
+
+  .copy-width-col-copy-r-copy {
+    padding: 3vh 0vw;
+    padding-left: 0;
+    width: 28vw;
+  }
+
+
+  .carousel-cell-illus {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    min-height: 100%;
+    cursor: move;
+  }
+
+  .carousel-cell-illus img {
+    margin-right: 0vw;
+    margin-left: 0vw;
+    min-width: 52vw;
+    max-width: 52vw;
+    left: -23.5vw;
+  }
+
 }
-
-
-.copy-width-col-copy-l-copy {
-  padding: 3vh 0vw;
-  padding-left: 0;
-  width: 15vw;
-}
-
-.copy-width-col-copy-r-copy {
-  padding: 3vh 0vw;
-  padding-left: 0;
-  width: 28vw;
-}
-
-
-    .carousel-cell-illus {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        min-height: 100%;
-        cursor: move;
-    }
-    
-    .carousel-cell-illus img {
-        margin-right: 0vw;
-        margin-left: 0vw;
-        min-width: 52vw;
-        max-width: 52vw;
-        left: -23.5vw;
-    }
-
-    }
 
 
 .full-width-jy-color {
@@ -1088,11 +1097,13 @@ body, .body {
 .mfp-no-margins img.mfp-img {
   padding: 0;
 }
+
 /* position of shadow behind the image */
 .mfp-no-margins .mfp-figure:after {
   top: 0;
   bottom: 0;
 }
+
 /* padding for main container */
 .mfp-no-margins .mfp-container {
   padding: 0;
@@ -1111,20 +1122,21 @@ uncomment this part if you haven't added this code anywhere else
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
   -webkit-backface-visibility: hidden;
-  -webkit-transition: all 0.3s ease-out; 
-  -moz-transition: all 0.3s ease-out; 
-  -o-transition: all 0.3s ease-out; 
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
 
 .mfp-with-zoom.mfp-ready .mfp-container {
-    opacity: 1;
-}
-.mfp-with-zoom.mfp-ready.mfp-bg {
-    opacity: 0.8;
+  opacity: 1;
 }
 
-.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-ready.mfp-bg {
+  opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container,
 .mfp-with-zoom.mfp-removing.mfp-bg {
   opacity: 0;
 }
@@ -1135,44 +1147,45 @@ uncomment this part if you haven't added this code anywhere else
 /* Between for ipad pro */
 @media (min-width: 768px) and (max-width: 1023px) {
 
-    .copy-width-col-copy-l-copy {
+  .copy-width-col-copy-l-copy {
     padding: 0vh 0vw;
     padding-left: 0;
     width: 100%;
-    }
+  }
 
-    .copy-width-col-copy-r-copy {
+  .copy-width-col-copy-r-copy {
     padding: 0vh 0vw;
     padding-left: 0;
     width: 100%;
-    }
-    .parallax-6 img {
+  }
+
+  .parallax-6 img {
     top: 0;
     left: 0;
     width: 100%;
-    }
+  }
 
-    .parallax-7 img {
+  .parallax-7 img {
     top: 0vh;
     left: 0px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    }
+  }
 }
 
 
 strong {
-    color: #111;
-    font-weight: 500;
-    padding: 0.2em 0.2em;
-    background-color: #e6bea6;
+  color: #111;
+  font-weight: 500;
+  padding: 0.2em 0.2em;
+  background-color: #e6bea6;
 }
 
 
 .parallax-copy-shw {
-  text-shadow:#fff -2px -2px 10px;
+  text-shadow: #fff -2px -2px 10px;
 }
 
 
@@ -1183,5 +1196,3 @@ strong {
 .jy-text-gray-color {
   color: #fff;
 }
-
-
