@@ -279,7 +279,9 @@
     }
 
     .parallax-5 img {
-      display: none;
+        top: 0;
+        left: 0;
+        width: 100%;
     }
 
     .parallax-6 img {
