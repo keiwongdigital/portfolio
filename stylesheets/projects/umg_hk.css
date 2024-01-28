@@ -300,13 +300,13 @@
         width: 100%;
     }
 
-    .parallax-8 img {
+    /*.parallax-8 img {
         top: 0;
         left: -2vw;
         width: 28vw;
         vertical-align: top;
         align-self: flex-start;
-    }
+    }*/
 
     .parallax-9 img {
         top: -35vh;
