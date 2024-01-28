@@ -876,6 +876,7 @@ body, .body {
     padding-left: 2vw;
     }
 
+    /*For top gif*/
     .parallax-5 img {
         top: 8vh;
         left: 1vw;
@@ -887,7 +888,6 @@ body, .body {
         left: -5vw;
         width: 46vw;
     }
-
 
 
 
