@@ -802,7 +802,7 @@ body, .body {
     .parallax-6 img {
         top: 0;
         left: 4vw;
-        width: 38vw;
+        width: 36vw;
     }
 
     .parallax-7 img {
@@ -998,6 +998,12 @@ body, .body {
         left: 4vw;
         width: 36vw;
         z-index: 99;
+    }
+
+    .parallax-6 img {
+        top: 0;
+        left: 4vw;
+        width: 44vw;
     }
 
 }
