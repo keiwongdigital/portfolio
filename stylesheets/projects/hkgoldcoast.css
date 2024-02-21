@@ -831,11 +831,12 @@ body, .body {
     }
 
     .parallax-7 img {
-    top: 34vh;
+    top: 38vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 28vw;
+    left: -8vw;
     }
 
     .unit {
