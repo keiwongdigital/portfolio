@@ -40,13 +40,13 @@
 
 #scroll-down {
   position: absolute;
-  bottom: 5vh;
+  bottom: 6vh;
   left: 5%;
-  opacity: .5;
+  opacity: .9;
 }
 
 #scroll-down:hover {
-  opacity: 1 !important; /* Needed to override JS */
+  opacity: 0.9 !important; /* Needed to override JS */
 }
 
 }
@@ -140,7 +140,7 @@
   position: absolute;
   bottom: 1%;
   left: 5%;
-  opacity: .3;
+  opacity: .4;
   display: none;
   }
 
